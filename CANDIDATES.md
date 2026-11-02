@@ -1,22 +1,18 @@
-# All 14 candidates
+# Candidate index
 
-Every candidate has a self-contained **SKILL.md** and **PROMPT.md** with one no-reference master character prompt, six 1×4 storyboard prompts, 24 individual video prompts and six optional 10-second scripts. All public data is date-stamped **2 November 2026**, and should be reverified before publication.
-
-| # | Candidate | Affiliation | DUN | Instruction file | All prompts |
-|---:|---|---|---|---|---|
-| 01 | Rauf | BN | N02 Tanjung Bidara | [SKILL](candidates/01_rauf/SKILL.md) | [All prompts](candidates/01_rauf/PROMPT.md) |
-| 02 | Akmal | BN | N27 Merlimau | [SKILL](candidates/02_akmal/SKILL.md) | [All prompts](candidates/02_akmal/PROMPT.md) |
-| 03 | Dira | BN | N25 Rim | [SKILL](candidates/03_dira/SKILL.md) | [All prompts](candidates/03_dira/PROMPT.md) |
-| 04 | Ban Hong | BN | N14 Kelebang | [SKILL](candidates/04_ban_hong/SKILL.md) | [All prompts](candidates/04_ban_hong/PROMPT.md) |
-| 05 | Helmy | BN | N21 Duyong | [SKILL](candidates/05_helmy/SKILL.md) | [All prompts](candidates/05_helmy/PROMPT.md) |
-| 06 | Adly | PH | N17 Bukit Katil | [SKILL](candidates/06_adly/SKILL.md) | [All prompts](candidates/06_adly/PROMPT.md) |
-| 07 | Ginie | PH | N08 Machap Jaya | [SKILL](candidates/07_ginie/SKILL.md) | [All prompts](candidates/07_ginie/PROMPT.md) |
-| 08 | Kerk | PH | N16 Ayer Keroh | [SKILL](candidates/08_kerk/SKILL.md) | [All prompts](candidates/08_kerk/PROMPT.md) |
-| 09 | Allex | PH | N19 Kesidang | [SKILL](candidates/09_allex/SKILL.md) | [All prompts](candidates/09_allex/PROMPT.md) |
-| 10 | Chee Leong | PH | N20 Kota Laksamana | [SKILL](candidates/10_chee_leong/SKILL.md) | [All prompts](candidates/10_chee_leong/PROMPT.md) |
-| 11 | Norhizam | BERSATU | N15 Pengkalan Batu | [SKILL](candidates/11_norhizam/SKILL.md) | [All prompts](candidates/11_norhizam/PROMPT.md) |
-| 12 | Yadzil | PN | N24 Bemban | [SKILL](candidates/12_yadzil/SKILL.md) | [All prompts](candidates/12_yadzil/PROMPT.md) |
-| 13 | Michael | PN | N16 Ayer Keroh | [SKILL](candidates/13_michael/SKILL.md) | [All prompts](candidates/13_michael/PROMPT.md) |
-| 14 | Aliza | BERSAMA | N17 Bukit Katil | [SKILL](candidates/14_aliza/SKILL.md) | [All prompts](candidates/14_aliza/PROMPT.md) |
-
-**Disclaimer:** AI imagery is illustrative. Do not impersonate any politician's voice or present synthetic scenes as actual footage. This repository does not endorse any candidate.
+| Candidate | Skill | Party | Constituency | Scenes |
+|---|---|---|---|---:|
+| [Rauf](candidates/01_rauf/PROMPT.md) | [Skill](candidates/01_rauf/SKILL.md) | BN | N02 Tanjung Bidara | 24 |
+| [Akmal](candidates/02_akmal/PROMPT.md) | [Skill](candidates/02_akmal/SKILL.md) | BN | N27 Merlimau | 24 |
+| [Dira](candidates/03_dira/PROMPT.md) | [Skill](candidates/03_dira/SKILL.md) | BN | N25 Rim | 24 |
+| [Ban Hong](candidates/04_ban_hong/PROMPT.md) | [Skill](candidates/04_ban_hong/SKILL.md) | BN | N14 Kelebang | 24 |
+| [Helmy](candidates/05_helmy/PROMPT.md) | [Skill](candidates/05_helmy/SKILL.md) | BN | N21 Duyong | 24 |
+| [Adly](candidates/06_adly/PROMPT.md) | [Skill](candidates/06_adly/SKILL.md) | PH | N17 Bukit Katil | 24 |
+| [Ginie](candidates/07_ginie/PROMPT.md) | [Skill](candidates/07_ginie/SKILL.md) | PH | N08 Machap Jaya | 24 |
+| [Kerk](candidates/08_kerk/PROMPT.md) | [Skill](candidates/08_kerk/SKILL.md) | PH | N16 Ayer Keroh | 24 |
+| [Allex](candidates/09_allex/PROMPT.md) | [Skill](candidates/09_allex/SKILL.md) | PH | N19 Kesidang | 24 |
+| [Chee Leong](candidates/10_chee_leong/PROMPT.md) | [Skill](candidates/10_chee_leong/SKILL.md) | PH | N20 Kota Laksamana | 24 |
+| [Norhizam](candidates/11_norhizam/PROMPT.md) | [Skill](candidates/11_norhizam/SKILL.md) | Bersatu | N15 Pengkalan Batu | 24 |
+| [Yadzil](candidates/12_yadzil/PROMPT.md) | [Skill](candidates/12_yadzil/SKILL.md) | PN | N24 Bemban | 24 |
+| [Michael](candidates/13_michael/PROMPT.md) | [Skill](candidates/13_michael/SKILL.md) | PN | N16 Ayer Keroh | 24 |
+| [Aliza](candidates/14_aliza/PROMPT.md) | [Skill](candidates/14_aliza/SKILL.md) | Bersama | N17 Bukit Katil | 24 |

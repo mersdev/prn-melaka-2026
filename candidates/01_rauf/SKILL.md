@@ -1,137 +1,74 @@
-# Rauf — Candidate-specific 60-second introduction skill
+---
+name: melaka-01_rauf-24-scene-editorial-introduction
+description: Create one neutral English-language 60-second factual introduction to Rauf, using only text-defined character features, 24 vertical video scenes, and six 1x4 storyboard images. No reference image required; independent character-consistency test mandatory.
+---
 
-**Official public identity:** Ab Rauf Yusoh  
-**Coalition/party:** BN  
-**DUN:** N02 Tanjung Bidara  
-**Record date:** 2 November 2026  
+# Rauf — self-contained SKILL.md
 
-> Neutral public-information introduction, not a campaign endorsement. Portrait is an AI-created editorial interpretation and may not exactly resemble the person. No uploaded photograph is required. No fabricated first-person speech or election result.
+**Public identity:** Ab Rauf Yusoh  
+**Party/coalition:** BN  
+**Constituency:** N02 Tanjung Bidara  
+**Research snapshot:** 2 November 2026  
+**Length:** 24 scenes × 2.5 seconds = exactly 60 seconds.  
 
-## MASTER PORTRAIT PROMPT A — Generate once using text only
+## Non-negotiable rules
 
-```text
-Generate ONE master image, 9:16 portrait, full-body from hairline or hijab top to shoes, with an enlarged readable face, of the stylized presenter called "Rauf". NO PHOTO REFERENCE IS PROVIDED. DESIGN IDENTITY: lelaki matang lewat 50-an hingga 60-an; wajah lebar hampir segi empat, pipi penuh, dagu bulat, garis senyum ketara, dahi sederhana luas; kulit sawo matang hangat; rambut hitam pendek sedikit beruban di pelipis, sisir ke sisi; kaca mata gelap segi empat, misai pendek dan janggut kemas keperakan; tubuh tegap, bahu lebar; sut biru kelabu, kemeja putih, seluar arang, kasut kulit hitam; senyum sederhana, tangan kanan terbuka lembut. LOCK facial geometry: forehead, brow spacing, eyelids, iris size, nose bridge and tip, mouth width, nasolabial folds, ears, jaw and chin contours. Render realistic five-finger hands, skin texture or fabric folds, no artificial beauty filter. 3D semi-realistic editorial illustration, calm neutral expression; standing 10–15 degrees three-quarter, head facing the camera, hands visible. STUDIO: matte warm-ivory seamless wall, gentle plaster grain, stone-grey floor, softbox keylight 45° camera-left, broad bounce fill camera-right, thin rimlight high rear; eye-height camera, 65mm portrait lens, no perspective distortion. No other persons, symbols, campaign slogans, podium, watermarks or readable text. Make this image the SINGLE visual anchor for the 24 scenes and six storyboards. Do not imply real candidate endorsement or actual documentary footage.
-```
+No reference photograph is required or provided. Generate the candidate's character portrait from written details alone. The text-based result is an illustrative original design, not guaranteed to resemble the actual politician. Each independent generation may vary. Display a visible disclosure: "AI-generated character and voice; not genuine candidate footage or statements."
 
-## CHARACTER DESIGN LOCK
+All instructions, prompts, dialogue, captions, source facts and generated narration are **in English**. Use the nickname 'Rauf' in creative scenes; keep the full name only for the factual cover and sources. Remain strictly neutral: no persuasion, requests for votes, promises, opposition attacks or unverified personal achievements. The candidate never speaks. Use an original documentary narrator, not voice cloning or lip-sync.
 
-Subject Rauf, single recurring original editorial 3D avatar. LOCK: lelaki matang lewat 50-an hingga 60-an; wajah lebar hampir segi empat, pipi penuh, dagu bulat, garis senyum ketara, dahi sederhana luas; kulit sawo matang hangat; rambut hitam pendek sedikit beruban di pelipis, sisir ke sisi; kaca mata gelap segi empat, misai pendek dan janggut kemas keperakan; tubuh tegap, bahu lebar; sut biru kelabu, kemeja putih, seluar arang, kasut kulit hitam; senyum sederhana, tangan kanan terbuka lembut. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
+## Candidate appearance specification — no photo reference
 
-## Candidate-specific fact ledger (all 24 beats)
+ONE consistent ORIGINAL editorial 3D character, nickname Rauf. Age impression: male in his late 50s to 60s. Face: broad nearly-square face, full cheeks, rounded chin, medium-wide forehead, visible smile lines. Complexion: warm medium tan. Hair or head covering: short black hair with grey at the temples, combed to one side, low hairline. Distinctive features: dark rectangular glasses, short moustache connecting to a neat greying goatee. Body: stocky broad-shouldered build. Expression and pose: small relaxed smile, right hand gently open. EXACT wardrobe: blue-grey suit, plain white shirt, charcoal trousers, black leather shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
 
-| Scene | Topic | Type | Claim and source |
+Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+
+## Mandatory character consistency procedure
+
+1. Create master character **Design A** using the complete English Prompt A in `PROMPT.md`, without supplying any photo or image.
+2. Start a separate generation **Design B** using the IDENTICAL Prompt A and no image input. Do not use A as an input to B.
+3. Compare at least ten visual anchors: face outline, eye spacing, eyebrows, glasses, hair/hijab, facial hair, skin shade, wardrobe, body proportions and accessories. Record each as match/variation/mismatch; no automatic claim of identical likeness.
+4. Mark status `PASS`, `PARTIAL` or `FAIL`. If not PASS, revise the written identity lock and repeat the no-reference A/B generation. Do not claim reliable no-reference identity matching unless it is demonstrated.
+5. For practical final video production, optionally reuse a generated master image as the reference, but do not claim that this is a zero-image-input generation test.
+
+## Production commands and order
+
+`START`: show evidence ledger and all 24 scene beats. `NEXT`: output single-character English Prompt A and a 100-word acting/voice guide, then six four-panel storyboard batches, one batch at a time. `RETRY`: refine current scene or character spec without changing verified facts. `VERIFY`: recheck facts. `HELP`: current stage and next step. `NEW [candidate]`: reset the character and source ledger. Never request a photo. Do not generate an actual video unless separately requested.
+
+## Specific facts and source ledger
+
+| Scene | Evidence type | Factual basis and attribution | Source |
 |---:|---|---|---|
-| 01 | Nama dan identiti | `identity` | Pengenalan calon Ab Rauf Yusoh   menggunakan nama ringkas Rauf  . ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 02 | Kawasan DUN | `nomination` | Ab Rauf Yusoh   bertanding N02 Tanjung Bidara. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 03 | Gabungan | `nomination` | Calon BN disahkan bagi kerusi ini pada 31 Oktober 2026. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 04 | Latar utama | `editorial_summary` | Bidang sorotan yang didokumenkan: pentadbiran negeri dan ekonomi. ([source](https://www.bernama.com/en/news.php?id=2532400)) |
-| 05 | Garis masa rekod | `context` | Sorotan bermula daripada sejarah dan sumbangan terdahulu sebelum pencalonan 31 Oktober 2026. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 06 | Rekod perwakilan | `prior_yb` | Penyandang ADUN Tanjung Bidara dan Ketua Menteri Melaka sebelum pembubaran DUN. ([source](https://www.bernama.com/en/news.php?id=2177895)) |
-| 07 | Rekod pelaburan 2025 | `state_result` | Melaka merekodkan RM14.68 bilion pelaburan diluluskan dan 312 projek pada 2025 ketika pentadbiran beliau. ([source](https://www.bernama.com/en/news.php?id=2532400)) |
-| 08 | Belanjawan 2025 | `completed_action` | Beliau membentangkan Bajet Melaka 2025 berjumlah RM585.7 juta. ([source](https://www.bernama.com/en/news.php?id=2377420)) |
-| 09 | Peruntukan pembangunan 2025 | `allocation` | Bajet 2025 memasukkan RM88 juta untuk pembangunan negeri; itu peruntukan, bukan bukti projek siap. ([source](https://www.bernama.com/en/news.php?id=2377420)) |
-| 10 | KDNK negeri 2025 | `state_result` | KDNK Melaka bernilai RM50.3 bilion pada 2025, meningkat daripada RM48.8 bilion pada 2024; angka negeri bukan pencapaian individu semata-mata. ([source](https://www.astroawani.com/berita-malaysia/kdnk-melaka-meningkat-kepada-rm503-bilion-pada-2025-ab-rauf)) |
-| 11 | Projek 2025 | `state_report` | Laporan Jun 2025 memetik 86 projek disiapkan, 100 sedang dilaksanakan, 55 belum bermula dalam belanjawan negeri. ([source](https://www.bernama.com/bm/news.php?id=2432661)) |
-| 12 | Ketua menteri | `career_record` | Dilantik Ketua Menteri Melaka ke-13 pada 31 Mac 2023 ([source](https://www.bernama.com/en/news.php?id=2177895)) |
-| 13 | Speaker DUN | `career_record` | Sebelum itu, Speaker Dewan Undangan Negeri Melaka ([source](https://www.bernama.com/en/news.php?id=2177895)) |
-| 14 | Pilihan raya 2021 | `election_history` | Memenangi DUN Tanjung Bidara pada PRN 2021 ([source](https://election.bernama.com/prn/melaka/2021/keputusan/statistik/)) |
-| 15 | Pengalaman EXCO | `public_role` | Pernah menjadi EXCO Pelaburan, Industri, Pembangunan Usahawan dan Koperasi Melaka ([source](https://www.bernama.com/en/news.php?id=2177895)) |
-| 16 | Pimpinan negeri | `career_record` | Pengerusi Badan Perhubungan UMNO Melaka (dilaporkan sejak 2018) ([source](https://www.bernama.com/en/news.php?id=2177895)) |
-| 17 | Rekod pelaburan 2025 — Rujukan rekod | `state_result` | Melaka merekodkan RM14.68 bilion pelaburan diluluskan dan 312 projek pada 2025 ketika pentadbiran beliau. ([source](https://www.bernama.com/en/news.php?id=2532400)) |
-| 18 | Belanjawan 2025 — Rujukan rekod | `completed_action` | Beliau membentangkan Bajet Melaka 2025 berjumlah RM585.7 juta. ([source](https://www.bernama.com/en/news.php?id=2377420)) |
-| 19 | Peruntukan pembangunan 2025 — Rujukan rekod | `allocation` | Bajet 2025 memasukkan RM88 juta untuk pembangunan negeri; itu peruntukan, bukan bukti projek siap. ([source](https://www.bernama.com/en/news.php?id=2377420)) |
-| 20 | KDNK negeri 2025 — Rujukan rekod | `state_result` | KDNK Melaka bernilai RM50.3 bilion pada 2025, meningkat daripada RM48.8 bilion pada 2024; angka negeri bukan pencapaian individu semata-mata. ([source](https://www.astroawani.com/berita-malaysia/kdnk-melaka-meningkat-kepada-rm503-bilion-pada-2025-ab-rauf)) |
-| 21 | Sorotan paling penting | `state_result` | Melaka merekodkan RM14.68 bilion pelaburan diluluskan dan 312 projek pada 2025 ketika pentadbiran beliau. ([source](https://www.bernama.com/en/news.php?id=2532400)) |
-| 22 | Kaedah menilai rekod | `methodology` | Pastikan beza fakta bebas, pengumuman, biodata parti dan janji belum terlaksana. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 23 | Maklumat mengundi | `election_info` | SPR menetapkan 14 November 2026 sebagai hari mengundi PRN Melaka ke-16. ([source](https://web26.bernama.com/en/general/news.php?id=2628149)) |
-| 24 | Penutup berlabel AI | `disclosure` | Video ini ialah ilustrasi dan narasi AI, bukan suara, kenyataan, atau rakaman sebenar calon. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
+| 1 | `identity` | Ab Rauf Yusoh, known here as Rauf. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 2 | `nomination` | Rauf contests N02 Tanjung Bidara in the 2026 Melaka state election. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 3 | `nomination` | Rauf is listed under BN for the seat. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 4 | `context` | Documented area of public work: state administration and economic reporting. | [View source](https://www.bernama.com/en/news.php?id=2532400) |
+| 5 | `context` | The video focuses on public records before nominations closed on 31 October 2026. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 6 | `prior_yb` | Incumbent Tanjung Bidara assemblyperson and Melaka Chief Minister before dissolution | [View source](https://www.bernama.com/en/news.php?id=2177895) |
+| 7 | `state_result` | Melaka reported RM14.68 billion in approved investments across 312 projects in 2025 under the state administration; a collective state outcome. | [View source](https://www.bernama.com/en/news.php?id=2532400) |
+| 8 | `completed_action` | He presented Melaka's RM585.7 million state budget for 2025. | [View source](https://www.bernama.com/en/news.php?id=2377420) |
+| 9 | `allocation` | The 2025 state budget allocated RM88 million for state development; an allocation is not completed work. | [View source](https://www.bernama.com/en/news.php?id=2377420) |
+| 10 | `state_result` | Melaka's reported GDP reached RM50.3 billion in 2025, up from RM48.8 billion in 2024; this is a state economic indicator. | [View source](https://www.astroawani.com/berita-malaysia/kdnk-melaka-meningkat-kepada-rm503-bilion-pada-2025-ab-rauf) |
+| 11 | `state_report` | A June 2025 report listed 86 completed, 100 ongoing and 55 not-yet-started state budget projects. | [View source](https://www.bernama.com/bm/news.php?id=2432661) |
+| 12 | `career_record` | He was appointed Melaka's 13th Chief Minister on 31 March 2023. | [View source](https://www.bernama.com/en/news.php?id=2177895) |
+| 13 | `career_record` | He previously served as Speaker of the Melaka State Legislative Assembly. | [View source](https://www.bernama.com/en/news.php?id=2177895) |
+| 14 | `election_history` | He won the Tanjung Bidara seat in the 2021 state election. | [View source](https://election.bernama.com/prn/melaka/2021/keputusan/statistik/) |
+| 15 | `public_role` | He formerly held Melaka's investment, industry, entrepreneurship and cooperatives executive portfolio. | [View source](https://www.bernama.com/en/news.php?id=2177895) |
+| 16 | `career_record` | He was reported as Melaka UMNO liaison chair since 2018. | [View source](https://www.bernama.com/en/news.php?id=2177895) |
+| 17 | `source_context` | Source context for record 1: Melaka reported RM14.68 billion in approved investments across 312 projects in 2025 under the state administration; a collective state outcome. | [View source](https://www.bernama.com/en/news.php?id=2532400) |
+| 18 | `source_context` | Source context for record 2: He presented Melaka's RM585.7 million state budget for 2025. | [View source](https://www.bernama.com/en/news.php?id=2377420) |
+| 19 | `source_context` | Source context for record 3: The 2025 state budget allocated RM88 million for state development; an allocation is not completed work. | [View source](https://www.bernama.com/en/news.php?id=2377420) |
+| 20 | `source_context` | Source context for record 4: Melaka's reported GDP reached RM50.3 billion in 2025, up from RM48.8 billion in 2024; this is a state economic indicator. | [View source](https://www.astroawani.com/berita-malaysia/kdnk-melaka-meningkat-kepada-rm503-bilion-pada-2025-ab-rauf) |
+| 21 | `summary` | The preceding records describe state administration and economic reporting; claims are attributed to their sources. | [View source](https://www.bernama.com/en/news.php?id=2532400) |
+| 22 | `methodology` | Use the published records in this file; distinguish roles, completed actions, allocations and claims. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 23 | `election_info` | Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026. | [View source](https://www.spr.gov.my/km-prudunmelaka16/) |
+| 24 | `disclosure` | This character and voice are generated illustrations, not a genuine candidate appearance or speech. | Editorial label |
 
-## How to use
+## Delivery validation
 
-1. Generate exactly one character image with Prompt A and treat the resulting image as a master visual anchor, without asking the user for any photo.
-2. Open [PROMPT.md](PROMPT.md). Produce storyboard Batch 1 as a single 1×4 image, then four independent videos for clips 01–04. Continue for six batches.
-3. Add correct election/achievement text and URLs manually in editing and apply the AI disclosure at the opening and closing.
-4. Assemble 24 clips × 2.5 seconds = 60 seconds. Avoid turning an allocation into a completed project, or a ministerial result into a personal achievement.
-
-## Shared workflow and validation rules
-
----
-name: melaka-neutral-candidate-intro-24
-version: 3.0.0
-description: A reusable research-first, text-only 60-second introduction skill for Malaysian election candidates and other public figures; NO user photo/reference needed. Create one detailed character master image prompt, evidence-led 24 micro-scenes, six independent 1×4 portrait storyboard IMAGE prompts and 24 independent VIDEO prompts. No fabricated achievements, no campaigning, no simulated authentic candidate speech.
----
-
-# Neutral Candidate Introduction Studio — Photo-Free / Achievement-First
-
-## START / GOAL
-Create one neutral, fact-checked introduction to a confirmed PRN Melaka ke-16 candidate. The story is informative, not a request for votes. User does not provide or upload any photo. The AI must output detailed character text that can make one consistent editorial avatar with a SINGLE generation. Explicitly label this as AI portrayal, not factual visual proof.
-
-## Locked output
-- **24 scenes × 2.5 seconds = exactly 60 seconds**; vertical 9:16 individual video scenes.
-- **6 storyboard prompts**, each a **single IMAGE 1×4 grid of four 9:16 panels**, composite ratio 9:4, globally numbered 01–24.
-- **24 independent video prompts** with complete character/world locks (NOT just "same as above"). Optional **six 10-second continuous video prompts** for video generators with sufficient duration.
-- **Prompt A** detailed full-body character portrait (text-only, no image reference), with exact face shape, brow, eyes, nose, chin, skin, hairstyle/tudung, glasses, body/wardrobe, footwear, stance, lighting, studio, lens, camera and negative instructions. **Prompt B** exactly 100 whitespace-separated words on acting/narration.
-- Bahasa Melayu, original third-person narrator. Place full public identity in research/onscreen factual captions and nickname in creative dialogue/prompts.
-
-## Commands
-`START <nickname/full name>`: verify official nomination, retrieve current reliable records; return dated source ledger plus 24-scene outline, character prompt. `NEXT`: return the next one of 6 four-scene storyboard/video groups. `BUILD FULL <nickname>`: produce all output in one long response when asked; never invent missing research. `RETRY`: revise current section; `VERIFY`: refresh dates/status; `NEW <nickname>`: begin a separate verified person's project; `HELP`: explain stages briefly. **Never ask for a photo, image upload, SKIP IMAGE, or final reference**. The detailed Prompt A is the master text identity; consistency is text-based and not guaranteed at pixel level.
-
-## Fact-gathering priorities
-1. Current verified candidate, party/coalition, seat, nomination date. No future election results.
-2. Distinct *completed programmes and documented outcomes* before 31 October 2026, distinguishing candidate's direct role from state, ministerial or wider programme achievements.
-3. Educational qualifications and career history from official registers or clearly attributed party bios.
-4. Public office held and parliamentary/political leadership, described accurately with dates.
-5. Previous electoral results and key figures **from official result sources**, avoiding opinion or puffery.
-6. Relevant local issues and public statements, explicitly attributed (statement is not completed achievement).
-7. Contested reports may be included only with reliable source, neutral, fair and caveated status; do not assert allegations as facts.
-
-## Achievement-first 24-scene structure
-- 01 Name and identity.
-- 02 Constituency.
-- 03 Party / electoral identity.
-- 04 Professional/career introduction.
-- 05 Timeline prior to nomination.
-- **06 ONE scene only** summarizing past/current ADUN/YB status if applicable, or first-time-candidate status.
-- **07–20 fourteen evidence-rich moments**: prioritise direct documented actions, quantified programme results, substantiated qualifications, leadership responsibilities, history and contextualised claims. May use two scenes per verified accomplishment, but never pretend the second scene is separate achievement. Avoid nomination filler, invented records, or false credit.
-- 21 Most useful fact recap, 22 evidence category transparency, 23 election date, 24 short AI disclosure.
-Every scene requires `TITLE, FACT, FACT_TYPE, SOURCE_URL, 2–6 word VO or SILENT, VISUAL ACTION, CAMERA, STATIC ENVIRONMENT ANCHORS, EDITOR CAPTION`. No 2.5-second shot should demand a long sentence or multiple simultaneous actions.
-
-## Exact truth labels
-- `completed_action`: documented event directly involving candidate.
-- `state_result` / `ministry_result` / `programme_result`: organisational collective outcome, not personally caused by one candidate.
-- `allocation` / `planned_project` / `planned_benefit`: approved/planned, **not completed**.
-- `party_claim` / `party_bio` / `candidate_statement`: explicitly attributed candidate/party-supplied information, **not independently audited fact**.
-- `public_role` / `party_role` / `education` / `official_education`: appointment/qualification, not automatically an achievement or completed project.
-- `election_result` / `election_history`: past documented outcomes, not 2026 predictions.
-- `reported_criticism`: sourced criticism/claim; never make fabricated accusations or false findings.
-
-## Prompt A — portrait (fully self-contained)
-```
-Generate ONE full-body 9:16 original illustrated editorial portrait of "[NICKNAME]" from TEXT ONLY. No reference photo is supplied. Reproduce the exact DESIGN_BIBLE: face geometry [FACE_SHAPE/CHEEKS/JAW/CHIN], eyes/eyebrows [EYES], skin [TONE], hair/tudung [HEAD], facial hair/glasses [FEATURES], body [BODY], clothes/colors/shoes [OUTFIT], signature pose [POSE]. Clean cream studio, subtle stone floor shadow, camera eye-height, moderate portrait lens, soft keylight from left, fill right, high quality 3D editorial materials, feet and hands visible, no other humans or legible text.
-Consistency: same identity and clothes in every later image/video. No fake press photo, no campaign logo, no endorsed statements or party slogan. This is a stylised creative depiction; verify actual likeness separately before public release.
-```
-
-## 1×4 storyboard IMAGE prompt
-```
-Create a visual cinematic storyboard for "[NICKNAME]: 60-second Introduction" as a SINGLE IMAGE arranged in a 1×4 grid, each of four panels portrait 9:16. Number panel corners [GLOBAL NN–NN+3]. Each panel: one fact-based illustrative action and one camera angle; include source/claim type only in off-image editor notes. Entire output is ONE IMAGE, not a four-panel VIDEO. Lock visual identity [FULL CHARACTER DESIGN_BIBLE], environments [ALL SET ANCHORS], style [3D editorial illustration]. No text should be generated; human editor adds verified captions.
-```
-
-## Individual VIDEO prompt
-```
-Create ONE 2.50-second portrait 9:16 illustrative video for global scene [NN]. Fact [CLAIM], type [FACT_TYPE], source [SOURCE]. Show one action [ACTION], one camera move [CAMERA], fixed set [FULL ENVIRONMENT]. Character identity [FULL CHARACTER DESIGN_BIBLE], from TEXT ONLY with no uploaded photo. Original neutral narrator: "[2–6 MALAY WORDS]"; candidate remains silent, no lip-sync and no impersonation. Post-edit factual caption [CAPTION], visible AI disclosure at start/end. 24 fps; no fake historical footage, fake crowd, fake candidate quotation, campaigning, skin/face drift, malformed hands. Trim to precisely 2.5s on the master timeline.
-```
-
-## Integrity / user-facing disclaimer
-Use a clearly readable opening and closing notice: **"Visual dan suara sintetik AI; bukan rakaman atau kenyataan sebenar calon."** A nickname is not copyright, publicity or voice permission. Do not imply generated avatar is a verified photographic likeness. Do not use first-person fabricated politician speeches or ask viewers to vote for a person; provide facts for independent assessment. All logos, names, sourced figures, timing and disclaimers must be added as accurate overlays manually.
-
-## Final quality gates
-- Verified nomination and no invented 2026 results.
-- Every material claim sourced, typed, dated; category never overstated; party-supplied facts attributed.
-- 24 globally numbered scenes; six complete 1×4 storyboard image prompts; 24 self-contained videos; 6 optional continuous 10-second prompts.
-- 24×2.5=60 seconds. Single previous-YB scene. 14 evidence-rich scenes 07–20 as available, no made-up five achievements.
-- Detailed face, hairstyle, clothes, body, lights and unique consistent character lock in every storyboard and clip, with zero photo-upload requests.
-- Neutral documentary narration and clear synthetic visual/voice disclosure, balanced reporting, no invented endorsement or persuasion.
-
-## Reference
-- Official current field: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-- 14 standalone candidate files include exact source URLs and status-qualified factual ledgers.
+- English only; no Malay narration or scene descriptions.
+- Each candidate folder has one `SKILL.md`, one `PROMPT.md`.
+- Exactly 24 scenes, six independent 1×4 storyboard image prompts, 24 independent video prompts and six optional 10-second sequences.
+- One previous elected-service scene (Scene 06); distinguish other earlier career roles from that one scene.
+- Make no false links from aggregate programme or economic results to personal work.
+- Check the no-reference character test; never assert a visual-identity guarantee when two independent outputs drift.

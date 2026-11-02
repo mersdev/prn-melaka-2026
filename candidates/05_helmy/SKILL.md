@@ -1,137 +1,74 @@
-# Helmy — Candidate-specific 60-second introduction skill
+---
+name: melaka-05_helmy-24-scene-editorial-introduction
+description: Create one neutral English-language 60-second factual introduction to Helmy, using only text-defined character features, 24 vertical video scenes, and six 1x4 storyboard images. No reference image required; independent character-consistency test mandatory.
+---
 
-**Official public identity:** Mohd Noor Helmy Abdul Halem  
-**Coalition/party:** BN  
-**DUN:** N21 Duyong  
-**Record date:** 2 November 2026  
+# Helmy — self-contained SKILL.md
 
-> Neutral public-information introduction, not a campaign endorsement. Portrait is an AI-created editorial interpretation and may not exactly resemble the person. No uploaded photograph is required. No fabricated first-person speech or election result.
+**Public identity:** Mohd Helmy Abd Halem  
+**Party/coalition:** BN  
+**Constituency:** N21 Duyong  
+**Research snapshot:** 2 November 2026  
+**Length:** 24 scenes × 2.5 seconds = exactly 60 seconds.  
 
-## MASTER PORTRAIT PROMPT A — Generate once using text only
+## Non-negotiable rules
 
-```text
-Generate ONE master image, 9:16 portrait, full-body from hairline or hijab top to shoes, with an enlarged readable face, of the stylized presenter called "Helmy". NO PHOTO REFERENCE IS PROVIDED. DESIGN IDENTITY: lelaki dewasa 40-an; muka agak panjang bersegi, tulang kening menonjol, mata lebar dan alis tebal; kulit sawo matang hangat; rambut hitam potongan crew cut sangat pendek; janggut pendek ada sedikit uban, tiada kaca mata; badan sederhana kekar; kemeja batik geometri hijau gelap dan krim tanpa logo, seluar hitam, kasut gelap; raut serius tetapi mudah mesra. LOCK facial geometry: forehead, brow spacing, eyelids, iris size, nose bridge and tip, mouth width, nasolabial folds, ears, jaw and chin contours. Render realistic five-finger hands, skin texture or fabric folds, no artificial beauty filter. 3D semi-realistic editorial illustration, calm neutral expression; standing 10–15 degrees three-quarter, head facing the camera, hands visible. STUDIO: matte warm-ivory seamless wall, gentle plaster grain, stone-grey floor, softbox keylight 45° camera-left, broad bounce fill camera-right, thin rimlight high rear; eye-height camera, 65mm portrait lens, no perspective distortion. No other persons, symbols, campaign slogans, podium, watermarks or readable text. Make this image the SINGLE visual anchor for the 24 scenes and six storyboards. Do not imply real candidate endorsement or actual documentary footage.
-```
+No reference photograph is required or provided. Generate the candidate's character portrait from written details alone. The text-based result is an illustrative original design, not guaranteed to resemble the actual politician. Each independent generation may vary. Display a visible disclosure: "AI-generated character and voice; not genuine candidate footage or statements."
 
-## CHARACTER DESIGN LOCK
+All instructions, prompts, dialogue, captions, source facts and generated narration are **in English**. Use the nickname 'Helmy' in creative scenes; keep the full name only for the factual cover and sources. Remain strictly neutral: no persuasion, requests for votes, promises, opposition attacks or unverified personal achievements. The candidate never speaks. Use an original documentary narrator, not voice cloning or lip-sync.
 
-Subject Helmy, single recurring original editorial 3D avatar. LOCK: lelaki dewasa 40-an; muka agak panjang bersegi, tulang kening menonjol, mata lebar dan alis tebal; kulit sawo matang hangat; rambut hitam potongan crew cut sangat pendek; janggut pendek ada sedikit uban, tiada kaca mata; badan sederhana kekar; kemeja batik geometri hijau gelap dan krim tanpa logo, seluar hitam, kasut gelap; raut serius tetapi mudah mesra. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
+## Candidate appearance specification — no photo reference
 
-## Candidate-specific fact ledger (all 24 beats)
+ONE consistent ORIGINAL editorial 3D character, nickname Helmy. Age impression: male in his 40s. Face: slightly angular long face, prominent brow ridge, wide-set eyes and thick eyebrows. Complexion: warm medium tan. Hair or head covering: very short black crew cut, close clipped sides. Distinctive features: short flecked-grey beard around chin and jaw, no glasses. Body: medium muscular build and strong neck. Expression and pose: serious but approachable, one hand open at waist height. EXACT wardrobe: dark forest-green and cream geometric batik shirt without logo, black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
 
-| Scene | Topic | Type | Claim and source |
+Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+
+## Mandatory character consistency procedure
+
+1. Create master character **Design A** using the complete English Prompt A in `PROMPT.md`, without supplying any photo or image.
+2. Start a separate generation **Design B** using the IDENTICAL Prompt A and no image input. Do not use A as an input to B.
+3. Compare at least ten visual anchors: face outline, eye spacing, eyebrows, glasses, hair/hijab, facial hair, skin shade, wardrobe, body proportions and accessories. Record each as match/variation/mismatch; no automatic claim of identical likeness.
+4. Mark status `PASS`, `PARTIAL` or `FAIL`. If not PASS, revise the written identity lock and repeat the no-reference A/B generation. Do not claim reliable no-reference identity matching unless it is demonstrated.
+5. For practical final video production, optionally reuse a generated master image as the reference, but do not claim that this is a zero-image-input generation test.
+
+## Production commands and order
+
+`START`: show evidence ledger and all 24 scene beats. `NEXT`: output single-character English Prompt A and a 100-word acting/voice guide, then six four-panel storyboard batches, one batch at a time. `RETRY`: refine current scene or character spec without changing verified facts. `VERIFY`: recheck facts. `HELP`: current stage and next step. `NEW [candidate]`: reset the character and source ledger. Never request a photo. Do not generate an actual video unless separately requested.
+
+## Specific facts and source ledger
+
+| Scene | Evidence type | Factual basis and attribution | Source |
 |---:|---|---|---|
-| 01 | Nama dan identiti | `identity` | Pengenalan calon Mohd Noor Helmy Abdul Halem   menggunakan nama ringkas Helmy  . ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 02 | Kawasan DUN | `nomination` | Mohd Noor Helmy Abdul Halem   bertanding N21 Duyong. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 03 | Gabungan | `nomination` | Calon BN disahkan bagi kerusi ini pada 31 Oktober 2026. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 04 | Latar utama | `editorial_summary` | Bidang sorotan yang didokumenkan: perkhidmatan kawasan dan komunikasi digital. ([source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/)) |
-| 05 | Garis masa rekod | `context` | Sorotan bermula daripada sejarah dan sumbangan terdahulu sebelum pencalonan 31 Oktober 2026. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 06 | Rekod perwakilan | `prior_yb` | Penyandang ADUN Duyong sebelum pembubaran DUN. ([source](https://election.bernama.com/prn/melaka/2026/berita/2628210/prn-melaka-mohd-noor-helmy-tawar-rekod-perkhidmatan-pertahan-dun-duyong/)) |
-| 07 | Sumbangan Ramadan 2026 | `announced_programme` | Program Ziarah Kasih Ramadan Duyong dirancang mengagihkan 300 kit makanan pada Februari 2026; angka tersebut adalah sasaran diumumkan. ([source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/)) |
-| 08 | Bantuan lesen bazar | `completed_action` | Beliau menyerahkan lesen jualan bazar Ramadan kepada peniaga Semabok pada 2026. ([source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/)) |
-| 09 | Rekod peranan digital | `public_role` | Menjawat Timbalan Exco Sains, Teknologi, Inovasi dan Komunikasi Digital Melaka sebelum pembubaran DUN. ([source](https://election.bernama.com/prn/melaka/2026/berita/2628210/prn-melaka-mohd-noor-helmy-tawar-rekod-perkhidmatan-pertahan-dun-duyong/)) |
-| 10 | Pusat aduan rakyat | `documented_participation` | Program HEBAT membolehkan orang ramai mengemukakan aduan kepada barisan Exco; beliau terlibat menurut laporan Bernama. ([source](https://www.bernama.com/bm/am/news.php?id=2519925)) |
-| 11 | Disiplin pelajar | `public_position` | Beliau mengulas isu buli dan disiplin sekolah pada 2025, suatu pendirian awam bukan pencapaian program. ([source](https://www.sinarharian.com.my/article/751520/edisi/melaka-ns/jangan-ambil-ringan-isu-disiplin-pelajar---adun-duyong)) |
-| 12 | Majoriti tipis | `election_result` | Majoriti 200 undi pada 2021 ([source](https://election.bernama.com/prn/melaka/2026/keputusan/13821-duyong/)) |
-| 13 | Enam penjuru dahulu | `career_record` | Enam calon bertanding di Duyong pada PRN 2021 ([source](https://election.bernama.com/prn/melaka/2021/keputusan/)) |
-| 14 | Sumbangan Ramadan 2026 — Rujukan rekod | `announced_programme` | Program Ziarah Kasih Ramadan Duyong dirancang mengagihkan 300 kit makanan pada Februari 2026; angka tersebut adalah sasaran diumumkan. ([source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/)) |
-| 15 | Bantuan lesen bazar — Rujukan rekod | `completed_action` | Beliau menyerahkan lesen jualan bazar Ramadan kepada peniaga Semabok pada 2026. ([source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/)) |
-| 16 | Rekod peranan digital — Rujukan rekod | `public_role` | Menjawat Timbalan Exco Sains, Teknologi, Inovasi dan Komunikasi Digital Melaka sebelum pembubaran DUN. ([source](https://election.bernama.com/prn/melaka/2026/berita/2628210/prn-melaka-mohd-noor-helmy-tawar-rekod-perkhidmatan-pertahan-dun-duyong/)) |
-| 17 | Pusat aduan rakyat — Rujukan rekod | `documented_participation` | Program HEBAT membolehkan orang ramai mengemukakan aduan kepada barisan Exco; beliau terlibat menurut laporan Bernama. ([source](https://www.bernama.com/bm/am/news.php?id=2519925)) |
-| 18 | Disiplin pelajar — Rujukan rekod | `public_position` | Beliau mengulas isu buli dan disiplin sekolah pada 2025, suatu pendirian awam bukan pencapaian program. ([source](https://www.sinarharian.com.my/article/751520/edisi/melaka-ns/jangan-ambil-ringan-isu-disiplin-pelajar---adun-duyong)) |
-| 19 | Majoriti tipis — Rujukan rekod | `election_result` | Majoriti 200 undi pada 2021 ([source](https://election.bernama.com/prn/melaka/2026/keputusan/13821-duyong/)) |
-| 20 | Enam penjuru dahulu — Rujukan rekod | `career_record` | Enam calon bertanding di Duyong pada PRN 2021 ([source](https://election.bernama.com/prn/melaka/2021/keputusan/)) |
-| 21 | Sorotan paling penting | `announced_programme` | Program Ziarah Kasih Ramadan Duyong dirancang mengagihkan 300 kit makanan pada Februari 2026; angka tersebut adalah sasaran diumumkan. ([source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/)) |
-| 22 | Kaedah menilai rekod | `methodology` | Pastikan beza fakta bebas, pengumuman, biodata parti dan janji belum terlaksana. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
-| 23 | Maklumat mengundi | `election_info` | SPR menetapkan 14 November 2026 sebagai hari mengundi PRN Melaka ke-16. ([source](https://web26.bernama.com/en/general/news.php?id=2628149)) |
-| 24 | Penutup berlabel AI | `disclosure` | Video ini ialah ilustrasi dan narasi AI, bukan suara, kenyataan, atau rakaman sebenar calon. ([source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates)) |
+| 1 | `identity` | Mohd Helmy Abd Halem, known here as Helmy. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 2 | `nomination` | Helmy contests N21 Duyong in the 2026 Melaka state election. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 3 | `nomination` | Helmy is listed under BN for the seat. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 4 | `context` | Documented area of public work: community outreach and digital-technology portfolio. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 5 | `context` | The video focuses on public records before nominations closed on 31 October 2026. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 6 | `prior_yb` | Incumbent Duyong assemblyperson before dissolution | [View source](https://election.bernama.com/prn/melaka/2026/berita/2628210/prn-melaka-mohd-noor-helmy-tawar-rekod-perkhidmatan-pertahan-dun-duyong/) |
+| 7 | `announced_programme` | A Duyong Ramadan welfare programme announced a goal of distributing 300 food kits in February 2026; this was a target. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 8 | `completed_action` | He handed Ramadan bazaar trading permits to traders in Semabok in 2026. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 9 | `public_role` | He held the Melaka Deputy Executive Councillor portfolio for science, technology, innovation and digital communications before dissolution. | [View source](https://election.bernama.com/prn/melaka/2026/berita/2628210/prn-melaka-mohd-noor-helmy-tawar-rekod-perkhidmatan-pertahan-dun-duyong/) |
+| 10 | `documented_participation` | Bernama reported his participation in the HEBAT public complaint and engagement programme. | [View source](https://www.bernama.com/bm/am/news.php?id=2519925) |
+| 11 | `public_position` | He publicly commented on bullying and school discipline in 2025; this was a stated position. | [View source](https://www.sinarharian.com.my/article/751520/edisi/melaka-ns/jangan-ambil-ringan-isu-disiplin-pelajar---adun-duyong) |
+| 12 | `election_result` | He won the 2021 Duyong contest by a majority of 200 votes. | [View source](https://election.bernama.com/prn/melaka/2026/keputusan/13821-duyong/) |
+| 13 | `career_record` | Six candidates contested Duyong in the 2021 state election. | [View source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
+| 14 | `announced_programme` | The 300 food kits were an announced distribution target, not proof that every kit was delivered. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 15 | `completed_action` | His recorded Semabok bazaar role involved handing trading permits to businesses. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 16 | `public_role` | His public portfolio involved science, technology and digital communications. | [View source](https://election.bernama.com/prn/melaka/2026/berita/2628210/prn-melaka-mohd-noor-helmy-tawar-rekod-perkhidmatan-pertahan-dun-duyong/) |
+| 17 | `source_context` | Source context for record 1: A Duyong Ramadan welfare programme announced a goal of distributing 300 food kits in February 2026; this was a target. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 18 | `source_context` | Source context for record 2: He handed Ramadan bazaar trading permits to traders in Semabok in 2026. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 19 | `source_context` | Source context for record 3: He held the Melaka Deputy Executive Councillor portfolio for science, technology, innovation and digital communications before dissolution. | [View source](https://election.bernama.com/prn/melaka/2026/berita/2628210/prn-melaka-mohd-noor-helmy-tawar-rekod-perkhidmatan-pertahan-dun-duyong/) |
+| 20 | `source_context` | Source context for record 4: Bernama reported his participation in the HEBAT public complaint and engagement programme. | [View source](https://www.bernama.com/bm/am/news.php?id=2519925) |
+| 21 | `summary` | The preceding records describe community outreach and digital-technology portfolio; claims are attributed to their sources. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
+| 22 | `methodology` | Use the published records in this file; distinguish roles, completed actions, allocations and claims. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 23 | `election_info` | Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026. | [View source](https://www.spr.gov.my/km-prudunmelaka16/) |
+| 24 | `disclosure` | This character and voice are generated illustrations, not a genuine candidate appearance or speech. | Editorial label |
 
-## How to use
+## Delivery validation
 
-1. Generate exactly one character image with Prompt A and treat the resulting image as a master visual anchor, without asking the user for any photo.
-2. Open [PROMPT.md](PROMPT.md). Produce storyboard Batch 1 as a single 1×4 image, then four independent videos for clips 01–04. Continue for six batches.
-3. Add correct election/achievement text and URLs manually in editing and apply the AI disclosure at the opening and closing.
-4. Assemble 24 clips × 2.5 seconds = 60 seconds. Avoid turning an allocation into a completed project, or a ministerial result into a personal achievement.
-
-## Shared workflow and validation rules
-
----
-name: melaka-neutral-candidate-intro-24
-version: 3.0.0
-description: A reusable research-first, text-only 60-second introduction skill for Malaysian election candidates and other public figures; NO user photo/reference needed. Create one detailed character master image prompt, evidence-led 24 micro-scenes, six independent 1×4 portrait storyboard IMAGE prompts and 24 independent VIDEO prompts. No fabricated achievements, no campaigning, no simulated authentic candidate speech.
----
-
-# Neutral Candidate Introduction Studio — Photo-Free / Achievement-First
-
-## START / GOAL
-Create one neutral, fact-checked introduction to a confirmed PRN Melaka ke-16 candidate. The story is informative, not a request for votes. User does not provide or upload any photo. The AI must output detailed character text that can make one consistent editorial avatar with a SINGLE generation. Explicitly label this as AI portrayal, not factual visual proof.
-
-## Locked output
-- **24 scenes × 2.5 seconds = exactly 60 seconds**; vertical 9:16 individual video scenes.
-- **6 storyboard prompts**, each a **single IMAGE 1×4 grid of four 9:16 panels**, composite ratio 9:4, globally numbered 01–24.
-- **24 independent video prompts** with complete character/world locks (NOT just "same as above"). Optional **six 10-second continuous video prompts** for video generators with sufficient duration.
-- **Prompt A** detailed full-body character portrait (text-only, no image reference), with exact face shape, brow, eyes, nose, chin, skin, hairstyle/tudung, glasses, body/wardrobe, footwear, stance, lighting, studio, lens, camera and negative instructions. **Prompt B** exactly 100 whitespace-separated words on acting/narration.
-- Bahasa Melayu, original third-person narrator. Place full public identity in research/onscreen factual captions and nickname in creative dialogue/prompts.
-
-## Commands
-`START <nickname/full name>`: verify official nomination, retrieve current reliable records; return dated source ledger plus 24-scene outline, character prompt. `NEXT`: return the next one of 6 four-scene storyboard/video groups. `BUILD FULL <nickname>`: produce all output in one long response when asked; never invent missing research. `RETRY`: revise current section; `VERIFY`: refresh dates/status; `NEW <nickname>`: begin a separate verified person's project; `HELP`: explain stages briefly. **Never ask for a photo, image upload, SKIP IMAGE, or final reference**. The detailed Prompt A is the master text identity; consistency is text-based and not guaranteed at pixel level.
-
-## Fact-gathering priorities
-1. Current verified candidate, party/coalition, seat, nomination date. No future election results.
-2. Distinct *completed programmes and documented outcomes* before 31 October 2026, distinguishing candidate's direct role from state, ministerial or wider programme achievements.
-3. Educational qualifications and career history from official registers or clearly attributed party bios.
-4. Public office held and parliamentary/political leadership, described accurately with dates.
-5. Previous electoral results and key figures **from official result sources**, avoiding opinion or puffery.
-6. Relevant local issues and public statements, explicitly attributed (statement is not completed achievement).
-7. Contested reports may be included only with reliable source, neutral, fair and caveated status; do not assert allegations as facts.
-
-## Achievement-first 24-scene structure
-- 01 Name and identity.
-- 02 Constituency.
-- 03 Party / electoral identity.
-- 04 Professional/career introduction.
-- 05 Timeline prior to nomination.
-- **06 ONE scene only** summarizing past/current ADUN/YB status if applicable, or first-time-candidate status.
-- **07–20 fourteen evidence-rich moments**: prioritise direct documented actions, quantified programme results, substantiated qualifications, leadership responsibilities, history and contextualised claims. May use two scenes per verified accomplishment, but never pretend the second scene is separate achievement. Avoid nomination filler, invented records, or false credit.
-- 21 Most useful fact recap, 22 evidence category transparency, 23 election date, 24 short AI disclosure.
-Every scene requires `TITLE, FACT, FACT_TYPE, SOURCE_URL, 2–6 word VO or SILENT, VISUAL ACTION, CAMERA, STATIC ENVIRONMENT ANCHORS, EDITOR CAPTION`. No 2.5-second shot should demand a long sentence or multiple simultaneous actions.
-
-## Exact truth labels
-- `completed_action`: documented event directly involving candidate.
-- `state_result` / `ministry_result` / `programme_result`: organisational collective outcome, not personally caused by one candidate.
-- `allocation` / `planned_project` / `planned_benefit`: approved/planned, **not completed**.
-- `party_claim` / `party_bio` / `candidate_statement`: explicitly attributed candidate/party-supplied information, **not independently audited fact**.
-- `public_role` / `party_role` / `education` / `official_education`: appointment/qualification, not automatically an achievement or completed project.
-- `election_result` / `election_history`: past documented outcomes, not 2026 predictions.
-- `reported_criticism`: sourced criticism/claim; never make fabricated accusations or false findings.
-
-## Prompt A — portrait (fully self-contained)
-```
-Generate ONE full-body 9:16 original illustrated editorial portrait of "[NICKNAME]" from TEXT ONLY. No reference photo is supplied. Reproduce the exact DESIGN_BIBLE: face geometry [FACE_SHAPE/CHEEKS/JAW/CHIN], eyes/eyebrows [EYES], skin [TONE], hair/tudung [HEAD], facial hair/glasses [FEATURES], body [BODY], clothes/colors/shoes [OUTFIT], signature pose [POSE]. Clean cream studio, subtle stone floor shadow, camera eye-height, moderate portrait lens, soft keylight from left, fill right, high quality 3D editorial materials, feet and hands visible, no other humans or legible text.
-Consistency: same identity and clothes in every later image/video. No fake press photo, no campaign logo, no endorsed statements or party slogan. This is a stylised creative depiction; verify actual likeness separately before public release.
-```
-
-## 1×4 storyboard IMAGE prompt
-```
-Create a visual cinematic storyboard for "[NICKNAME]: 60-second Introduction" as a SINGLE IMAGE arranged in a 1×4 grid, each of four panels portrait 9:16. Number panel corners [GLOBAL NN–NN+3]. Each panel: one fact-based illustrative action and one camera angle; include source/claim type only in off-image editor notes. Entire output is ONE IMAGE, not a four-panel VIDEO. Lock visual identity [FULL CHARACTER DESIGN_BIBLE], environments [ALL SET ANCHORS], style [3D editorial illustration]. No text should be generated; human editor adds verified captions.
-```
-
-## Individual VIDEO prompt
-```
-Create ONE 2.50-second portrait 9:16 illustrative video for global scene [NN]. Fact [CLAIM], type [FACT_TYPE], source [SOURCE]. Show one action [ACTION], one camera move [CAMERA], fixed set [FULL ENVIRONMENT]. Character identity [FULL CHARACTER DESIGN_BIBLE], from TEXT ONLY with no uploaded photo. Original neutral narrator: "[2–6 MALAY WORDS]"; candidate remains silent, no lip-sync and no impersonation. Post-edit factual caption [CAPTION], visible AI disclosure at start/end. 24 fps; no fake historical footage, fake crowd, fake candidate quotation, campaigning, skin/face drift, malformed hands. Trim to precisely 2.5s on the master timeline.
-```
-
-## Integrity / user-facing disclaimer
-Use a clearly readable opening and closing notice: **"Visual dan suara sintetik AI; bukan rakaman atau kenyataan sebenar calon."** A nickname is not copyright, publicity or voice permission. Do not imply generated avatar is a verified photographic likeness. Do not use first-person fabricated politician speeches or ask viewers to vote for a person; provide facts for independent assessment. All logos, names, sourced figures, timing and disclaimers must be added as accurate overlays manually.
-
-## Final quality gates
-- Verified nomination and no invented 2026 results.
-- Every material claim sourced, typed, dated; category never overstated; party-supplied facts attributed.
-- 24 globally numbered scenes; six complete 1×4 storyboard image prompts; 24 self-contained videos; 6 optional continuous 10-second prompts.
-- 24×2.5=60 seconds. Single previous-YB scene. 14 evidence-rich scenes 07–20 as available, no made-up five achievements.
-- Detailed face, hairstyle, clothes, body, lights and unique consistent character lock in every storyboard and clip, with zero photo-upload requests.
-- Neutral documentary narration and clear synthetic visual/voice disclosure, balanced reporting, no invented endorsement or persuasion.
-
-## Reference
-- Official current field: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-- 14 standalone candidate files include exact source URLs and status-qualified factual ledgers.
+- English only; no Malay narration or scene descriptions.
+- Each candidate folder has one `SKILL.md`, one `PROMPT.md`.
+- Exactly 24 scenes, six independent 1×4 storyboard image prompts, 24 independent video prompts and six optional 10-second sequences.
+- One previous elected-service scene (Scene 06); distinguish other earlier career roles from that one scene.
+- Make no false links from aggregate programme or economic results to personal work.
+- Check the no-reference character test; never assert a visual-identity guarantee when two independent outputs drift.

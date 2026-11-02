@@ -1,636 +1,582 @@
-# Allex — All generation prompts (portrait + 6 storyboards + 24 video scenes)
+# Allex — All-English character, storyboard and video prompts
 
-**Seah Shoo Chin** · PH · N19 Kesidang · 60 seconds · 9:16 individual clips · editorial record dated 2 November 2026.
+**Public figure:** Allex Seah Shoo Chin · **Party:** PH · **DUN:** N19 Kesidang · **Research date:** 2 November 2026.
 
-**Notice to add in the video:** “Visual dan suara sintetik AI; bukan rakaman atau kenyataan sebenar calon.”
+No reference photograph is required or provided. Generate the candidate's character portrait from written details alone. The text-based result is an illustrative original design, not guaranteed to resemble the actual politician. Each independent generation may vary. Display a visible disclosure: "AI-generated character and voice; not genuine candidate footage or statements."
 
-## Prompt A — One-shot, no-reference character image
+## Prompt A — Detailed one-shot character creation, with zero image input
 
 ```text
-Generate ONE master image, 9:16 portrait, full-body from hairline or hijab top to shoes, with an enlarged readable face, of the stylized presenter called "Allex". NO PHOTO REFERENCE IS PROVIDED. DESIGN IDENTITY: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. LOCK facial geometry: forehead, brow spacing, eyelids, iris size, nose bridge and tip, mouth width, nasolabial folds, ears, jaw and chin contours. Render realistic five-finger hands, skin texture or fabric folds, no artificial beauty filter. 3D semi-realistic editorial illustration, calm neutral expression; standing 10–15 degrees three-quarter, head facing the camera, hands visible. STUDIO: matte warm-ivory seamless wall, gentle plaster grain, stone-grey floor, softbox keylight 45° camera-left, broad bounce fill camera-right, thin rimlight high rear; eye-height camera, 65mm portrait lens, no perspective distortion. No other persons, symbols, campaign slogans, podium, watermarks or readable text. Make this image the SINGLE visual anchor for the 24 scenes and six storyboards. Do not imply real candidate endorsement or actual documentary footage.
+Generate exactly ONE original full-body 9:16 editorial 3D character, clearly showing the entire head and shoes, for Allex. NO uploaded photo and NO image reference. Reconstruct the fixed design entirely from the written specification below; do not guess missing personal biographical traits. ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+
+Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+
+Compose a centered standing portrait, slight 10-degree three-quarter body angle while looking toward the camera. Sharp readable face, anatomically realistic hands, natural fabric texture, restrained expressions and color-accurate wardrobe. Do not use photorealistic news footage style. Avoid extra people, text, logo, flags, watermarks, speech bubbles, fake documents, unnatural anatomy or altered features. Treat output as a *new AI character interpretation*, not proof of resemblance to the public figure. Save one result as Design A; generate Design B in a fresh text-only call without passing Design A or any other image as a reference. Then compare the two outputs before choosing a master.
 ```
 
-## Prompt B — Acting, speaking and narrator direction
+## Prompt B — Acting and original narrator direction
 
 ```text
-Use an original third-person Bahasa Melayu documentary narrator. Never imitate the candidate's voice or fabricate first-person quotations. The candidate character is silent. Keep expressions modest, professional and neutral; gesture gently with small natural hand motion. Hold identical face shape, glasses, hair or head covering, body silhouette, clothing and palette across every storyboard and video. In two-and-a-half-second scenes, narrate one factual phrase at a calm speed; spread longer narration over adjacent clips if needed. State dates and figures only after source verification. Clearly distinguish personal acts, public roles, collective government results, allocations, planned projects, and reported claims. Do not ask for votes.
+Use a calm, informative, entirely original English documentary narrator. The on-screen character stays silent and does not lip-sync political messages. Keep the face geometry, haircut or hijab, glasses, wardrobe, age impression, skin treatment and body proportions unchanged. Show modest natural hand movements and slow camera moves. Every scene occupies two and a half seconds; voiceover should contain no more than a few words. Distinguish completed work from budgeted plans, collective programme results and statements attributed to parties or candidates. Never invent credentials, endorsements, opponent attacks, fabricated archival footage, private speeches, rallies, vote totals or future election outcomes.
 ```
 
-## 24-scene master timeline
+## Reference-free character reproducibility checklist
 
-| Scene | Time (s) | Topic | Narration | Editor-added factual caption | Source |
-|---:|---|---|---|---|---|
-| 01 | 0.0–2.5 | Nama dan identiti | Kenali Allex . | Allex   / Seah Shoo Chin   | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 02 | 2.5–5.0 | Kawasan DUN | Kerusi Kesidang. | N19 Kesidang | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 03 | 5.0–7.5 | Gabungan | Calon PH. | PH · N19 | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 04 | 7.5–10.0 | Latar utama | Latar keusahawanan dan isu pengguna. | Latar: keusahawanan dan isu pengguna | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 05 | 10.0–12.5 | Garis masa rekod | Fakta sebelum penamaan 2026. | Rekod sebelum 31 Oktober 2026 | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 06 | 12.5–15.0 | Rekod perwakilan | Pernah menjadi ADUN Kesidang. | Penyandang ADUN Kesidang sebelum pembubaran DUN. | [Source](https://dapmalaysia.org/melaka-representatives/) |
-| 07 | 15.0–17.5 | Naik taraf empat flat | Empat kawasan rumah pangsa dinaik taraf. | Kesidang: naik taraf empat rumah pangsa | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 08 | 17.5–20.0 | Pam Rumah Pangsa Taman Merdeka | RM150 ribu untuk pam air. | Peruntukan pam air: RM150,000 | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 09 | 20.0–22.5 | Penerima manfaat pam | Tiga ratus rumah disasar. | Sasaran manfaat: 300 kediaman | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 10 | 22.5–25.0 | Exco usahawan | Pernah urus portfolio usahawan. | Portfolio Exco usahawan / pengguna | [Source](https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/) |
-| 11 | 25.0–27.5 | Program eCOSS | Terlibat penerangan aplikasi eCOSS. | Program eCOSS (2025) | [Source](https://imagesapps.bernama.com/images/1403887/allex-seah-shoo-chin) |
-| 12 | 27.5–30.0 | Setiausaha DAP Melaka | Setiausaha parti peringkat negeri. | Setiausaha DAP Melaka | [Source](https://dapmalaysia.org/melaka-representatives/) |
-| 13 | 30.0–32.5 | Kesidang sejak 2018 | Kesidang sejak 2018. | Memenangi Kesidang pada PRU14/PRN negeri 2018 | [Source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
-| 14 | 32.5–35.0 | Pertahan 2021 | Pertahan 2021. | Menang Kesidang sekali lagi dalam PRN 2021 | [Source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
-| 15 | 35.0–37.5 | Majoriti lalu | Majoriti lalu. | Majoriti 10,237 undi dalam PRN 2021 | [Source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
-| 16 | 37.5–40.0 | Peranan DAP | Peranan DAP. | Setiausaha DAP negeri Melaka bagi 2024–2027 | [Source](https://dapmalaysia.org/en/melaka-representatives/) |
-| 17 | 40.0–42.5 | Naik taraf empat flat — Rujukan rekod | Semak status bukti ini. | Kesidang: naik taraf empat rumah pangsa · pelaksanaan melibatkan agensi | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 18 | 42.5–45.0 | Pam Rumah Pangsa Taman Merdeka — Rujukan rekod | Semak status bukti ini. | Peruntukan pam air: RM150,000 · peruntukan, bukan projek siap | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 19 | 45.0–47.5 | Penerima manfaat pam — Rujukan rekod | Semak status bukti ini. | Sasaran manfaat: 300 kediaman · rekod awam daripada sumber dinyatakan | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 20 | 47.5–50.0 | Exco usahawan — Rujukan rekod | Semak status bukti ini. | Portfolio Exco usahawan / pengguna · rekod awam daripada sumber dinyatakan | [Source](https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/) |
-| 21 | 50.0–52.5 | Sorotan paling penting | Rekod utama Allex . | Kesidang: naik taraf empat rumah pangsa | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 22 | 52.5–55.0 | Kaedah menilai rekod | Semak sumber asal dahulu. | Semak sumber; beza hasil, rancangan dan dakwaan | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 23 | 55.0–57.5 | Maklumat mengundi | Mengundi empat belas November. | Hari mengundi: 14 November 2026 | [Source](https://web26.bernama.com/en/general/news.php?id=2628149) |
-| 24 | 57.5–60.0 | Penutup berlabel AI | Video ini ilustrasi AI. | Visual dan suara sintetik AI; bukan rakaman atau kenyataan sebenar calon. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+Generate Design A and Design B in separate text-only generations using exactly the above Prompt A. Neither call may attach an image. Compare face shape, eyebrows, eye spacing, hair or hijab, glasses, facial hair, skin tone, body shape, outfit and accessories. Record whether each anchor matches; this is a test, not a guarantee. Preserve one chosen character image for *subsequent* video production if available, but this changes production into an image-reference workflow.
 
-## Storyboard and video prompt batches
+## Master scene schedule — all English
 
-### Batch 1 — Storyboard scenes 01–04
+| Scene | Timeline | Subject | Short English voiceover | Factual caption |
+|---:|---|---|---|---|
+| 01 | 0.0–2.5s | Candidate identity | Meet Allex. | Allex Seah Shoo Chin, known here as Allex. |
+| 02 | 2.5–5.0s | Constituency | The constituency is Kesidang. | Allex contests N19 Kesidang in the 2026 Melaka state election. |
+| 03 | 5.0–7.5s | Election affiliation | Listed under PH. | Allex is listed under PH for the seat. |
+| 04 | 7.5–10.0s | Professional background | Background: housing improvements. | Documented area of public work: housing improvements and consumer affairs. |
+| 05 | 10.0–12.5s | Historical context | Before the 2026 nomination. | The video focuses on public records before nominations closed on 31 October 2026. |
+| 06 | 12.5–15.0s | Past elected service | Previous elected-service record. | Incumbent Kesidang assemblyperson before dissolution |
+| 07 | 15.0–17.5s | Reported programme or state outcome | Reported programme activity. | In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds. |
+| 08 | 17.5–20.0s | Announced allocation | An announced allocation. | The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats. |
+| 09 | 20.0–22.5s | Career and public record 3 | A documented public record. | The planned pump replacement was reported to benefit nine blocks and around 300 homes. |
+| 10 | 22.5–25.0s | Public office or leadership | A documented public record. | He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023. |
+| 11 | 25.0–27.5s | Career and public record 5 | A documented public record. | He participated in a 2025 eCOSS subsidised cooking-oil implementation programme involving KPDN. |
+| 12 | 27.5–30.0s | Reported party biography | According to the party profile. | He was listed as Melaka DAP secretary for 2024–2027. |
+| 13 | 30.0–32.5s | Electoral history | Past election record. | He won Kesidang in 2018. |
+| 14 | 32.5–35.0s | Electoral history | Past election record. | He won Kesidang again in the 2021 state election. |
+| 15 | 35.0–37.5s | Electoral history | Past election record. | His reported winning majority in 2021 was 10,237 votes. |
+| 16 | 37.5–40.0s | Career and public record 10 | A documented public record. | The block upgrades involved ministry funding and must not be attributed to him personally as completed works without confirmation. |
+| 17 | 40.0–42.5s | Evidence checkpoint | Check the source and context. | Source context for record 1: In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds. |
+| 18 | 42.5–45.0s | Programme context | Check the source and context. | Source context for record 2: The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats. |
+| 19 | 45.0–47.5s | Outcome versus plan | Check the source and context. | Source context for record 3: The planned pump replacement was reported to benefit nine blocks and around 300 homes. |
+| 20 | 47.5–50.0s | Attribution check | Check the source and context. | Source context for record 4: He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023. |
+| 21 | 50.0–52.5s | Record recap | Review the documented record. | The preceding records describe housing improvements and consumer affairs; claims are attributed to their sources. |
+| 22 | 52.5–55.0s | Source transparency | Read each source directly. | Use the published records in this file; distinguish roles, completed actions, allocations and claims. |
+| 23 | 55.0–57.5s | Election information | Polling: November fourteenth. | Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026. |
+| 24 | 57.5–60.0s | AI disclosure | AI character and narration. | This character and voice are generated illustrations, not a genuine candidate appearance or speech. |
+
+## Six single-image storyboard prompts (each four independent 9:16 panels)
+
+### Storyboard batch 1 — Scenes 01–04
 
 ```text
-Create a cinematic storyboard for "Allex: Pengenalan 60 Saat" as a SINGLE IMAGE arranged in 1x4 grid: four columns, one row. Each of the four equal panels is portrait 9:16; overall composite is 9:4. Put global scene numbers in small corners and thin dividers. EXACTLY four panels, no dialogue bubbles, simulated headlines, or inaccurate generated text.
-Panel 1 / Global Scene 01 — Nama dan identiti: wajah watak muncul sebagai pengenalan dokumentari; gerakan tangan kecil yang tenang. Illustrate ONLY this documented topic: Pengenalan calon Seah Shoo Chin   menggunakan nama ringkas Allex  .. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 2 / Global Scene 02 — Kawasan DUN: peta Melaka ilustrasi yang tepat dari sumber diserlah, titik kawasan ditambah oleh editor. Illustrate ONLY this documented topic: Seah Shoo Chin   bertanding N19 Kesidang.. Camera three-quarter documentary framing. Environment anchors: galeri sejarah sivik editorial dengan kabinet kayu dan panel dokumen kosong, siling tinggi sederhana, lantai batu kelabu, cahaya kiri lembut. Keep bottom 20% clear for accurate human-edited captions.
-Panel 3 / Global Scene 03 — Gabungan: kad maklumat calon kosong ditunjukkan secara neutral, butiran gabungan akan dimasukkan oleh editor. Illustrate ONLY this documented topic: Calon PH disahkan bagi kerusi ini pada 31 Oktober 2026.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 4 / Global Scene 04 — Latar utama: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Bidang sorotan yang didokumenkan: keusahawanan dan isu pengguna.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-STYLE CONSISTENCY: one unified neutral semi-realistic cinematic 3D editorial look, warm cream / slate / muted teal, photographic depth-of-field treatment. All panels are keyframe images; the actual videos are independently generated portrait 9:16 clips.
-CHARACTER IDENTITY LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-ENVIRONMENT CONSISTENCY: maintain the listed stable furniture, object placement and lighting within each set; changes in set are explicitly signaled by the panel descriptions. This is illustrative editorial art, not an archival record.
-EDITING: candidate full official name, party, DUN, source citations, numbers, and visible synthetic-media notice are added manually after generation.
+Create a single static storyboard IMAGE for "Allex: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 01–04 from left to right; use subtle borders. This is an IMAGE, not a video.
+
+Panel 1: Candidate identity. Character stands in the neutral editorial studio; gentle camera push. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Allex Seah Shoo Chin, known here as Allex.
+
+Panel 2: Constituency. A minimalist Melaka outline highlights the relevant constituency without generated labels. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Allex contests N19 Kesidang in the 2026 Melaka state election.
+
+Panel 3: Election affiliation. An unbranded candidate information folder opens on a stone desk. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Allex is listed under PH for the seat.
+
+Panel 4: Professional background. A neutral still-life of work-related objects on a tidy desk, without claiming an authentic historical event. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Documented area of public work: housing improvements and consumer affairs.
+
+CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
+NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
 ```
 
-
-### Clip 01 — 0.00s to 2.50s: Nama dan identiti
+### Storyboard batch 2 — Scenes 05–08
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 01 of "Allex: Pengenalan 60 Saat".
-FACT: Pengenalan calon Seah Shoo Chin   menggunakan nama ringkas Allex  .
-FACT TYPE: identity; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: wajah watak muncul sebagai pengenalan dokumentari; gerakan tangan kecil yang tenang.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Kenali Allex .". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Allex   | Seah Shoo Chin  .
-SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 0.00s–2.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single static storyboard IMAGE for "Allex: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 05–08 from left to right; use subtle borders. This is an IMAGE, not a video.
+
+Panel 5: Historical context. A blank archival timeline with dated pins added in post-production. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: The video focuses on public records before nominations closed on 31 October 2026.
+
+Panel 6: Past elected service. A clearly fictional civic assembly illustration; no copied real chamber footage. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Incumbent Kesidang assemblyperson before dissolution
+
+Panel 7: Reported programme or state outcome. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds.
+
+Panel 8: Announced allocation. A conceptual site plan and calculator, marked as proposed through an editor overlay. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats.
+
+CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
+NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
 ```
 
-### Clip 02 — 2.50s to 5.00s: Kawasan DUN
+### Storyboard batch 3 — Scenes 09–12
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 02 of "Allex: Pengenalan 60 Saat".
-FACT: Seah Shoo Chin   bertanding N19 Kesidang.
-FACT TYPE: nomination; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: peta Melaka ilustrasi yang tepat dari sumber diserlah, titik kawasan ditambah oleh editor.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: galeri sejarah sivik editorial dengan kabinet kayu dan panel dokumen kosong, siling tinggi sederhana, lantai batu kelabu, cahaya kiri lembut; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Kerusi Kesidang.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): N19 Kesidang.
-SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 2.50s–5.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single static storyboard IMAGE for "Allex: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 09–12 from left to right; use subtle borders. This is an IMAGE, not a video.
+
+Panel 9: Career and public record 3. A conceptual site plan and calculator, marked as proposed through an editor overlay. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: The planned pump replacement was reported to benefit nine blocks and around 300 homes.
+
+Panel 10: Public office or leadership. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023.
+
+Panel 11: Career and public record 5. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He participated in a 2025 eCOSS subsidised cooking-oil implementation programme involving KPDN.
+
+Panel 12: Reported party biography. Clearly attributed party biography page with blank title space for an editor-added attribution. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He was listed as Melaka DAP secretary for 2024–2027.
+
+CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
+NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
 ```
 
-### Clip 03 — 5.00s to 7.50s: Gabungan
+### Storyboard batch 4 — Scenes 13–16
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 03 of "Allex: Pengenalan 60 Saat".
-FACT: Calon PH disahkan bagi kerusi ini pada 31 Oktober 2026.
-FACT TYPE: nomination; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: kad maklumat calon kosong ditunjukkan secara neutral, butiran gabungan akan dimasukkan oleh editor.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Calon PH.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): PH · N19.
-SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 5.00s–7.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single static storyboard IMAGE for "Allex: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 13–16 from left to right; use subtle borders. This is an IMAGE, not a video.
+
+Panel 13: Electoral history. Election archive folder, a clean results chart with numbers added only during editing. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He won Kesidang in 2018.
+
+Panel 14: Electoral history. Election archive folder, a clean results chart with numbers added only during editing. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He won Kesidang again in the 2021 state election.
+
+Panel 15: Electoral history. Election archive folder, a clean results chart with numbers added only during editing. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: His reported winning majority in 2021 was 10,237 votes.
+
+Panel 16: Career and public record 10. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: The block upgrades involved ministry funding and must not be attributed to him personally as completed works without confirmation.
+
+CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
+NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
 ```
 
-### Clip 04 — 7.50s to 10.00s: Latar utama
+### Storyboard batch 5 — Scenes 17–20
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 04 of "Allex: Pengenalan 60 Saat".
-FACT: Bidang sorotan yang didokumenkan: keusahawanan dan isu pengguna.
-FACT TYPE: editorial_summary; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Latar keusahawanan dan isu pengguna.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Latar: keusahawanan dan isu pengguna.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 7.50s–10.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single static storyboard IMAGE for "Allex: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 17–20 from left to right; use subtle borders. This is an IMAGE, not a video.
+
+Panel 17: Evidence checkpoint. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 1: In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds.
+
+Panel 18: Programme context. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 2: The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats.
+
+Panel 19: Outcome versus plan. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 3: The planned pump replacement was reported to benefit nine blocks and around 300 homes.
+
+Panel 20: Attribution check. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 4: He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023.
+
+CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
+NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
 ```
 
-### Optional single 10-second continuous prompt — Batch 1
+### Storyboard batch 6 — Scenes 21–24
 
 ```text
-Create a single seamless 10-second 9:16 animated editorial sequence for Allex, preserving 4 beats at 2.5 seconds each, in order:
-Beat 1: Nama dan identiti. wajah watak muncul sebagai pengenalan dokumentari; gerakan tangan kecil yang tenang. Narrator: "Kenali Allex .".
-Beat 2: Kawasan DUN. peta Melaka ilustrasi yang tepat dari sumber diserlah, titik kawasan ditambah oleh editor. Narrator: "Kerusi Kesidang.".
-Beat 3: Gabungan. kad maklumat calon kosong ditunjukkan secara neutral, butiran gabungan akan dimasukkan oleh editor. Narrator: "Calon PH.".
-Beat 4: Latar utama. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Latar keusahawanan dan isu pengguna.".
-Use one coherent visual style and the same locked master character in every beat. Do not represent simulated scenes as real campaign footage. Overlay verified facts and sources only in editing.
+Create a single static storyboard IMAGE for "Allex: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 21–24 from left to right; use subtle borders. This is an IMAGE, not a video.
+
+Panel 21: Record recap. Portrait beside four small blank verified-fact cards; editor inserts exact evidence. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: The preceding records describe housing improvements and consumer affairs; claims are attributed to their sources.
+
+Panel 22: Source transparency. A bibliography-style display of unprinted blank reference cards. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Use the published records in this file; distinguish roles, completed actions, allocations and claims.
+
+Panel 23: Election information. Calendar design with accurate date inserted by an editor. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026.
+
+Panel 24: AI disclosure. Neutral closing frame, the character silent and an editor-added disclosure. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: This character and voice are generated illustrations, not a genuine candidate appearance or speech.
+
+CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
+NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
 ```
 
-### Batch 2 — Storyboard scenes 05–08
+## All 24 standalone English video prompts
+
+### Video scene 01 — Candidate identity (0.0–2.5s)
 
 ```text
-Create a cinematic storyboard for "Allex: Pengenalan 60 Saat" as a SINGLE IMAGE arranged in 1x4 grid: four columns, one row. Each of the four equal panels is portrait 9:16; overall composite is 9:4. Put global scene numbers in small corners and thin dividers. EXACTLY four panels, no dialogue bubbles, simulated headlines, or inaccurate generated text.
-Panel 1 / Global Scene 05 — Garis masa rekod: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Illustrate ONLY this documented topic: Sorotan bermula daripada sejarah dan sumbangan terdahulu sebelum pencalonan 31 Oktober 2026.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 2 / Global Scene 06 — Rekod perwakilan: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Illustrate ONLY this documented topic: Penyandang ADUN Kesidang sebelum pembubaran DUN.. Camera three-quarter documentary framing. Environment anchors: galeri sejarah sivik editorial dengan kabinet kayu dan panel dokumen kosong, siling tinggi sederhana, lantai batu kelabu, cahaya kiri lembut. Keep bottom 20% clear for accurate human-edited captions.
-Panel 3 / Global Scene 07 — Naik taraf empat flat: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Pada Jun 2026 beliau mengumumkan kemudahan empat blok perumahan pangsa dinaik taraf melibatkan RM1 juta dana yang disalurkan KPKT.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 4 / Global Scene 08 — Pam Rumah Pangsa Taman Merdeka: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Dalam laporan sama, RM150,000 diperuntukkan mengganti sistem pam di Rumah Pangsa Taman Merdeka.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-STYLE CONSISTENCY: one unified neutral semi-realistic cinematic 3D editorial look, warm cream / slate / muted teal, photographic depth-of-field treatment. All panels are keyframe images; the actual videos are independently generated portrait 9:16 clips.
-CHARACTER IDENTITY LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-ENVIRONMENT CONSISTENCY: maintain the listed stable furniture, object placement and lighting within each set; changes in set are explicitly signaled by the panel descriptions. This is illustrative editorial art, not an archival record.
-EDITING: candidate full official name, party, DUN, source citations, numbers, and visible synthetic-media notice are added manually after generation.
+Create ONE separate 2.5-second vertical 9:16 video, scene 01 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Character stands in the neutral editorial studio; gentle camera push.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Meet Allex." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Allex Seah Shoo Chin, known here as Allex." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: identity. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-
-### Clip 05 — 10.00s to 12.50s: Garis masa rekod
+### Video scene 02 — Constituency (2.5–5.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 05 of "Allex: Pengenalan 60 Saat".
-FACT: Sorotan bermula daripada sejarah dan sumbangan terdahulu sebelum pencalonan 31 Oktober 2026.
-FACT TYPE: context; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Fakta sebelum penamaan 2026.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Rekod sebelum 31 Oktober 2026.
-SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 10.00s–12.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 02 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: A minimalist Melaka outline highlights the relevant constituency without generated labels.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "The constituency is Kesidang." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Allex contests N19 Kesidang in the 2026 Melaka state election." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: nomination. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 06 — 12.50s to 15.00s: Rekod perwakilan
+### Video scene 03 — Election affiliation (5.0–7.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 06 of "Allex: Pengenalan 60 Saat".
-FACT: Penyandang ADUN Kesidang sebelum pembubaran DUN.
-FACT TYPE: prior_yb; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: galeri sejarah sivik editorial dengan kabinet kayu dan panel dokumen kosong, siling tinggi sederhana, lantai batu kelabu, cahaya kiri lembut; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Pernah menjadi ADUN Kesidang.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Penyandang ADUN Kesidang sebelum pembubaran DUN..
-SOURCE: https://dapmalaysia.org/melaka-representatives/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 12.50s–15.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 03 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: An unbranded candidate information folder opens on a stone desk.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Listed under PH." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Allex is listed under PH for the seat." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: nomination. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 07 — 15.00s to 17.50s: Naik taraf empat flat
+### Video scene 04 — Professional background (7.5–10.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 07 of "Allex: Pengenalan 60 Saat".
-FACT: Pada Jun 2026 beliau mengumumkan kemudahan empat blok perumahan pangsa dinaik taraf melibatkan RM1 juta dana yang disalurkan KPKT.
-FACT TYPE: programme_result; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Empat kawasan rumah pangsa dinaik taraf.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Kesidang: naik taraf empat rumah pangsa.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 15.00s–17.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 04 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: A neutral still-life of work-related objects on a tidy desk, without claiming an authentic historical event.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Background: housing improvements." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Documented area of public work: housing improvements and consumer affairs." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: context. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 08 — 17.50s to 20.00s: Pam Rumah Pangsa Taman Merdeka
+### Video scene 05 — Historical context (10.0–12.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 08 of "Allex: Pengenalan 60 Saat".
-FACT: Dalam laporan sama, RM150,000 diperuntukkan mengganti sistem pam di Rumah Pangsa Taman Merdeka.
-FACT TYPE: allocation; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "RM150 ribu untuk pam air.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Peruntukan pam air: RM150,000.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 17.50s–20.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 05 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: A blank archival timeline with dated pins added in post-production.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Before the 2026 nomination." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "The video focuses on public records before nominations closed on 31 October 2026." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: context. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Optional single 10-second continuous prompt — Batch 2
+### Video scene 06 — Past elected service (12.5–15.0s)
 
 ```text
-Create a single seamless 10-second 9:16 animated editorial sequence for Allex, preserving 4 beats at 2.5 seconds each, in order:
-Beat 1: Garis masa rekod. fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Narrator: "Fakta sebelum penamaan 2026.".
-Beat 2: Rekod perwakilan. fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Narrator: "Pernah menjadi ADUN Kesidang.".
-Beat 3: Naik taraf empat flat. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Empat kawasan rumah pangsa dinaik taraf.".
-Beat 4: Pam Rumah Pangsa Taman Merdeka. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "RM150 ribu untuk pam air.".
-Use one coherent visual style and the same locked master character in every beat. Do not represent simulated scenes as real campaign footage. Overlay verified facts and sources only in editing.
+Create ONE separate 2.5-second vertical 9:16 video, scene 06 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: A clearly fictional civic assembly illustration; no copied real chamber footage.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Previous elected-service record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Incumbent Kesidang assemblyperson before dissolution" Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: prior_yb. SOURCE: https://dapmalaysia.org/melaka-representatives/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Batch 3 — Storyboard scenes 09–12
+### Video scene 07 — Reported programme or state outcome (15.0–17.5s)
 
 ```text
-Create a cinematic storyboard for "Allex: Pengenalan 60 Saat" as a SINGLE IMAGE arranged in 1x4 grid: four columns, one row. Each of the four equal panels is portrait 9:16; overall composite is 9:4. Put global scene numbers in small corners and thin dividers. EXACTLY four panels, no dialogue bubbles, simulated headlines, or inaccurate generated text.
-Panel 1 / Global Scene 09 — Penerima manfaat pam: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Dilaporkan sembilan blok dan kira-kira 300 rumah memperoleh manfaat daripada penggantian pam yang disasarkan.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 2 / Global Scene 10 — Exco usahawan: garis masa sivik dan kad jawatan tanpa lambang rasmi, fakta dimasukkan oleh editor. Illustrate ONLY this documented topic: Pernah menyandang Exco Pembangunan Usahawan, Koperasi dan Hal Ehwal Pengguna Melaka bermula 2023.. Camera three-quarter documentary framing. Environment anchors: studio perancangan bandar dengan pelan berwarna kosong pada papan kiri, model bangunan berskala di atas meja, rak kayu di kanan, pencahayaan lembut. Keep bottom 20% clear for accurate human-edited captions.
-Panel 3 / Global Scene 11 — Program eCOSS: montaj simbolik ruang perkhidmatan masyarakat dan laporan, tiada lakonan seolah-olah peristiwa benar dirakam. Illustrate ONLY this documented topic: Beliau menyertai program pelaksanaan eCOSS minyak masak bersubsidi di Melaka pada 2025; pelaksanaan melibatkan KPDN.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 4 / Global Scene 12 — Setiausaha DAP Melaka: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Direkod sebagai Setiausaha DAP Melaka bagi jawatankuasa negeri 2024–2027.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-STYLE CONSISTENCY: one unified neutral semi-realistic cinematic 3D editorial look, warm cream / slate / muted teal, photographic depth-of-field treatment. All panels are keyframe images; the actual videos are independently generated portrait 9:16 clips.
-CHARACTER IDENTITY LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-ENVIRONMENT CONSISTENCY: maintain the listed stable furniture, object placement and lighting within each set; changes in set are explicitly signaled by the panel descriptions. This is illustrative editorial art, not an archival record.
-EDITING: candidate full official name, party, DUN, source citations, numbers, and visible synthetic-media notice are added manually after generation.
+Create ONE separate 2.5-second vertical 9:16 video, scene 07 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Reported programme activity." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: programme_result. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-
-### Clip 09 — 20.00s to 22.50s: Penerima manfaat pam
+### Video scene 08 — Announced allocation (17.5–20.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 09 of "Allex: Pengenalan 60 Saat".
-FACT: Dilaporkan sembilan blok dan kira-kira 300 rumah memperoleh manfaat daripada penggantian pam yang disasarkan.
-FACT TYPE: planned_benefit; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Tiga ratus rumah disasar.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Sasaran manfaat: 300 kediaman.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 20.00s–22.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 08 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: A conceptual site plan and calculator, marked as proposed through an editor overlay.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "An announced allocation." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: allocation. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 10 — 22.50s to 25.00s: Exco usahawan
+### Video scene 09 — Career and public record 3 (20.0–22.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 10 of "Allex: Pengenalan 60 Saat".
-FACT: Pernah menyandang Exco Pembangunan Usahawan, Koperasi dan Hal Ehwal Pengguna Melaka bermula 2023.
-FACT TYPE: public_role; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: garis masa sivik dan kad jawatan tanpa lambang rasmi, fakta dimasukkan oleh editor.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio perancangan bandar dengan pelan berwarna kosong pada papan kiri, model bangunan berskala di atas meja, rak kayu di kanan, pencahayaan lembut; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Pernah urus portfolio usahawan.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Portfolio Exco usahawan / pengguna.
-SOURCE: https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 22.50s–25.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 09 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: A conceptual site plan and calculator, marked as proposed through an editor overlay.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "A documented public record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "The planned pump replacement was reported to benefit nine blocks and around 300 homes." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: planned_benefit. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 11 — 25.00s to 27.50s: Program eCOSS
+### Video scene 10 — Public office or leadership (22.5–25.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 11 of "Allex: Pengenalan 60 Saat".
-FACT: Beliau menyertai program pelaksanaan eCOSS minyak masak bersubsidi di Melaka pada 2025; pelaksanaan melibatkan KPDN.
-FACT TYPE: documented_participation; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: montaj simbolik ruang perkhidmatan masyarakat dan laporan, tiada lakonan seolah-olah peristiwa benar dirakam.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Terlibat penerangan aplikasi eCOSS.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Program eCOSS (2025).
-SOURCE: https://imagesapps.bernama.com/images/1403887/allex-seah-shoo-chin
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 25.00s–27.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 10 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "A documented public record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: public_role. SOURCE: https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 12 — 27.50s to 30.00s: Setiausaha DAP Melaka
+### Video scene 11 — Career and public record 5 (25.0–27.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 12 of "Allex: Pengenalan 60 Saat".
-FACT: Direkod sebagai Setiausaha DAP Melaka bagi jawatankuasa negeri 2024–2027.
-FACT TYPE: party_role; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Setiausaha parti peringkat negeri.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Setiausaha DAP Melaka.
-SOURCE: https://dapmalaysia.org/melaka-representatives/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 27.50s–30.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 11 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "A documented public record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "He participated in a 2025 eCOSS subsidised cooking-oil implementation programme involving KPDN." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: documented_participation. SOURCE: https://imagesapps.bernama.com/images/1403887/allex-seah-shoo-chin
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Optional single 10-second continuous prompt — Batch 3
+### Video scene 12 — Reported party biography (27.5–30.0s)
 
 ```text
-Create a single seamless 10-second 9:16 animated editorial sequence for Allex, preserving 4 beats at 2.5 seconds each, in order:
-Beat 1: Penerima manfaat pam. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Tiga ratus rumah disasar.".
-Beat 2: Exco usahawan. garis masa sivik dan kad jawatan tanpa lambang rasmi, fakta dimasukkan oleh editor. Narrator: "Pernah urus portfolio usahawan.".
-Beat 3: Program eCOSS. montaj simbolik ruang perkhidmatan masyarakat dan laporan, tiada lakonan seolah-olah peristiwa benar dirakam. Narrator: "Terlibat penerangan aplikasi eCOSS.".
-Beat 4: Setiausaha DAP Melaka. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Setiausaha parti peringkat negeri.".
-Use one coherent visual style and the same locked master character in every beat. Do not represent simulated scenes as real campaign footage. Overlay verified facts and sources only in editing.
+Create ONE separate 2.5-second vertical 9:16 video, scene 12 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Clearly attributed party biography page with blank title space for an editor-added attribution.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "According to the party profile." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "He was listed as Melaka DAP secretary for 2024–2027." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: party_role. SOURCE: https://dapmalaysia.org/melaka-representatives/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Batch 4 — Storyboard scenes 13–16
+### Video scene 13 — Electoral history (30.0–32.5s)
 
 ```text
-Create a cinematic storyboard for "Allex: Pengenalan 60 Saat" as a SINGLE IMAGE arranged in 1x4 grid: four columns, one row. Each of the four equal panels is portrait 9:16; overall composite is 9:4. Put global scene numbers in small corners and thin dividers. EXACTLY four panels, no dialogue bubbles, simulated headlines, or inaccurate generated text.
-Panel 1 / Global Scene 13 — Kesidang sejak 2018: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Memenangi Kesidang pada PRU14/PRN negeri 2018. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 2 / Global Scene 14 — Pertahan 2021: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Menang Kesidang sekali lagi dalam PRN 2021. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 3 / Global Scene 15 — Majoriti lalu: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Majoriti 10,237 undi dalam PRN 2021. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 4 / Global Scene 16 — Peranan DAP: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Setiausaha DAP negeri Melaka bagi 2024–2027. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-STYLE CONSISTENCY: one unified neutral semi-realistic cinematic 3D editorial look, warm cream / slate / muted teal, photographic depth-of-field treatment. All panels are keyframe images; the actual videos are independently generated portrait 9:16 clips.
-CHARACTER IDENTITY LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-ENVIRONMENT CONSISTENCY: maintain the listed stable furniture, object placement and lighting within each set; changes in set are explicitly signaled by the panel descriptions. This is illustrative editorial art, not an archival record.
-EDITING: candidate full official name, party, DUN, source citations, numbers, and visible synthetic-media notice are added manually after generation.
+Create ONE separate 2.5-second vertical 9:16 video, scene 13 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Election archive folder, a clean results chart with numbers added only during editing.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Past election record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "He won Kesidang in 2018." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: election_history. SOURCE: https://election.bernama.com/prn/melaka/2021/keputusan/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-
-### Clip 13 — 30.00s to 32.50s: Kesidang sejak 2018
+### Video scene 14 — Electoral history (32.5–35.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 13 of "Allex: Pengenalan 60 Saat".
-FACT: Memenangi Kesidang pada PRU14/PRN negeri 2018
-FACT TYPE: election_history; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Kesidang sejak 2018.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Memenangi Kesidang pada PRU14/PRN negeri 2018.
-SOURCE: https://election.bernama.com/prn/melaka/2021/keputusan/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 30.00s–32.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 14 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Election archive folder, a clean results chart with numbers added only during editing.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Past election record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "He won Kesidang again in the 2021 state election." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: election_history. SOURCE: https://election.bernama.com/prn/melaka/2021/keputusan/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 14 — 32.50s to 35.00s: Pertahan 2021
+### Video scene 15 — Electoral history (35.0–37.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 14 of "Allex: Pengenalan 60 Saat".
-FACT: Menang Kesidang sekali lagi dalam PRN 2021
-FACT TYPE: election_history; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Pertahan 2021.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Menang Kesidang sekali lagi dalam PRN 2021.
-SOURCE: https://election.bernama.com/prn/melaka/2021/keputusan/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 32.50s–35.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 15 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Election archive folder, a clean results chart with numbers added only during editing.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Past election record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "His reported winning majority in 2021 was 10,237 votes." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: election_result. SOURCE: https://election.bernama.com/prn/melaka/2021/keputusan/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 15 — 35.00s to 37.50s: Majoriti lalu
+### Video scene 16 — Career and public record 10 (37.5–40.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 15 of "Allex: Pengenalan 60 Saat".
-FACT: Majoriti 10,237 undi dalam PRN 2021
-FACT TYPE: election_result; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Majoriti lalu.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Majoriti 10,237 undi dalam PRN 2021.
-SOURCE: https://election.bernama.com/prn/melaka/2021/keputusan/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 35.00s–37.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 16 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "A documented public record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "The block upgrades involved ministry funding and must not be attributed to him personally as completed works without confirmation." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: career_record. SOURCE: https://dapmalaysia.org/en/melaka-representatives/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 16 — 37.50s to 40.00s: Peranan DAP
+### Video scene 17 — Evidence checkpoint (40.0–42.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 16 of "Allex: Pengenalan 60 Saat".
-FACT: Setiausaha DAP negeri Melaka bagi 2024–2027
-FACT TYPE: career_record; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Peranan DAP.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Setiausaha DAP negeri Melaka bagi 2024–2027.
-SOURCE: https://dapmalaysia.org/en/melaka-representatives/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 37.50s–40.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 17 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Check the source and context." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Source context for record 1: In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: source_context. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Optional single 10-second continuous prompt — Batch 4
+### Video scene 18 — Programme context (42.5–45.0s)
 
 ```text
-Create a single seamless 10-second 9:16 animated editorial sequence for Allex, preserving 4 beats at 2.5 seconds each, in order:
-Beat 1: Kesidang sejak 2018. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Kesidang sejak 2018.".
-Beat 2: Pertahan 2021. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Pertahan 2021.".
-Beat 3: Majoriti lalu. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Majoriti lalu.".
-Beat 4: Peranan DAP. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Peranan DAP.".
-Use one coherent visual style and the same locked master character in every beat. Do not represent simulated scenes as real campaign footage. Overlay verified facts and sources only in editing.
+Create ONE separate 2.5-second vertical 9:16 video, scene 18 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Check the source and context." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Source context for record 2: The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: source_context. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Batch 5 — Storyboard scenes 17–20
+### Video scene 19 — Outcome versus plan (45.0–47.5s)
 
 ```text
-Create a cinematic storyboard for "Allex: Pengenalan 60 Saat" as a SINGLE IMAGE arranged in 1x4 grid: four columns, one row. Each of the four equal panels is portrait 9:16; overall composite is 9:4. Put global scene numbers in small corners and thin dividers. EXACTLY four panels, no dialogue bubbles, simulated headlines, or inaccurate generated text.
-Panel 1 / Global Scene 17 — Naik taraf empat flat — Rujukan rekod: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Illustrate ONLY this documented topic: Pada Jun 2026 beliau mengumumkan kemudahan empat blok perumahan pangsa dinaik taraf melibatkan RM1 juta dana yang disalurkan KPKT.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 2 / Global Scene 18 — Pam Rumah Pangsa Taman Merdeka — Rujukan rekod: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Illustrate ONLY this documented topic: Dalam laporan sama, RM150,000 diperuntukkan mengganti sistem pam di Rumah Pangsa Taman Merdeka.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 3 / Global Scene 19 — Penerima manfaat pam — Rujukan rekod: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Illustrate ONLY this documented topic: Dilaporkan sembilan blok dan kira-kira 300 rumah memperoleh manfaat daripada penggantian pam yang disasarkan.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 4 / Global Scene 20 — Exco usahawan — Rujukan rekod: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Illustrate ONLY this documented topic: Pernah menyandang Exco Pembangunan Usahawan, Koperasi dan Hal Ehwal Pengguna Melaka bermula 2023.. Camera three-quarter documentary framing. Environment anchors: studio perancangan bandar dengan pelan berwarna kosong pada papan kiri, model bangunan berskala di atas meja, rak kayu di kanan, pencahayaan lembut. Keep bottom 20% clear for accurate human-edited captions.
-STYLE CONSISTENCY: one unified neutral semi-realistic cinematic 3D editorial look, warm cream / slate / muted teal, photographic depth-of-field treatment. All panels are keyframe images; the actual videos are independently generated portrait 9:16 clips.
-CHARACTER IDENTITY LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-ENVIRONMENT CONSISTENCY: maintain the listed stable furniture, object placement and lighting within each set; changes in set are explicitly signaled by the panel descriptions. This is illustrative editorial art, not an archival record.
-EDITING: candidate full official name, party, DUN, source citations, numbers, and visible synthetic-media notice are added manually after generation.
+Create ONE separate 2.5-second vertical 9:16 video, scene 19 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Check the source and context." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Source context for record 3: The planned pump replacement was reported to benefit nine blocks and around 300 homes." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: source_context. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-
-### Clip 17 — 40.00s to 42.50s: Naik taraf empat flat — Rujukan rekod
+### Video scene 20 — Attribution check (47.5–50.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 17 of "Allex: Pengenalan 60 Saat".
-FACT: Pada Jun 2026 beliau mengumumkan kemudahan empat blok perumahan pangsa dinaik taraf melibatkan RM1 juta dana yang disalurkan KPKT.
-FACT TYPE: programme_result; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Semak status bukti ini.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Kesidang: naik taraf empat rumah pangsa · pelaksanaan melibatkan agensi.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 40.00s–42.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 20 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Check the source and context." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Source context for record 4: He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: source_context. SOURCE: https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 18 — 42.50s to 45.00s: Pam Rumah Pangsa Taman Merdeka — Rujukan rekod
+### Video scene 21 — Record recap (50.0–52.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 18 of "Allex: Pengenalan 60 Saat".
-FACT: Dalam laporan sama, RM150,000 diperuntukkan mengganti sistem pam di Rumah Pangsa Taman Merdeka.
-FACT TYPE: allocation; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Semak status bukti ini.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Peruntukan pam air: RM150,000 · peruntukan, bukan projek siap.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 42.50s–45.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 21 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Portrait beside four small blank verified-fact cards; editor inserts exact evidence.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Review the documented record." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "The preceding records describe housing improvements and consumer affairs; claims are attributed to their sources." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: summary. SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 19 — 45.00s to 47.50s: Penerima manfaat pam — Rujukan rekod
+### Video scene 22 — Source transparency (52.5–55.0s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 19 of "Allex: Pengenalan 60 Saat".
-FACT: Dilaporkan sembilan blok dan kira-kira 300 rumah memperoleh manfaat daripada penggantian pam yang disasarkan.
-FACT TYPE: planned_benefit; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Semak status bukti ini.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Sasaran manfaat: 300 kediaman · rekod awam daripada sumber dinyatakan.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 45.00s–47.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 22 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: A bibliography-style display of unprinted blank reference cards.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Read each source directly." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Use the published records in this file; distinguish roles, completed actions, allocations and claims." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: methodology. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Clip 20 — 47.50s to 50.00s: Exco usahawan — Rujukan rekod
+### Video scene 23 — Election information (55.0–57.5s)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 20 of "Allex: Pengenalan 60 Saat".
-FACT: Pernah menyandang Exco Pembangunan Usahawan, Koperasi dan Hal Ehwal Pengguna Melaka bermula 2023.
-FACT TYPE: public_role; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio perancangan bandar dengan pelan berwarna kosong pada papan kiri, model bangunan berskala di atas meja, rak kayu di kanan, pencahayaan lembut; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Semak status bukti ini.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Portfolio Exco usahawan / pengguna · rekod awam daripada sumber dinyatakan.
-SOURCE: https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 47.50s–50.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create ONE separate 2.5-second vertical 9:16 video, scene 23 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Calendar design with accurate date inserted by an editor.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Polling: November fourteenth." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: election_info. SOURCE: https://www.spr.gov.my/km-prudunmelaka16/
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Optional single 10-second continuous prompt — Batch 5
+### Video scene 24 — AI disclosure (57.5–60.0s)
 
 ```text
-Create a single seamless 10-second 9:16 animated editorial sequence for Allex, preserving 4 beats at 2.5 seconds each, in order:
-Beat 1: Naik taraf empat flat — Rujukan rekod. fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Narrator: "Semak status bukti ini.".
-Beat 2: Pam Rumah Pangsa Taman Merdeka — Rujukan rekod. fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Narrator: "Semak status bukti ini.".
-Beat 3: Penerima manfaat pam — Rujukan rekod. fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Narrator: "Semak status bukti ini.".
-Beat 4: Exco usahawan — Rujukan rekod. fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Narrator: "Semak status bukti ini.".
-Use one coherent visual style and the same locked master character in every beat. Do not represent simulated scenes as real campaign footage. Overlay verified facts and sources only in editing.
+Create ONE separate 2.5-second vertical 9:16 video, scene 24 of "Allex: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
+SCENE ACTION: Neutral closing frame, the character silent and an editor-added disclosure.
+CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
+CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
+NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "AI character and narration." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
+EDITOR CAPTION: "This character and voice are generated illustrations, not a genuine candidate appearance or speech." Caption and source URL must be inserted manually, not generated into the artwork.
+EVIDENCE CATEGORY: disclosure. SOURCE: Editorial disclosure or context; no claim of personal achievement.
+SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
 ```
 
-### Batch 6 — Storyboard scenes 21–24
+## Six optional continuous English video prompts
+
+### Optional continuous sequence 1 (10 seconds; scenes 1–4)
 
 ```text
-Create a cinematic storyboard for "Allex: Pengenalan 60 Saat" as a SINGLE IMAGE arranged in 1x4 grid: four columns, one row. Each of the four equal panels is portrait 9:16; overall composite is 9:4. Put global scene numbers in small corners and thin dividers. EXACTLY four panels, no dialogue bubbles, simulated headlines, or inaccurate generated text.
-Panel 1 / Global Scene 21 — Sorotan paling penting: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: Pada Jun 2026 beliau mengumumkan kemudahan empat blok perumahan pangsa dinaik taraf melibatkan RM1 juta dana yang disalurkan KPKT.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 2 / Global Scene 22 — Kaedah menilai rekod: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Illustrate ONLY this documented topic: Pastikan beza fakta bebas, pengumuman, biodata parti dan janji belum terlaksana.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 3 / Global Scene 23 — Maklumat mengundi: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Illustrate ONLY this documented topic: SPR menetapkan 14 November 2026 sebagai hari mengundi PRN Melaka ke-16.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-Panel 4 / Global Scene 24 — Penutup berlabel AI: watak kekal diam dalam studio, ruang lapang untuk label rekaan AI pada akhir suntingan. Illustrate ONLY this documented topic: Video ini ialah ilustrasi dan narasi AI, bukan suara, kenyataan, atau rakaman sebenar calon.. Camera three-quarter documentary framing. Environment anchors: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan. Keep bottom 20% clear for accurate human-edited captions.
-STYLE CONSISTENCY: one unified neutral semi-realistic cinematic 3D editorial look, warm cream / slate / muted teal, photographic depth-of-field treatment. All panels are keyframe images; the actual videos are independently generated portrait 9:16 clips.
-CHARACTER IDENTITY LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-ENVIRONMENT CONSISTENCY: maintain the listed stable furniture, object placement and lighting within each set; changes in set are explicitly signaled by the panel descriptions. This is illustrative editorial art, not an archival record.
-EDITING: candidate full official name, party, DUN, source citations, numbers, and visible synthetic-media notice are added manually after generation.
+Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
+Scene 1: Character stands in the neutral editorial studio; gentle camera push. Voiceover (English): "Meet Allex."
+Scene 2: A minimalist Melaka outline highlights the relevant constituency without generated labels. Voiceover (English): "The constituency is Kesidang."
+Scene 3: An unbranded candidate information folder opens on a stone desk. Voiceover (English): "Listed under PH."
+Scene 4: A neutral still-life of work-related objects on a tidy desk, without claiming an authentic historical event. Voiceover (English): "Background: housing improvements."
+Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
 ```
 
-
-### Clip 21 — 50.00s to 52.50s: Sorotan paling penting
+### Optional continuous sequence 2 (10 seconds; scenes 5–8)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 21 of "Allex: Pengenalan 60 Saat".
-FACT: Pada Jun 2026 beliau mengumumkan kemudahan empat blok perumahan pangsa dinaik taraf melibatkan RM1 juta dana yang disalurkan KPKT.
-FACT TYPE: programme_result; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Rekod utama Allex .". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Kesidang: naik taraf empat rumah pangsa.
-SOURCE: https://www.bernama.com/bm/am/news.php?id=2565756
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 50.00s–52.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
+Scene 1: A blank archival timeline with dated pins added in post-production. Voiceover (English): "Before the 2026 nomination."
+Scene 2: A clearly fictional civic assembly illustration; no copied real chamber footage. Voiceover (English): "Previous elected-service record."
+Scene 3: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "Reported programme activity."
+Scene 4: A conceptual site plan and calculator, marked as proposed through an editor overlay. Voiceover (English): "An announced allocation."
+Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
 ```
 
-### Clip 22 — 52.50s to 55.00s: Kaedah menilai rekod
+### Optional continuous sequence 3 (10 seconds; scenes 9–12)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 22 of "Allex: Pengenalan 60 Saat".
-FACT: Pastikan beza fakta bebas, pengumuman, biodata parti dan janji belum terlaksana.
-FACT TYPE: methodology; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Semak sumber asal dahulu.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Semak sumber; beza hasil, rancangan dan dakwaan.
-SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 52.50s–55.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
+Scene 1: A conceptual site plan and calculator, marked as proposed through an editor overlay. Voiceover (English): "A documented public record."
+Scene 2: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "A documented public record."
+Scene 3: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "A documented public record."
+Scene 4: Clearly attributed party biography page with blank title space for an editor-added attribution. Voiceover (English): "According to the party profile."
+Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
 ```
 
-### Clip 23 — 55.00s to 57.50s: Maklumat mengundi
+### Optional continuous sequence 4 (10 seconds; scenes 13–16)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 23 of "Allex: Pengenalan 60 Saat".
-FACT: SPR menetapkan 14 November 2026 sebagai hari mengundi PRN Melaka ke-16.
-FACT TYPE: election_info; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Mengundi empat belas November.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Hari mengundi: 14 November 2026.
-SOURCE: https://web26.bernama.com/en/general/news.php?id=2628149
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 55.00s–57.50s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
+Scene 1: Election archive folder, a clean results chart with numbers added only during editing. Voiceover (English): "Past election record."
+Scene 2: Election archive folder, a clean results chart with numbers added only during editing. Voiceover (English): "Past election record."
+Scene 3: Election archive folder, a clean results chart with numbers added only during editing. Voiceover (English): "Past election record."
+Scene 4: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "A documented public record."
+Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
 ```
 
-### Clip 24 — 57.50s to 60.00s: Penutup berlabel AI
+### Optional continuous sequence 5 (10 seconds; scenes 17–20)
 
 ```text
-Create ONE standalone 2.50-second vertical 9:16 cinematic editorial video for scene 24 of "Allex: Pengenalan 60 Saat".
-FACT: Video ini ialah ilustrasi dan narasi AI, bukan suara, kenyataan, atau rakaman sebenar calon.
-FACT TYPE: disclosure; this category must not be overstated. Organisational results are not personal achievements; allocated/planned work is not completed work; candidate claims must be attributed.
-ACTION: watak kekal diam dalam studio, ruang lapang untuk label rekaan AI pada akhir suntingan.
-CAMERA: single steady 15-centimeter dolly or very slow push-in, no cuts within 2.5 seconds.
-ENVIRONMENT LOCK: studio editorial krim matte, tingkap frosted kiri, rak kayu rendah kanan, lantai kelabu batu, bayang lembut menghala ke kanan; preserve all anchor positions and soft left lighting.
-CHARACTER LOCK: Subject Allex, single recurring original editorial 3D avatar. LOCK: lelaki dewasa awal 40-an; wajah bujur lebar, dagu sedikit runcing, hidung sederhana, mata gelap; kulit cerah sawo matang; rambut hitam tebal pendek kemas; muka bercukur bersih; cermin mata berbingkai gelap sederhana sebagai pilihan ilustrasi yang konsisten; tubuh sederhana; blazer biru arang, kemeja putih, seluar hitam, kasut gelap; ekspresi fokus, telapak tangan terbuka kecil. Reproduce exactly the same eye spacing, brow arch, nose bridge, cheek volume, chin contour, hair or hijab folds, spectacles, body proportions, clothing seams, fabric and shoes in every scene. This is a *stylized creative approximation*, not a verified photographic likeness.
-DIALOGUE: Third-person original neutral Bahasa Melayu narrator, NOT the politician's voice: "Video ini ilustrasi AI.". Candidate remains silent with no lip-sync. If too much speech for 2.5s, let spoken line bridge the next clip without increasing playback speed.
-EDITOR OVERLAY (add manually, do not ask generator to make letters): Visual dan suara sintetik AI; bukan rakaman atau kenyataan sebenar calon..
-SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-STYLE: polished neutral 3D editorial illustration, cinematic focus, subdued cream/slate/teal tones, consistent clothing and face, no false archive recreation. 24fps, stable exposure.
-NEGATIVE: fake election victory, fictional candidate quotations, fake logos, campaigning, opposition attacks, unaudited claims shown as established facts, facial drift, changing spectacles/head coverings, duplicate anatomy, bad hands, generated captions.
-EDIT: place this clip at 57.50s–60.00s on the 60s timeline; opening and closing must carry the visible AI disclosure.
+Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
+Scene 1: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Check the source and context."
+Scene 2: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Check the source and context."
+Scene 3: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Check the source and context."
+Scene 4: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Check the source and context."
+Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
 ```
 
-### Optional single 10-second continuous prompt — Batch 6
+### Optional continuous sequence 6 (10 seconds; scenes 21–24)
 
 ```text
-Create a single seamless 10-second 9:16 animated editorial sequence for Allex, preserving 4 beats at 2.5 seconds each, in order:
-Beat 1: Sorotan paling penting. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Rekod utama Allex .".
-Beat 2: Kaedah menilai rekod. fail penyelidikan dan dokumen kosong dibuka dengan kaca pembesar ilustrasi, tanpa memalsukan bukti. Narrator: "Semak sumber asal dahulu.".
-Beat 3: Maklumat mengundi. watak memperkenalkan satu kad fakta yang relevan dengan topik, menggunakan gestur perlahan dan objek ilustrasi yang jelas. Narrator: "Mengundi empat belas November.".
-Beat 4: Penutup berlabel AI. watak kekal diam dalam studio, ruang lapang untuk label rekaan AI pada akhir suntingan. Narrator: "Video ini ilustrasi AI.".
-Use one coherent visual style and the same locked master character in every beat. Do not represent simulated scenes as real campaign footage. Overlay verified facts and sources only in editing.
+Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
+Scene 1: Portrait beside four small blank verified-fact cards; editor inserts exact evidence. Voiceover (English): "Review the documented record."
+Scene 2: A bibliography-style display of unprinted blank reference cards. Voiceover (English): "Read each source directly."
+Scene 3: Calendar design with accurate date inserted by an editor. Voiceover (English): "Polling: November fourteenth."
+Scene 4: Neutral closing frame, the character silent and an editor-added disclosure. Voiceover (English): "AI character and narration."
+Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
 ```
