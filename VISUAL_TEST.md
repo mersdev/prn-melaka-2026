@@ -1,7 +1,15 @@
-# Two-run no-image-reference consistency assessment
+# Reproducibility and Google Flow acceptance procedure
 
-For every candidate, generate **two independent images** by using the same Prompt A twice in separate generations; do not upload a candidate photograph or pass the first result into the second call. Check 10 anchors: age impression, head/face shape, eye and eyebrow geometry, hairstyle/hijab, glasses, facial hair, skin treatment, outfit, body proportions and accessories. Score each **match**, **variation**, or **mismatch**.
+## No-reference A/B image test
 
-The initial two-sheet visual pilot, made without uploaded photo references, showed nontrivial drift: changing headwear, hijab colours, glasses, or clothing on several characters. These pilot collages are **not valid proof** of identical identities, and include unverified AI-rendered party graphics. Do not reuse the collage text or political achievements as fact. Its images must be treated only as experimental AI illustrations.
+Generate Portrait A from candidate Prompt A in a fresh image-only session. In a different fresh session with no prior images, upload no photograph, paste the exact same Prompt A and generate Portrait B. Score face outline, eye distance, brows, nose, glasses, hair/hijab, facial hair, complexion, body shape, outfit and accessories. A shared-conversation or split-screen illustration is **not** a controlled A/B trial.
 
-**Acceptance gate:** consistent character appearance is `NOT VALIDATED` until the two per-candidate standalone portraits have been generated using that candidate's precise English Prompt A and passed manual inspection. The prompts alone do not satisfy this gate. A stable master image, if later reused as an image input, greatly improves production continuity but is no longer a reference-free test.
+Adly pilot: consistent charcoal suit, striped tie, glasses and beard; variations in facial geometry and hairstyle. Status: PARTIAL — **not** independently validated.
+
+## Two-clip video acceptance
+
+Render consecutive Scenes 01 and 02 separately through Google Flow. Compare face, body, clothing, camera, lighting, storyboard continuity, narrator and subtitle quality. This cannot be marked complete until actual clips are rendered and inspected. No clips have yet been produced in this audit.
+
+## Final editorial checklist
+
+Confirm candidate and seat, independently verify all source facts, distinguish programme results from personal performance, keep dialogue neutral and third-person, check subtitles readable at 2.5 seconds, confirm all 24 scenes add to 60 seconds, and display an AI-generated disclosure at opening and closing.
