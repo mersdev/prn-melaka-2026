@@ -1,12 +1,14 @@
-# Adly — acceptance audit (3 November 2026)
+# Adly — 10-Second Pair QA
 
-- **English-only prompt structure:** PASS (24 scene prompts, six storyboard image prompts, six optional 10-second sequences).
-- **Narration length:** PASS by whitespace count (98 words total; longest scene 6 words). Natural spoken timing remains UNTESTED.
-- **Fact check:** PASS for the cited election, Parliament, state office and MINDEF programme claims; national outcomes attributed to institutions. Editorial recheck still required before publication.
-- **Portrait A/B:** PARTIAL concept resemblance only; no guaranteed independent-session textual reproducibility. Generated example exhibits hairstyle and facial geometry variation.
-- **Storyboard-to-video:** NOT RUN; no Google Flow footage generated or inspected. Video visual continuity gate is open.
-- **Publication:** HOLD until all portrait, clip, caption and audio quality gates pass.
+- [x] Six 1×4 storyboard IMAGE prompts (4 vertical panels each) generated in `PROMPT.md`.
+- [x] Six one-to-one 10-second portrait VIDEO prompts (four 2.5-second scenes each) generated in `PROMPT.md`.
+- [x] Character lock embedded in every paired prompt; original family-film 3D style requested.
+- [x] English generation instructions, narrator cues and source notes.
+- [x] External real-photo page recorded: https://www.parlimen.gov.my/profile-ahli.html?id=4174&uweb=dr
+- [ ] Actual reference photo compared by a human to final generated master face.
+- [ ] A/B image consistency assessed in two separate no-reference generation contexts.
+- [ ] Google Flow video pair rendered and checked for face drift, outfit and setting continuity, narrational timing and subtitle legibility.
+- [ ] Every biographical claim independently reverified before release.
+- [ ] AI disclosure placed visibly in edited video.
 
-## Recommended actual two-clip test
-
-Generate scenes 01 and 02 in Google Flow, each with the same text-only face/body lock. Visually compare any appearing person, scene exposure, outfit and movement. Use a new original narrator and editor-created factual subtitles. Repeat in a second fresh generation context. Do not claim success based on prompt-only inspection.
+**Reference reliability:** Observed official portrait. If not fully visually inspected, do not claim an authentic likeness. No images from external publishers were downloaded or redistributed into this repository.

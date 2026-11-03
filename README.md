@@ -1,17 +1,11 @@
-# PRN Melaka 2026 — English Candidate Introduction Production Files
+# PRN Melaka 2026 — Candidate 3D Introduction Studio
 
-All **14 candidate folders** include `SKILL.md`, `PROMPT.md` and `QA.md`. Each candidate has a 60-second neutral English explainer with 24 × 2.5-second scenes, six 1×4 portrait storyboards, 24 individual video prompts, six optional 10-second continuous prompts and a detailed text-only master character description.
+**Updated 3 November 2026 — Option C.** Fourteen independently packaged editorial candidate introductions. Each candidate folder contains its own **SKILL.md**, **PROMPT.md**, **PHOTO_REFERENCE.md**, and **QA.md**.
 
-## Start here
+**New locked output:** One 60-second video per candidate = **6 x (1 storyboard image, 4 portrait panels → 1 seamless 10-second portrait video)**. All prompts are in English. Each person has one detailed text-only master character prompt in an original **Disney/Pixar-inspired 3D family-film aesthetic**. The workflow does not require uploading any portrait.
 
-- [14 candidate folders and links](CANDIDATES.md)
-- [Production acceptance audit](ACCEPTANCE_AUDIT.md)
-- [Master 336-scene English shot list](MASTER_SHOTLIST.csv)
-- [Character and video consistency protocol](VISUAL_TEST.md)
-- [Audited Adly reference implementation](candidates/06_adly/PROMPT.md)
+**What to open:** [Candidate index](CANDIDATES.md), [Real-photo reference gallery links](PHOTO_REFERENCES.md), [Adly sample](candidates/06_adly/PROMPT.md), [Character consistency testing](VISUAL_TEST.md).
 
-## Disclosure and limitations
+**Ethical production:** The output is factual neutral editorial narration, not voting persuasion. No cloned candidate voices, invented public statements, fake archival footage, party endorsements or fabricated project outcomes. Source photographs are only linked for checking, not redistributed. Stylized 3D face likeness is not guaranteed. Add “AI-generated animated portrayal and voice; not genuine candidate footage or statements.” to the edited video.
 
-All portraits are original **AI editorial interpretations**, not authenticated politician likenesses or historical footage. Text-only character consistency is not guaranteed. Two generated Adly portrait variants showed partial feature alignment and facial/hair drift; the controlled fresh-session A/B test is **not passed**. No actual Google Flow scenes have been generated or inspected; adjacent-clip identity is **NOT TESTED**. Remaining 13 candidates have source-linked biographical records, but the complete independent fact review is pending; do not publish without it. Ministry or state programme outcomes must never be falsely described as a candidate's sole achievement.
-
-For video disclosure: **“AI-generated character and narration; not actual candidate footage or statements.”** Narration remains neutral and never tells viewers how to vote. Fact snapshots and election dates should be rechecked before release.
+All 14 scripts are now organized as storyboard-video pairs rather than 24 separate standalone video prompts. Legacy commits contain the prior format if needed. Election facts were sourced from a November 2026 snapshot; verify each claim before distribution. Actual Google Flow renders and a controlled no-reference facial consistency pass remain untested.

@@ -1,84 +1,61 @@
 ---
-name: melaka-09_allex-24-scene-editorial-introduction
-description: Create one neutral English-language 60-second factual introduction to Allex, using only text-defined character features, 24 vertical video scenes, and six 1x4 storyboard images. No reference image required; independent character-consistency test mandatory.
+name: prn-melaka-2026-09_allex-six-ten-second-films
+description: Reusable English editorial 60-second introduction skill for Allex Seah Shoo Chin; six 1x4 storyboards each paired with one seamless 10-second vertical video, text-only Disney/Pixar-inspired original 3D character and external public-photo review.
 ---
 
-# Allex — self-contained SKILL.md
+# Allex — Character, Storyboard and Video Skill
 
-**Public identity:** Allex Seah Shoo Chin  
-**Party/coalition:** PH  
-**Constituency:** N19 Kesidang  
-**Research snapshot:** 2 November 2026  
-**Length:** 24 scenes × 2.5 seconds = exactly 60 seconds.  
+**Person:** Allex Seah Shoo Chin · **Nickname:** Allex · **Affiliation:** PH · **Seat:** N19 Kesidang · **As of:** 3 November 2026.
 
-## Non-negotiable rules
+## Fixed production contract
 
-No reference photograph is required or provided. Generate the candidate's character portrait from written details alone. The text-based result is an illustrative original design, not guaranteed to resemble the actual politician. Each independent generation may vary. Display a visible disclosure: "AI-generated character and voice; not genuine candidate footage or statements."
+- Exactly six **storyboard-image prompts**, each a *single 1×4 grid of four 9:16 portrait panels* (combined sheet 9:4).
+- Exactly six **video prompts**, each animating its paired storyboard's four panels **into one 10-second 9:16 video** (four 2.5-second segments); six videos = one minute.
+- All prompts, directions, narration and captions in **English**. No fictional speeches by the real person, endorsements or vote requests.
+- Original **Disney/Pixar-inspired polished family-film 3D animation**, with independently designed human character proportions, not copied existing franchise characters.
+- No reference photograph supplied to the generator. Each script contains a fully specified character design based on available observed photo features and flagged creative approximations.
+- Before publication, inspect the [real photograph reference](https://www.melakahariini.my/nilai-perpaduan-bentuk-allex-jadi-pemimpin/) and assess the generated portrait's similarity. The original photo is linked, not copied. Use a generated master avatar as a *later* reference only if a consistent face is required; distinguish this from the text-only control.
+- The full script is in [PROMPT.md](PROMPT.md). The photo description and link are in [PHOTO_REFERENCE.md](PHOTO_REFERENCE.md).
 
-All instructions, prompts, dialogue, captions, source facts and generated narration are **in English**. Use the nickname 'Allex' in creative scenes; keep the full name only for the factual cover and sources. Remain strictly neutral: no persuasion, requests for votes, promises, opposition attacks or unverified personal achievements. The candidate never speaks. Use an original documentary narrator, not voice cloning or lip-sync.
+## Character identity lock
 
-## Candidate appearance specification — no photo reference
+Malaysian Chinese man in his forties, medium oval face with rounded cheeks and relaxed jaw, medium-light warm skin, tidy black short side-parted hair, straight eyebrows, dark eyes, moderate nose and gentle smile. For any uncertain detail such as eyewear, consult the linked real photograph before publication; otherwise keep an unbranded consistent editorial approximation, not a claimed likeness. Wardrobe lock: Midnight navy casual blazer, pale blue open-collar shirt, charcoal trousers, black shoes; no logos. Eyeglasses not required without reference confirmation.
 
-ONE consistent ORIGINAL editorial 3D character, nickname Allex. Age impression: male in his early 40s. Face: broad oval face, slightly pointed chin, medium nose, dark eyes. Complexion: light warm tan. Hair or head covering: tidy dense short black hair with a subtle side part. Distinctive features: no pronounced moustache or beard; medium dark-framed glasses as a creative design choice. Body: average height and build. Expression and pose: attentive expression with small open-hand explanatory gesture. EXACT wardrobe: charcoal-blue blazer, plain white shirt, neat black trousers and dark shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Style: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
 
-Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+## Commands
 
-## Mandatory character consistency procedure
+`START`: return the researched 24 beats and the full text-only master portrait prompt. `NEXT`: return exactly the next paired 4-panel storyboard + 10-second video prompt, advance one batch, repeat until Batch 6. `RETRY`: regenerate current batch without changing validated facts or character traits. `VERIFY`: review source facts. `HELP`: explain current stage. `NEW [candidate]`: change project and reset character identity. Never ask for an uploaded reference photo; showing a public link for review is sufficient.
 
-1. Create master character **Design A** using the complete English Prompt A in `PROMPT.md`, without supplying any photo or image.
-2. Start a separate generation **Design B** using the IDENTICAL Prompt A and no image input. Do not use A as an input to B.
-3. Compare at least ten visual anchors: face outline, eye spacing, eyebrows, glasses, hair/hijab, facial hair, skin shade, wardrobe, body proportions and accessories. Record each as match/variation/mismatch; no automatic claim of identical likeness.
-4. Mark status `PASS`, `PARTIAL` or `FAIL`. If not PASS, revise the written identity lock and repeat the no-reference A/B generation. Do not claim reliable no-reference identity matching unless it is demonstrated.
-5. For practical final video production, optionally reuse a generated master image as the reference, but do not claim that this is a zero-image-input generation test.
+## Fact ledger — source claims remain attributed
 
-## Production commands and order
-
-`START`: show evidence ledger and all 24 scene beats. `NEXT`: output single-character English Prompt A and a 100-word acting/voice guide, then six four-panel storyboard batches, one batch at a time. `RETRY`: refine current scene or character spec without changing verified facts. `VERIFY`: recheck facts. `HELP`: current stage and next step. `NEW [candidate]`: reset the character and source ledger. Never request a photo. Do not generate an actual video unless separately requested.
-
-## Specific facts and source ledger
-
-| Scene | Evidence type | Factual basis and attribution | Source |
+| Scene | Topic | Research statement | Source |
 |---:|---|---|---|
-| 1 | `identity` | Allex Seah Shoo Chin, known here as Allex. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 2 | `nomination` | Allex contests N19 Kesidang in the 2026 Melaka state election. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 3 | `nomination` | Allex is listed under PH for the seat. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 4 | `context` | Documented area of public work: housing improvements and consumer affairs. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 5 | `context` | The video focuses on public records before nominations closed on 31 October 2026. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 6 | `prior_yb` | Incumbent Kesidang assemblyperson before dissolution | [View source](https://dapmalaysia.org/melaka-representatives/) |
-| 7 | `programme_result` | In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 8 | `allocation` | The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 9 | `planned_benefit` | The planned pump replacement was reported to benefit nine blocks and around 300 homes. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 10 | `public_role` | He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023. | [View source](https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/) |
-| 11 | `documented_participation` | He participated in a 2025 eCOSS subsidised cooking-oil implementation programme involving KPDN. | [View source](https://imagesapps.bernama.com/images/1403887/allex-seah-shoo-chin) |
-| 12 | `party_role` | He was listed as Melaka DAP secretary for 2024–2027. | [View source](https://dapmalaysia.org/melaka-representatives/) |
-| 13 | `election_history` | He won Kesidang in 2018. | [View source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
-| 14 | `election_history` | He won Kesidang again in the 2021 state election. | [View source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
-| 15 | `election_result` | His reported winning majority in 2021 was 10,237 votes. | [View source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
-| 16 | `career_record` | The block upgrades involved ministry funding and must not be attributed to him personally as completed works without confirmation. | [View source](https://dapmalaysia.org/en/melaka-representatives/) |
-| 17 | `source_context` | Source context for record 1: In June 2026 he announced upgrades at four apartment blocks involving RM1 million in KPKT funds. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 18 | `source_context` | Source context for record 2: The same report cited an RM150,000 allocation for pump replacement at Taman Merdeka flats. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 19 | `source_context` | Source context for record 3: The planned pump replacement was reported to benefit nine blocks and around 300 homes. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 20 | `source_context` | Source context for record 4: He held Melaka's entrepreneurship, cooperatives and consumer affairs executive portfolio from 2023. | [View source](https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/) |
-| 21 | `summary` | The preceding records describe housing improvements and consumer affairs; claims are attributed to their sources. | [View source](https://www.bernama.com/bm/am/news.php?id=2565756) |
-| 22 | `methodology` | Use the published records in this file; distinguish roles, completed actions, allocations and claims. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 23 | `election_info` | Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026. | [View source](https://www.spr.gov.my/km-prudunmelaka16/) |
-| 24 | `disclosure` | This character and voice are generated illustrations, not a genuine candidate appearance or speech. | Editorial label |
+| 1 | Candidate identity | Meet Allex. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 2 | Constituency | The constituency and its voters. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 3 | Election affiliation | Party affiliation on the ballot. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 4 | Professional background | A documented career background. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 5 | Historical context | The record before nomination. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 6 | Past elected service | Earlier elected public service. | [Source](https://dapmalaysia.org/melaka-representatives/) |
+| 7 | Reported programme or state outcome | Apartment upgrades were announced. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 8 | Announced allocation | A water-pump allocation was proposed. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 9 | Career and public record 3 | Nine residential blocks were identified. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 10 | Public office or leadership | Former consumer-affairs executive portfolio. | [Source](https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/) |
+| 11 | Career and public record 5 | `documented_participation` | [Source](https://imagesapps.bernama.com/images/1403887/allex-seah-shoo-chin) |
+| 12 | Reported party biography | Reported as state DAP secretary. | [Source](https://dapmalaysia.org/melaka-representatives/) |
+| 13 | Electoral history | Won Kesidang in 2018. | [Source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
+| 14 | Electoral history | Retained Kesidang in 2021. | [Source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
+| 15 | Electoral history | Won by over ten thousand votes. | [Source](https://election.bernama.com/prn/melaka/2021/keputusan/) |
+| 16 | Career and public record 10 | Announced funding is not completion. | [Source](https://dapmalaysia.org/en/melaka-representatives/) |
+| 17 | Evidence checkpoint | Review the original source. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 18 | Programme context | Distinguish claims from completed work. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 19 | Outcome versus plan | Programmes can involve multiple agencies. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 20 | Attribution check | Check the reported dates and figures. | [Source](https://www.melakahariini.my/perlu-dua-minggu-sesuaikan-diri-jadi-exco-allex/) |
+| 21 | Record recap | Public record overview. | [Source](https://www.bernama.com/bm/am/news.php?id=2565756) |
+| 22 | Source transparency | Source links support these statements. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 23 | Election information | Polling: November fourteenth. | [Source](https://www.spr.gov.my/km-prudunmelaka16/) |
+| 24 | AI disclosure | AI-generated character and narration. | Editorial/production |
 
-## Delivery validation
+## Consistency & editorial QA
 
-- English only; no Malay narration or scene descriptions.
-- Each candidate folder has one `SKILL.md`, one `PROMPT.md`.
-- Exactly 24 scenes, six independent 1×4 storyboard image prompts, 24 independent video prompts and six optional 10-second sequences.
-- One previous elected-service scene (Scene 06); distinguish other earlier career roles from that one scene.
-- Make no false links from aggregate programme or economic results to personal work.
-- Check the no-reference character test; never assert a visual-identity guarantee when two independent outputs drift.
-
-## Revised 3 November 2026 production acceptance gate
-
-All generation prompts and narration are in English. The current `PROMPT.md` has a fresh set of 24 neutral, short, scene-specific English voiceover lines, each at most seven whitespace-separated words, plus six four-panel 9:16 storyboard grids, 24 independent 2.5-second video prompts and six optional ten-second continuous scripts. Long factual evidence is kept in source notes, not automatically shown as a long caption over 2.5 seconds. Any on-screen text is a short human-edited caption checked against the original source.
-
-**Portrait test:** Generate one candidate portrait from Prompt A in a fresh context without images. Independently generate a second portrait using the exact same Prompt A in a different fresh context, with no image inputs; compare the distinctive face, eye spacing, nose, glasses, facial hair, head covering, body proportions, skin treatment, wardrobe and accessories. The existing pilot is not a controlled pass. Facial identity is an original illustrative interpretation, not authenticated true likeness.
-
-**Video test:** Generate Scenes 01 and 02 using the corresponding prompts in Google Flow, inspect adjacent-clip continuity and narrator timing. This has **not been run or inspected** in this audit, so no video identity stability should be claimed.
-
-**Editorial verification:** The sourced biography and achievements were **not independently reverified for this candidate in the 3 November audit**. Before publication, confirm source validity, affiliation and constituency, distinguish promised or allocated projects from completed work, distinguish self-reported claims from independently recorded actions, and credit institutional accomplishments to the institutions rather than the politician alone. Never include voting persuasion, invented endorsements, fake audio of the candidate or artificial political rallies. Add a prominent AI-generated disclosure. The exact remaining checklist is in `QA.md`.
+Test the same Prompt A in two independent, fresh text-only image-generation sessions, then compare face shape, eyes, eyebrows, hair/hijab, glasses, facial hair, complexion, proportions, outfit and accessories. A controlled reference-free match has **not** been demonstrated. Google Flow scene-to-scene identity has **not** been rendered or assessed. Correct factual mistakes, do not present announced projects as completed, distinguish personal acts from programme-wide outcomes, and publish an AI disclosure.

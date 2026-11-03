@@ -1,18 +1,14 @@
-# Dira — Candidate Production QA
+# Dira — 10-Second Pair QA
 
-**Static status: 3 November 2026**
+- [x] Six 1×4 storyboard IMAGE prompts (4 vertical panels each) generated in `PROMPT.md`.
+- [x] Six one-to-one 10-second portrait VIDEO prompts (four 2.5-second scenes each) generated in `PROMPT.md`.
+- [x] Character lock embedded in every paired prompt; original family-film 3D style requested.
+- [x] English generation instructions, narrator cues and source notes.
+- [x] External real-photo page recorded: https://international.astroawani.com/malaysia-news/kak-som-dira-abu-zahar-among-five-women-winners-melaka-332014
+- [ ] Actual reference photo compared by a human to final generated master face.
+- [ ] A/B image consistency assessed in two separate no-reference generation contexts.
+- [ ] Google Flow video pair rendered and checked for face drift, outfit and setting continuity, narrational timing and subtitle legibility.
+- [ ] Every biographical claim independently reverified before release.
+- [ ] AI disclosure placed visibly in edited video.
 
-| Gate | Result |
-|---|---|
-| English prompt language | Updated |
-| 24 scene cues / six storyboards | Verified in script structure |
-| Maximum scene spoken words | 6 |
-| Candidate facts | Source-linked but **not yet fully independently rechecked** |
-| Detailed text-only character prompt | Provided, not validated as true likeness |
-| Two isolated no-image A/B tests | **NOT RUN** |
-| Google Flow two consecutive rendered clips | **NOT RUN** |
-| Public production clearance | **HOLD** |
-
-The source-backed biographical facts are narrative inputs, not independently certified achievements. Distinguish announcements from delivered outcomes, institutional results from personal contributions, and attributed candidate or party claims from public documents. The portrait is a stylized editorial interpretation, and a nickname does not make it an authentic or authorized likeness.
-
-For the actual A/B test, paste exactly the same Prompt A into two independent fresh image sessions without supplying images. For Google Flow, render Scenes 01–02, inspect character continuity, and only then attempt all twenty-four shots. Add visible disclosure that the image and narration are AI-generated, not candidate footage or statements.
+**Reference reliability:** Observed press portrait. If not fully visually inspected, do not claim an authentic likeness. No images from external publishers were downloaded or redistributed into this repository.

@@ -1,592 +1,371 @@
-# Ban Hong — All-English character, storyboard and video prompts
+# Ban Hong — Six English Storyboard + 10-Second Video Prompt Pairs
 
-**Public figure:** Lim Ban Hong · **Party:** BN · **DUN:** N14 Kelebang · **Research date:** 2 November 2026.
+**Full public name (research only):** Lim Ban Hong  
+**Party:** BN  
+**State constituency:** N14 Kelebang  
+**Research snapshot:** 3 November 2026  
+**Format:** 6 storyboard images × 4 portrait panels, paired 1:1 with 6 seamless 10-second videos; total **60 seconds, 24 scenes**.
 
-No reference photograph is required or provided. Generate the candidate's character portrait from written details alone. The text-based result is an illustrative original design, not guaranteed to resemble the actual politician. Each independent generation may vary. Display a visible disclosure: "AI-generated character and voice; not genuine candidate footage or statements."
+This is neutral editorial biographical information, not voting advocacy or a candidate-endorsed video. All prompts, narration and caption instructions are in English. The illustrated public figure is silent; narration is a newly created off-screen voice. The image prompt is text-only and cannot guarantee an authentic likeness.
 
-## Prompt A — Detailed one-shot character creation, with zero image input
+## Real-photo checking reference (do not upload to generation)
 
-```text
-Generate exactly ONE original full-body 9:16 editorial 3D character, clearly showing the entire head and shoes, for Ban Hong. NO uploaded photo and NO image reference. Reconstruct the fixed design entirely from the written specification below; do not guess missing personal biographical traits. ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+[MCA party leadership page and Astro Awani photo](https://mca.org.my/3/Team/Team) · [Direct image on source host](https://media.astroawani.com/awani/media/article/2021/Nov/25/61636893269_TBLIMBANHONG.jpg).
 
-Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+**Photo verification:** Observed press photograph. Before publishing, compare the eventual stylized master character against the real reference. Do not redistribute the original photo without rights.
 
-Compose a centered standing portrait, slight 10-degree three-quarter body angle while looking toward the camera. Sharp readable face, anatomically realistic hands, natural fabric texture, restrained expressions and color-accurate wardrobe. Do not use photorealistic news footage style. Avoid extra people, text, logo, flags, watermarks, speech bubbles, fake documents, unnatural anatomy or altered features. Treat output as a *new AI character interpretation*, not proof of resemblance to the public figure. Save one result as Design A; generate Design B in a fresh text-only call without passing Design A or any other image as a reference. Then compare the two outputs before choosing a master.
-```
-
-## Prompt B — Acting and original narrator direction
-
-```text
-Use a calm, informative, entirely original English documentary narrator. The on-screen character stays silent and does not lip-sync political messages. Keep the face geometry, haircut or hijab, glasses, wardrobe, age impression, skin treatment and body proportions unchanged. Show modest natural hand movements and slow camera moves. Every scene occupies two and a half seconds; voiceover should contain no more than a few words. Distinguish completed work from budgeted plans, collective programme results and statements attributed to parties or candidates. Never invent credentials, endorsements, opponent attacks, fabricated archival footage, private speeches, rallies, vote totals or future election outcomes.
-```
-
-## Reference-free character reproducibility checklist
-
-Generate Design A and Design B in separate text-only generations using exactly the above Prompt A. Neither call may attach an image. Compare face shape, eyebrows, eye spacing, hair or hijab, glasses, facial hair, skin tone, body shape, outfit and accessories. Record whether each anchor matches; this is a test, not a guarantee. Preserve one chosen character image for *subsequent* video production if available, but this changes production into an image-reference workflow.
-
-## Master scene schedule — all English
-
-| Scene | Timeline | Subject | Short English voiceover | Factual caption |
-|---:|---|---|---|---|
-| 01 | 0.0–2.5s | Candidate identity | Meet Ban Hong. | Meet Ban Hong. |
-| 02 | 2.5–5.0s | Constituency | The constituency and its voters. | The constituency and its voters. |
-| 03 | 5.0–7.5s | Election affiliation | Party affiliation on the ballot. | Party affiliation on the ballot. |
-| 04 | 7.5–10.0s | Professional background | A documented career background. | A documented career background. |
-| 05 | 10.0–12.5s | Historical context | The record before nomination. | The record before nomination. |
-| 06 | 12.5–15.0s | Past elected service | Earlier elected public service. | Earlier elected public service. |
-| 07 | 15.0–17.5s | Reported programme or state outcome | A trade fund performance report. | A trade fund performance report. |
-| 08 | 17.5–20.0s | Reported programme or state outcome | MATRADE distributed over RM22 million. | MATRADE distributed over RM22 million. |
-| 09 | 20.0–22.5s | Career and public record 3 | Led a trade forum delegation. | Led a trade forum delegation. |
-| 10 | 22.5–25.0s | Career and public record 4 | Addressed the semiconductor industry. | Addressed the semiconductor industry. |
-| 11 | 25.0–27.5s | Public office or leadership | Previously a federal deputy minister. | Previously a federal deputy minister. |
-| 12 | 27.5–30.0s | Career and public record 6 | Reported as MCA vice-president. | Reported as MCA vice-president. |
-| 13 | 30.0–32.5s | Career and public record 7 | First won Kelebang in 2013. | First won Kelebang in 2013. |
-| 14 | 32.5–35.0s | Electoral history | Lost the 2018 election. | Lost the 2018 election. |
-| 15 | 35.0–37.5s | Electoral history | Won Kelebang again in 2021. | Won Kelebang again in 2021. |
-| 16 | 37.5–40.0s | Public office or leadership | Earlier international trade ministry work. | Earlier international trade ministry work. |
-| 17 | 40.0–42.5s | Evidence checkpoint | Review the original source. | Review the original source. |
-| 18 | 42.5–45.0s | Programme context | Distinguish claims from completed work. | Distinguish claims from completed work. |
-| 19 | 45.0–47.5s | Outcome versus plan | Programmes can involve multiple agencies. | Programmes can involve multiple agencies. |
-| 20 | 47.5–50.0s | Attribution check | Check the reported dates and figures. | Check the reported dates and figures. |
-| 21 | 50.0–52.5s | Record recap | Public record overview. | Public record overview. |
-| 22 | 52.5–55.0s | Source transparency | Source links support these statements. | Source links support these statements. |
-| 23 | 55.0–57.5s | Election information | Polling: November fourteenth. | Polling: November fourteenth. |
-| 24 | 57.5–60.0s | AI disclosure | AI-generated character and narration. | AI-generated character and narration. |
-## Six single-image storyboard prompts (each four independent 9:16 panels)
-
-### Storyboard batch 1 — Scenes 01–04
+## Master character prompt — image generation with no reference input
 
 ```text
-Create a single static storyboard IMAGE for "Ban Hong: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 01–04 from left to right; use subtle borders. This is an IMAGE, not a video.
+Create one original 3D family-animation editorial master character reference image for the nickname "Ban Hong". Design an adult public figure-inspired human with a polished Disney/Pixar-inspired aesthetic, warm expressive facial design and grounded anatomy, without copying any specific copyrighted fictional character. One single subject, full body from top of head or headscarf to shoes, front three-quarter standing pose at a slight 10-degree angle, eyes gently facing camera. NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
 
-Panel 1: Candidate identity. Character stands in the neutral editorial studio; gentle camera push. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Lim Ban Hong, known here as Ban Hong.
+DETAILED CHARACTER LOCK: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
 
-Panel 2: Constituency. A minimalist Melaka outline highlights the relevant constituency without generated labels. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Ban Hong contests N14 Kelebang in the 2026 Melaka state election.
+FACIAL CONSISTENCY: Fix the precise oval/square outline, forehead height, brow shape and angle, distance between eyes, eyelids, ear silhouette, nose bridge and tip, mouth width, cheek volume, jawline and chin shape. Lock every accessory and every fabric fold. Use the same exact shoes, shirt or baju kurung seams and wrist/hand size in future scenes. Skin shading and hair/hijab texture are consistent.
 
-Panel 3: Election affiliation. An unbranded candidate information folder opens on a stone desk. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Ban Hong is listed under BN for the seat.
-
-Panel 4: Professional background. A neutral still-life of work-related objects on a tidy desk, without claiming an authentic historical event. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Documented area of public work: trade and industry roles.
-
-CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
-CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
-NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
+CLEAN STUDIO: matte warm ivory seamless backdrop, stone-grey floor, one broad key light camera left, right-side bounce fill, delicate top rim light, camera at eye level with a 65mm portrait lens, natural soft shadow. Professional friendly posture, hands visible with anatomically accurate fingers, subtle closed-mouth smile. No logo, political party branding, readable text, slogans, ballot boxes, additional people or watermark. One image only, vertical 9:16. This portrait is an AI concept and not a certified likeness.
 ```
 
-### Storyboard batch 2 — Scenes 05–08
+## One-to-one storyboard / video workflow
+
+Generate master portrait from text, audit visible facial features against the real-photo reference page (without uploading the photo to the generator), then copy a batch's storyboard prompt to an image generator. For that same batch, copy its matching video prompt to Google Flow. Each 10-second video follows the four storyboard panels in order. Export six clips and combine into one 60-second film. The same **text-based character lock is included independently in every batch**. For greater reliability, optionally use a generated master portrait as a Google Flow Ingredient; that changes production from no-image-reference to using a generated image reference, and must not be called a text-only consistency test.
+
+## Batch 1 — 10 seconds (0–10s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create a single static storyboard IMAGE for "Ban Hong: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 05–08 from left to right; use subtle borders. This is an IMAGE, not a video.
+Create a SINGLE static cinematic storyboard IMAGE for "Ban Hong — 60-second factual introduction", BATCH 1 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 01–04. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
 
-Panel 5: Historical context. A blank archival timeline with dated pins added in post-production. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: The video focuses on public records before nominations closed on 31 October 2026.
+Panel 1 — Global Scene 01 (Candidate identity): A medium-full character reveal in a softly lit neutral ivory studio, a slow respectful push-in, calm expression. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: Meet Ban Hong..
 
-Panel 6: Past elected service. A clearly fictional civic assembly illustration; no copied real chamber footage. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Incumbent Kelebang assemblyperson before dissolution
+Panel 2 — Global Scene 02 (Constituency): A stylized Melaka geography table with one softly glowing constituency dot and a clean map outline, no readable labels. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: The constituency and its voters..
 
-Panel 7: Reported programme or state outcome. Government programme infographic with empty chart placeholders; organizational results must not be shown as personal achievements. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: While Deputy Minister at MITI he reported the MATRADE Services Export Fund's performance; the fund's results are institutional, not personal.
+Panel 3 — Global Scene 03 (Election affiliation): A tasteful unbranded ballot-card silhouette and simple colour-neutral election infographic, with no invented party logo. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Party affiliation on the ballot..
 
-Panel 8: Reported programme or state outcome. Government programme infographic with empty chart placeholders; organizational results must not be shown as personal achievements. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: MATRADE reported distributing RM22.09 million to 330 service providers by 31 August 2021.
+Panel 4 — Global Scene 04 (Professional background): A studio-to-professional-setting transition: a polished desk with role-specific objects and one restrained gesture. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: A documented career background..
 
-CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
-CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
-NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
+CHARACTER LOCK: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Storyboard batch 3 — Scenes 09–12
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create a single static storyboard IMAGE for "Ban Hong: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 09–12 from left to right; use subtle borders. This is an IMAGE, not a video.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 1 for "Ban Hong — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
 
-Panel 9: Career and public record 3. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: A 2021 MITI report recorded that he led a Malaysian delegation to a trade-related forum in China.
+Scene 1 (0.0–2.5 seconds; global scene 1): A medium-full character reveal in a softly lit neutral ivory studio, a slow respectful push-in, calm expression. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Meet Ban Hong." Source-backed fact for editor, not a generated claim: Meet Ban Hong.
 
-Panel 10: Career and public record 4. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He delivered a launch address for the Malaysia Semiconductor Industry Association in April 2021.
+Scene 2 (2.5–5.0 seconds; global scene 2): A stylized Melaka geography table with one softly glowing constituency dot and a clean map outline, no readable labels. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "The constituency and its voters." Source-backed fact for editor, not a generated claim: The constituency and its voters.
 
-Panel 11: Public office or leadership. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He was listed in the 2021 federal cabinet as a Deputy Minister at MITI.
+Scene 3 (5.0–7.5 seconds; global scene 3): A tasteful unbranded ballot-card silhouette and simple colour-neutral election infographic, with no invented party logo. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Party affiliation on the ballot." Source-backed fact for editor, not a generated claim: Party affiliation on the ballot.
 
-Panel 12: Career and public record 6. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He was identified as an MCA vice-president in a 2026 report.
+Scene 4 (7.5–10.0 seconds; global scene 4): A studio-to-professional-setting transition: a polished desk with role-specific objects and one restrained gesture. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "A documented career background." Source-backed fact for editor, not a generated claim: A documented career background.
 
-CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
-CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
-NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
+CHARACTER CONSISTENCY: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Storyboard batch 4 — Scenes 13–16
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 1 | Meet Ban Hong. | Meet Ban Hong. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 2.5–5.0s | 2 | The constituency and its voters. | The constituency and its voters. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 5.0–7.5s | 3 | Party affiliation on the ballot. | Party affiliation on the ballot. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 7.5–10.0s | 4 | A documented career background. | A documented career background. | [Source](https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2) |
+
+
+## Batch 2 — 10 seconds (10–20s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create a single static storyboard IMAGE for "Ban Hong: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 13–16 from left to right; use subtle borders. This is an IMAGE, not a video.
+Create a SINGLE static cinematic storyboard IMAGE for "Ban Hong — 60-second factual introduction", BATCH 2 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 05–08. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
 
-Panel 13: Career and public record 7. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He first won Kelebang in 2013.
+Panel 1 — Global Scene 05 (Historical context): A clean timeline of earlier public record dates illustrated by a calendar and archival folders, with all numbers added in editing. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: The record before nomination..
 
-Panel 14: Electoral history. Election archive folder, a clean results chart with numbers added only during editing. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He lost the Kelebang seat in the 2018 election.
+Panel 2 — Global Scene 06 (Past elected service): An abstract Melaka legislative chamber silhouette and a single discreet source card to represent earlier elected service without reenacting an event. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: Earlier elected public service..
 
-Panel 15: Electoral history. Election archive folder, a clean results chart with numbers added only during editing. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He regained the Kelebang seat in 2021.
+Panel 3 — Global Scene 07 (Reported programme or state outcome): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Reported programme or state outcome", with no fabricated text or figures. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: `ministry_programme`.
 
-Panel 16: Public office or leadership. Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: He served as Deputy Minister of International Trade and Industry during 2020–2022.
+Panel 4 — Global Scene 08 (Reported programme or state outcome): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Reported programme or state outcome", with no fabricated text or figures. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: `ministry_programme`.
 
-CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
-CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
-NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
+CHARACTER LOCK: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Storyboard batch 5 — Scenes 17–20
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create a single static storyboard IMAGE for "Ban Hong: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 17–20 from left to right; use subtle borders. This is an IMAGE, not a video.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 2 for "Ban Hong — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
 
-Panel 17: Evidence checkpoint. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 1: While Deputy Minister at MITI he reported the MATRADE Services Export Fund's performance; the fund's results are institutional, not personal.
+Scene 1 (0.0–2.5 seconds; global scene 5): A clean timeline of earlier public record dates illustrated by a calendar and archival folders, with all numbers added in editing. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "The record before nomination." Source-backed fact for editor, not a generated claim: The record before nomination.
 
-Panel 18: Programme context. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 2: MATRADE reported distributing RM22.09 million to 330 service providers by 31 August 2021.
+Scene 2 (2.5–5.0 seconds; global scene 6): An abstract Melaka legislative chamber silhouette and a single discreet source card to represent earlier elected service without reenacting an event. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Earlier elected public service." Source-backed fact for editor, not a generated claim: Earlier elected public service.
 
-Panel 19: Outcome versus plan. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 3: A 2021 MITI report recorded that he led a Malaysian delegation to a trade-related forum in China.
+Scene 3 (5.0–7.5 seconds; global scene 7): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Reported programme or state outcome", with no fabricated text or figures. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "A trade fund performance report." Source-backed fact for editor, not a generated claim: `ministry_programme`
 
-Panel 20: Attribution check. Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Source context for record 4: He delivered a launch address for the Malaysia Semiconductor Industry Association in April 2021.
+Scene 4 (7.5–10.0 seconds; global scene 8): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Reported programme or state outcome", with no fabricated text or figures. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "MATRADE distributed over RM22 million." Source-backed fact for editor, not a generated claim: `ministry_programme`
 
-CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
-CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
-NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
+CHARACTER CONSISTENCY: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Storyboard batch 6 — Scenes 21–24
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 5 | The record before nomination. | The record before nomination. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 2.5–5.0s | 6 | Earlier elected public service. | Earlier elected public service. | [Source](https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep) |
+| 5.0–7.5s | 7 | A trade fund performance report. | `ministry_programme` | [Source](https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2) |
+| 7.5–10.0s | 8 | MATRADE distributed over RM22 million. | `ministry_programme` | [Source](https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2) |
+
+
+## Batch 3 — 10 seconds (20–30s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create a single static storyboard IMAGE for "Ban Hong: One-Minute Factual Introduction" in a 1x4 grid: FOUR equal 9:16 portrait panels, side by side, total aspect 9:4. Number panels 21–24 from left to right; use subtle borders. This is an IMAGE, not a video.
+Create a SINGLE static cinematic storyboard IMAGE for "Ban Hong — 60-second factual introduction", BATCH 3 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 09–12. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
 
-Panel 21: Record recap. Portrait beside four small blank verified-fact cards; editor inserts exact evidence. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: The preceding records describe trade and industry roles; claims are attributed to their sources.
+Panel 1 — Global Scene 09 (Career and public record 3): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Led a trade forum delegation..
 
-Panel 22: Source transparency. A bibliography-style display of unprinted blank reference cards. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Use the published records in this file; distinguish roles, completed actions, allocations and claims.
+Panel 2 — Global Scene 10 (Career and public record 4): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Addressed the semiconductor industry..
 
-Panel 23: Election information. Calendar design with accurate date inserted by an editor. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026.
+Panel 3 — Global Scene 11 (Public office or leadership): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Previously a federal deputy minister..
 
-Panel 24: AI disclosure. Neutral closing frame, the character silent and an editor-added disclosure. Composition: one vertical 9:16 frame with balanced visual focus and clear lower 20% subtitle-safe space. Candidate appear only where naturally relevant. Source fact: This character and voice are generated illustrations, not a genuine candidate appearance or speech.
+Panel 4 — Global Scene 12 (Career and public record 6): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Reported as MCA vice-president..
 
-CHARACTER DESIGN LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-STUDIO AND STYLE LOCK: 3D cinematic editorial illustration with subdued cream, slate and indigo palette, neutral light, no deceptive photorealism; Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
-CONTINUITY: Repeat the exact same face, hair/hijab design, glasses, clothing, body size and proportions. All scenes are illustrative, not archive footage. Background props must follow the individual panel descriptions, without unverified people or source documents.
-NO GENERATED TEXT: Scene numbers, factual names and statistics are added by the editor. No election logos, candidate speech, endorsements, artificial rallies, watermarks or party slogans.
+CHARACTER LOCK: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-## All 24 standalone English video prompts
-
-### Video scene 01 — Candidate identity (0.0–2.5s)
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 01 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Character stands in the neutral editorial studio; gentle camera push.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Meet Ban Hong." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Meet Ban Hong." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: identity. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 3 for "Ban Hong — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 9): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Led a trade forum delegation." Source-backed fact for editor, not a generated claim: Led a trade forum delegation.
+
+Scene 2 (2.5–5.0 seconds; global scene 10): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Addressed the semiconductor industry." Source-backed fact for editor, not a generated claim: Addressed the semiconductor industry.
+
+Scene 3 (5.0–7.5 seconds; global scene 11): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Previously a federal deputy minister." Source-backed fact for editor, not a generated claim: Previously a federal deputy minister.
+
+Scene 4 (7.5–10.0 seconds; global scene 12): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Reported as MCA vice-president." Source-backed fact for editor, not a generated claim: Reported as MCA vice-president.
+
+CHARACTER CONSISTENCY: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video scene 02 — Constituency (2.5–5.0s)
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 9 | Led a trade forum delegation. | Led a trade forum delegation. | [Source](https://www.miti.gov.my/miti/resources/MITI%20Report/MITI_Report_2021_EN.pdf) |
+| 2.5–5.0s | 10 | Addressed the semiconductor industry. | Addressed the semiconductor industry. | [Source](https://www.miti.gov.my/miti/resources/Speech/Launching_Speech_YB_Datuk_Lim_Ban_Hong_Deputy_Minister_of_International_Trade_and_Industry_Launching_of_Malaysia_Semiconductor_Industry_Association_%28MSIA%29.pdf) |
+| 5.0–7.5s | 11 | Previously a federal deputy minister. | Previously a federal deputy minister. | [Source](https://www.mof.gov.my/portal/en/news/press-citations/2021-cabinet-line-up) |
+| 7.5–10.0s | 12 | Reported as MCA vice-president. | Reported as MCA vice-president. | [Source](https://www.thestar.com.my/news/nation/2026/10/28/melaka-polls-mca-incumbents-to-defend-klebang-machap-jaya) |
+
+
+## Batch 4 — 10 seconds (30–40s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 02 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: A minimalist Melaka outline highlights the relevant constituency without generated labels.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "The constituency and its voters." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "The constituency and its voters." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: nomination. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
+Create a SINGLE static cinematic storyboard IMAGE for "Ban Hong — 60-second factual introduction", BATCH 4 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 13–16. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
+
+Panel 1 — Global Scene 13 (Career and public record 7): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: First won Kelebang in 2013..
+
+Panel 2 — Global Scene 14 (Electoral history): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Lost the 2018 election..
+
+Panel 3 — Global Scene 15 (Electoral history): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Won Kelebang again in 2021..
+
+Panel 4 — Global Scene 16 (Public office or leadership): An editorial small-business and technology vignette with neutral storefront and workshop objects, an illustrative representation only. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Earlier international trade ministry work..
+
+CHARACTER LOCK: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Video scene 03 — Election affiliation (5.0–7.5s)
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 03 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: An unbranded candidate information folder opens on a stone desk.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Party affiliation on the ballot." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Party affiliation on the ballot." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: nomination. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 4 for "Ban Hong — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 13): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "First won Kelebang in 2013." Source-backed fact for editor, not a generated claim: First won Kelebang in 2013.
+
+Scene 2 (2.5–5.0 seconds; global scene 14): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Lost the 2018 election." Source-backed fact for editor, not a generated claim: Lost the 2018 election.
+
+Scene 3 (5.0–7.5 seconds; global scene 15): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Won Kelebang again in 2021." Source-backed fact for editor, not a generated claim: Won Kelebang again in 2021.
+
+Scene 4 (7.5–10.0 seconds; global scene 16): An editorial small-business and technology vignette with neutral storefront and workshop objects, an illustrative representation only. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Earlier international trade ministry work." Source-backed fact for editor, not a generated claim: Earlier international trade ministry work.
+
+CHARACTER CONSISTENCY: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video scene 04 — Professional background (7.5–10.0s)
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 13 | First won Kelebang in 2013. | First won Kelebang in 2013. | [Source](https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep) |
+| 2.5–5.0s | 14 | Lost the 2018 election. | Lost the 2018 election. | [Source](https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep) |
+| 5.0–7.5s | 15 | Won Kelebang again in 2021. | Won Kelebang again in 2021. | [Source](https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep) |
+| 7.5–10.0s | 16 | Earlier international trade ministry work. | Earlier international trade ministry work. | [Source](https://www.miti.gov.my/index.php/pages/view/content57c1.html) |
+
+
+## Batch 5 — 10 seconds (40–50s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 04 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: A neutral still-life of work-related objects on a tidy desk, without claiming an authentic historical event.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "A documented career background." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "A documented career background." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: context. SOURCE: https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
+Create a SINGLE static cinematic storyboard IMAGE for "Ban Hong — 60-second factual introduction", BATCH 5 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 17–20. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
+
+Panel 1 — Global Scene 17 (Evidence checkpoint): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Evidence checkpoint", with no fabricated text or figures. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Review the original source..
+
+Panel 2 — Global Scene 18 (Programme context): An editorial small-business and technology vignette with neutral storefront and workshop objects, an illustrative representation only. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Distinguish claims from completed work..
+
+Panel 3 — Global Scene 19 (Outcome versus plan): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Outcome versus plan", with no fabricated text or figures. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Programmes can involve multiple agencies..
+
+Panel 4 — Global Scene 20 (Attribution check): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Attribution check", with no fabricated text or figures. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Check the reported dates and figures..
+
+CHARACTER LOCK: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Video scene 05 — Historical context (10.0–12.5s)
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 05 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: A blank archival timeline with dated pins added in post-production.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "The record before nomination." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "The record before nomination." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: context. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 5 for "Ban Hong — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 17): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Evidence checkpoint", with no fabricated text or figures. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Review the original source." Source-backed fact for editor, not a generated claim: Review the original source.
+
+Scene 2 (2.5–5.0 seconds; global scene 18): An editorial small-business and technology vignette with neutral storefront and workshop objects, an illustrative representation only. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Distinguish claims from completed work." Source-backed fact for editor, not a generated claim: Distinguish claims from completed work.
+
+Scene 3 (5.0–7.5 seconds; global scene 19): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Outcome versus plan", with no fabricated text or figures. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Programmes can involve multiple agencies." Source-backed fact for editor, not a generated claim: Programmes can involve multiple agencies.
+
+Scene 4 (7.5–10.0 seconds; global scene 20): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "Attribution check", with no fabricated text or figures. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Check the reported dates and figures." Source-backed fact for editor, not a generated claim: Check the reported dates and figures.
+
+CHARACTER CONSISTENCY: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video scene 06 — Past elected service (12.5–15.0s)
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 17 | Review the original source. | Review the original source. | [Source](https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2) |
+| 2.5–5.0s | 18 | Distinguish claims from completed work. | Distinguish claims from completed work. | [Source](https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2) |
+| 5.0–7.5s | 19 | Programmes can involve multiple agencies. | Programmes can involve multiple agencies. | [Source](https://www.miti.gov.my/miti/resources/MITI%20Report/MITI_Report_2021_EN.pdf) |
+| 7.5–10.0s | 20 | Check the reported dates and figures. | Check the reported dates and figures. | [Source](https://www.miti.gov.my/miti/resources/Speech/Launching_Speech_YB_Datuk_Lim_Ban_Hong_Deputy_Minister_of_International_Trade_and_Industry_Launching_of_Malaysia_Semiconductor_Industry_Association_%28MSIA%29.pdf) |
+
+
+## Batch 6 — 10 seconds (50–60s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 06 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: A clearly fictional civic assembly illustration; no copied real chamber footage.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Earlier elected public service." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Earlier elected public service." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: prior_yb. SOURCE: https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
+Create a SINGLE static cinematic storyboard IMAGE for "Ban Hong — 60-second factual introduction", BATCH 6 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 21–24. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
+
+Panel 1 — Global Scene 21 (Record recap): An editorial four-card recap of the source-backed experience, text spaces left blank. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Public record overview..
+
+Panel 2 — Global Scene 22 (Source transparency): A library-style source desk, document references organized in neutral folders, no fake seals. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Source links support these statements..
+
+Panel 3 — Global Scene 23 (Election information): An elegant calendar and ballot-date icon on a clean neutral background. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Polling: November fourteenth..
+
+Panel 4 — Global Scene 24 (AI disclosure): Return to the same warm ivory portrait studio, the illustrated person still and a clear empty lower third for AI disclosure. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: AI-generated character and narration..
+
+CHARACTER LOCK: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Video scene 07 — Reported programme or state outcome (15.0–17.5s)
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 07 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Government programme infographic with empty chart placeholders; organizational results must not be shown as personal achievements.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "A trade fund performance report." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "A trade fund performance report." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: ministry_programme. SOURCE: https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 6 for "Ban Hong — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 21): An editorial four-card recap of the source-backed experience, text spaces left blank. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Public record overview." Source-backed fact for editor, not a generated claim: Public record overview.
+
+Scene 2 (2.5–5.0 seconds; global scene 22): A library-style source desk, document references organized in neutral folders, no fake seals. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Source links support these statements." Source-backed fact for editor, not a generated claim: Source links support these statements.
+
+Scene 3 (5.0–7.5 seconds; global scene 23): An elegant calendar and ballot-date icon on a clean neutral background. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Polling: November fourteenth." Source-backed fact for editor, not a generated claim: Polling: November fourteenth.
+
+Scene 4 (7.5–10.0 seconds; global scene 24): Return to the same warm ivory portrait studio, the illustrated person still and a clear empty lower third for AI disclosure. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "AI-generated character and narration." Source-backed fact for editor, not a generated claim: AI-generated character and narration.
+
+CHARACTER CONSISTENCY: Malaysian Chinese man in his late forties, medium-wide oval face with a broad upper forehead, slightly rounded jaw, smooth light warm-tan skin, short neatly combed black hair with high brushed front and close sides, clear dark eyes behind thin rectangular black-metal glasses, clean-shaven face, composed small smile and average build. Wardrobe lock: Deep midnight-blue smart-casual collared shirt without markings, dark trousers, black leather belt and dark formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video scene 08 — Reported programme or state outcome (17.5–20.0s)
+#### Research & narration for this 10-second pair
 
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 08 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Government programme infographic with empty chart placeholders; organizational results must not be shown as personal achievements.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "MATRADE distributed over RM22 million." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "MATRADE distributed over RM22 million." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: ministry_programme. SOURCE: https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 09 — Career and public record 3 (20.0–22.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 09 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Led a trade forum delegation." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Led a trade forum delegation." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: completed_action. SOURCE: https://www.miti.gov.my/miti/resources/MITI%20Report/MITI_Report_2021_EN.pdf
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 10 — Career and public record 4 (22.5–25.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 10 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Addressed the semiconductor industry." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Addressed the semiconductor industry." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: completed_action. SOURCE: https://www.miti.gov.my/miti/resources/Speech/Launching_Speech_YB_Datuk_Lim_Ban_Hong_Deputy_Minister_of_International_Trade_and_Industry_Launching_of_Malaysia_Semiconductor_Industry_Association_%28MSIA%29.pdf
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 11 — Public office or leadership (25.0–27.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 11 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Previously a federal deputy minister." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Previously a federal deputy minister." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: public_role. SOURCE: https://www.mof.gov.my/portal/en/news/press-citations/2021-cabinet-line-up
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 12 — Career and public record 6 (27.5–30.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 12 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Reported as MCA vice-president." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Reported as MCA vice-president." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: career_record. SOURCE: https://www.thestar.com.my/news/nation/2026/10/28/melaka-polls-mca-incumbents-to-defend-klebang-machap-jaya
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 13 — Career and public record 7 (30.0–32.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 13 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "First won Kelebang in 2013." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "First won Kelebang in 2013." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: career_record. SOURCE: https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 14 — Electoral history (32.5–35.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 14 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Election archive folder, a clean results chart with numbers added only during editing.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Lost the 2018 election." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Lost the 2018 election." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: election_history. SOURCE: https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 15 — Electoral history (35.0–37.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 15 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Election archive folder, a clean results chart with numbers added only during editing.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Won Kelebang again in 2021." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Won Kelebang again in 2021." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: election_history. SOURCE: https://www.freemalaysiatoday.com/category/nation/2026/10/31/mca-veep-faces-4-way-fight-for-3rd-term-as-kelebang-rep
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 16 — Public office or leadership (37.5–40.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 16 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Earlier international trade ministry work." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Earlier international trade ministry work." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: public_role. SOURCE: https://www.miti.gov.my/index.php/pages/view/content57c1.html
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 17 — Evidence checkpoint (40.0–42.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 17 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Review the original source." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Review the original source." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: source_context. SOURCE: https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 18 — Programme context (42.5–45.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 18 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Distinguish claims from completed work." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Distinguish claims from completed work." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: source_context. SOURCE: https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 19 — Outcome versus plan (45.0–47.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 19 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Programmes can involve multiple agencies." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Programmes can involve multiple agencies." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: source_context. SOURCE: https://www.miti.gov.my/miti/resources/MITI%20Report/MITI_Report_2021_EN.pdf
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 20 — Attribution check (47.5–50.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 20 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Check the reported dates and figures." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Check the reported dates and figures." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: source_context. SOURCE: https://www.miti.gov.my/miti/resources/Speech/Launching_Speech_YB_Datuk_Lim_Ban_Hong_Deputy_Minister_of_International_Trade_and_Industry_Launching_of_Malaysia_Semiconductor_Industry_Association_%28MSIA%29.pdf
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 21 — Record recap (50.0–52.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 21 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Portrait beside four small blank verified-fact cards; editor inserts exact evidence.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Public record overview." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Public record overview." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: summary. SOURCE: https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 22 — Source transparency (52.5–55.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 22 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: A bibliography-style display of unprinted blank reference cards.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Source links support these statements." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Source links support these statements." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: methodology. SOURCE: https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 23 — Election information (55.0–57.5s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 23 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Calendar design with accurate date inserted by an editor.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "Polling: November fourteenth." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "Polling: November fourteenth." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: election_info. SOURCE: https://www.spr.gov.my/km-prudunmelaka16/
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-### Video scene 24 — AI disclosure (57.5–60.0s)
-
-```text
-Create ONE separate 2.5-second vertical 9:16 video, scene 24 of "Ban Hong: One-Minute Factual Introduction". The clip is silent on camera; narration is recorded separately in English.
-SCENE ACTION: Neutral closing frame, the character silent and an editor-added disclosure.
-CAMERA: Exactly one slow movement, no cuts inside this 2.5-second shot. Natural 24 fps movement, neutral cinematic editorial 3D illustration, not actual news footage.
-CHARACTER LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-ENVIRONMENT: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. If the action uses a specialized set, keep its props and geometry consistent with the scene description and remove unnecessary studio furniture.
-NEUTRAL THIRD-PERSON ENGLISH VOICEOVER: "AI-generated character and narration." Never imitate the candidate's voice; never lip-sync invented first-person remarks.
-EDITOR CAPTION: "AI-generated character and narration." Caption and source URL must be inserted manually, not generated into the artwork.
-EVIDENCE CATEGORY: disclosure. SOURCE: Editorial disclosure or context; no claim of personal achievement.
-SAFETY: No false electoral result, real-person endorsement, fake crowd, campaign CTA, inaccurate party logo, fabricated programme success, inaccurate dates, or duplicate faces. Preserve full video continuity and trim to exactly 2.50 seconds in the final edit.
-```
-
-## Six optional continuous English video prompts
-
-### Optional continuous sequence 1 (10 seconds; scenes 1–4)
-
-```text
-Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
-Scene 1: Character stands in the neutral editorial studio; gentle camera push. Voiceover (English): "Meet Ban Hong."
-Scene 2: A minimalist Melaka outline highlights the relevant constituency without generated labels. Voiceover (English): "The constituency and its voters."
-Scene 3: An unbranded candidate information folder opens on a stone desk. Voiceover (English): "Party affiliation on the ballot."
-Scene 4: A neutral still-life of work-related objects on a tidy desk, without claiming an authentic historical event. Voiceover (English): "A documented career background."
-Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
-```
-
-### Optional continuous sequence 2 (10 seconds; scenes 5–8)
-
-```text
-Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
-Scene 1: A blank archival timeline with dated pins added in post-production. Voiceover (English): "The record before nomination."
-Scene 2: A clearly fictional civic assembly illustration; no copied real chamber footage. Voiceover (English): "Earlier elected public service."
-Scene 3: Government programme infographic with empty chart placeholders; organizational results must not be shown as personal achievements. Voiceover (English): "A trade fund performance report."
-Scene 4: Government programme infographic with empty chart placeholders; organizational results must not be shown as personal achievements. Voiceover (English): "MATRADE distributed over RM22 million."
-Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
-```
-
-### Optional continuous sequence 3 (10 seconds; scenes 9–12)
-
-```text
-Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
-Scene 1: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "Led a trade forum delegation."
-Scene 2: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "Addressed the semiconductor industry."
-Scene 3: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "Previously a federal deputy minister."
-Scene 4: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "Reported as MCA vice-president."
-Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
-```
-
-### Optional continuous sequence 4 (10 seconds; scenes 13–16)
-
-```text
-Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
-Scene 1: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "First won Kelebang in 2013."
-Scene 2: Election archive folder, a clean results chart with numbers added only during editing. Voiceover (English): "Lost the 2018 election."
-Scene 3: Election archive folder, a clean results chart with numbers added only during editing. Voiceover (English): "Won Kelebang again in 2021."
-Scene 4: Cinematic editorial tabletop with neutral records and an object symbolizing the documented work. Voiceover (English): "Earlier international trade ministry work."
-Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
-```
-
-### Optional continuous sequence 5 (10 seconds; scenes 17–20)
-
-```text
-Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
-Scene 1: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Review the original source."
-Scene 2: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Distinguish claims from completed work."
-Scene 3: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Programmes can involve multiple agencies."
-Scene 4: Slow camera across a blank evidence card with an editor-added source reference; do not repeat the original event as if it were new. Voiceover (English): "Check the reported dates and figures."
-Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
-```
-
-### Optional continuous sequence 6 (10 seconds; scenes 21–24)
-
-```text
-Create a single seamless 10-second editorial 9:16 video with four ordered 2.5-second micro-scenes. Animate the following events in order:
-Scene 1: Portrait beside four small blank verified-fact cards; editor inserts exact evidence. Voiceover (English): "Public record overview."
-Scene 2: A bibliography-style display of unprinted blank reference cards. Voiceover (English): "Source links support these statements."
-Scene 3: Calendar design with accurate date inserted by an editor. Voiceover (English): "Polling: November fourteenth."
-Scene 4: Neutral closing frame, the character silent and an editor-added disclosure. Voiceover (English): "AI-generated character and narration."
-Character lock: ONE consistent ORIGINAL editorial 3D character, nickname Ban Hong. Age impression: male in his late 40s to 50s. Face: rounded oval face, broad forehead, smooth cheeks, soft jaw, medium nose. Complexion: light warm complexion. Hair or head covering: dense short black hair swept upward and sideways, closely trimmed sides. Distinctive features: thin metallic rectangular glasses, clean-shaven face. Body: average build and upright stance. Expression and pose: calm direct gaze, hands loosely clasped in front. EXACT wardrobe: classic dark navy suit, white shirt, textured maroon tie and matching trousers. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
-Visual continuity: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows. Keep motion simple and transitions seamless. Narration is newly produced and independent; do not imitate the real candidate or fabricate an actual speech. All factual names and figures are editor-added captions, not AI-generated artwork.
-```
-
-## Production QA addendum — 3 November 2026
-
-**Changes applied:** 24 unique short English voice cues, each no longer than seven words, cross-referenced against the existing candidate-specific factual ledger. The full research assertions remain in their source-backed notes; they must not be displayed unedited for only 2.5 seconds. Make short human-written subtitles and source cards in post-production. No candidate impersonation or political persuasion. The candidate is silent and an original narrator speaks.
-
-**Quality gate:** Exact no-reference two-session character reproducibility has not been shown; this model cannot guarantee the same generated face. Actual Google Flow scene-to-scene footage has not been rendered or compared. Do not mark video continuity as passed without real clips. Recheck all biography facts independently before release. See `QA.md`.
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 21 | Public record overview. | Public record overview. | [Source](https://www.matrade.gov.my/ms/component/content/article/news-release-by-deputy-minister-of-international-trade-and-industry-datuk-lim-ban-hong?catid=2) |
+| 2.5–5.0s | 22 | Source links support these statements. | Source links support these statements. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 5.0–7.5s | 23 | Polling: November fourteenth. | Polling: November fourteenth. | [Source](https://www.spr.gov.my/km-prudunmelaka16/) |
+| 7.5–10.0s | 24 | AI-generated character and narration. | AI-generated character and narration. | Editorial disclosure/context |
 
 
-## Subtitle policy (3 November 2026)
+## Final editorial gate
 
-Every 2.5-second clip uses a brief English voiceover phrase as its editor caption (no more than seven words). Keep full sourced evidence in FACT CHECK lines, video descriptions or a separate source slate. Never display a full research paragraph in a micro-scene. An editor must verify and typeset captions; the image generator must not fabricate text.
+Check the published factual sources, on-screen caption timing, actual portrait similarity and visual continuity, no candidate-speech imitation, no political persuasion, correct party and DUN, clear source attribution (including any candidate-reported or agency-wide outcomes), and an editor-added visible notice: **“AI-generated animated portrayal and voice; not genuine candidate footage or statements.”** No 10-second video has been rendered by this repository update. Text descriptions are not an identity guarantee.

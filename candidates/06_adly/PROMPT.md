@@ -1,611 +1,371 @@
-# Adly — English, Evidence-Checked 60-Second Introduction Prompts
+# Adly — Six English Storyboard + 10-Second Video Prompt Pairs
 
-**Public identity:** Adly Zahari · **Party:** PH · **DUN:** N17 Bukit Katil · **Research update:** 3 November 2026.
+**Full public name (research only):** Adly Zahari  
+**Party:** PH  
+**State constituency:** N17 Bukit Katil  
+**Research snapshot:** 3 November 2026  
+**Format:** 6 storyboard images × 4 portrait panels, paired 1:1 with 6 seamless 10-second videos; total **60 seconds, 24 scenes**.
 
-**Documentary neutrality:** This is a factual, third-person explainer. No request to vote; no fictional candidate speech, cloned voice or misleading archival imagery. Visuals are stylized AI interpretations and are not verified portraits.
+This is neutral editorial biographical information, not voting advocacy or a candidate-endorsed video. All prompts, narration and caption instructions are in English. The illustrated public figure is silent; narration is a newly created off-screen voice. The image prompt is text-only and cannot guarantee an authentic likeness.
 
-## Prompt A — Original Text-Only Character Portrait
+## Real-photo checking reference (do not upload to generation)
 
-```text
-Generate exactly ONE original full-body 9:16 editorial 3D character, clearly showing the entire head and shoes, for Adly. NO uploaded photo and NO image reference. Reconstruct the fixed design entirely from the written specification below; do not guess missing personal biographical traits. ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+[Official Malaysia Parliament portrait](https://www.parlimen.gov.my/profile-ahli.html?id=4174&uweb=dr) · [Direct image on source host](https://www.parlimen.gov.my/images/webuser/ahli/2022/P135.jpg).
 
-Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+**Photo verification:** Observed official portrait. Before publishing, compare the eventual stylized master character against the real reference. Do not redistribute the original photo without rights.
 
-Compose a centered standing portrait, slight 10-degree three-quarter body angle while looking toward the camera. Sharp readable face, anatomically realistic hands, natural fabric texture, restrained expressions and color-accurate wardrobe. Do not use photorealistic news footage style. Avoid extra people, text, logo, flags, watermarks, speech bubbles, fake documents, unnatural anatomy or altered features. Treat output as a *new AI character interpretation*, not proof of resemblance to the public figure. Save one result as Design A; generate Design B in a fresh text-only call without passing Design A or any other image as a reference. Then compare the two outputs before choosing a master.
-```
-
-## Original English Narrator and Acting Direction
-
-```text
-Create a single calm original English documentary narrator. Do not imitate the public figure's voice or animate lip-synced candidate speeches. Across one minute, speak each of 24 short voiceover cues with a precise and readable cadence. The illustrated character remains silent, using restrained gestures. Convey facts, not praise. Distinguish the former state office, a candidate's personal public appearance, and the national outcomes of Ministry of Defence programmes. Never create exact documents, inscriptions, dates or logos in the image generator; composite the verified factual captions in the editor. No requests for votes or attacks.
-```
-
-## Shot List — 24 Scenes × 2.50 Seconds
-
-| Scene | Timecode | Topic | Neutral English narration | Editor fact caption |
-|---:|---|---|---|---|
-| 01 | 0.0–2.5s | Adly | Meet Adly Zahari. | Adly Zahari is a candidate in the 2026 Melaka election. |
-| 02 | 2.5–5.0s | Bukit Katil | The Bukit Katil constituency. | Adly is contesting N17 Bukit Katil. |
-| 03 | 5.0–7.5s | Party affiliation | Standing for Pakatan Harapan. | Adly contests on the PH ticket. |
-| 04 | 7.5–10.0s | Parliamentary service | Also representing Alor Gajah. | Parliament lists Adly as an MP for Alor Gajah. |
-| 05 | 10.0–12.5s | Deputy Minister | Deputy Minister of Defence. | Parliament lists Adly as Deputy Minister of Defence. |
-| 06 | 12.5–15.0s | Former Chief Minister | Former Melaka Chief Minister. | Melaka state government lists Adly as Chief Minister from… |
-| 07 | 15.0–17.5s | 2018 election | He won Bukit Katil in 2018. | Adly won Bukit Katil in the May 2018 election. |
-| 08 | 17.5–20.0s | 2021 election | Retained the seat in 2021. | He retained Bukit Katil in 2021 with a majority of 1,057… |
-| 09 | 20.0–22.5s | Merlimau programme | Veteran outreach in Merlimau. | Adly attended the ministry's 10 August 2026 Peduli Veteran… |
-| 10 | 22.5–25.0s | Merlimau reach | Fifteen homes were visited. | The programme visited 15 residences of veterans and their… |
-| 11 | 25.0–27.5s | Sungai Udang programme | Outreach in Sungai Udang. | On 17 August 2026 another Peduli Veteran MADANI programme… |
-| 12 | 27.5–30.0s | Sungai Udang reach | Sixteen more households. | Adly's programme visited 16 veteran and family residences. |
-| 13 | 30.0–32.5s | Bukit Katil programme | Fourteen Bukit Katil homes. | On 1 October 2026 the Bukit Katil Series 2 outreach… |
-| 14 | 32.5–35.0s | Types of households | Veterans, widows and families. | The 14 homes included seven ailing veterans, six widows… |
-| 15 | 35.0–37.5s | Targeted help | Equipment and daily support. | The ministry says welfare assistance included equipment… |
-| 16 | 37.5–40.0s | Programme attribution | A ministry-wide programme. | Peduli Veteran MADANI is implemented by MINDEF through… |
-| 17 | 40.0–42.5s | BSH expenditure | Ministry aid: one hundred twenty-three million. | RM123.92 million in BSH aid was disbursed by MINDEF as of… |
-| 18 | 42.5–45.0s | National BSH reach | Over thirty-three thousand veterans. | More than 33,000 veterans were covered by the ministry's… |
-| 19 | 45.0–47.5s | MyWira programme | MyWira reached over six thousand. | Bernama reported more than 6,000 MyWira beneficiaries… |
-| 20 | 47.5–50.0s | Industry placements | Over one hundred forty placements. | Bernama reported over 140 veterans obtained industry… |
-| 21 | 50.0–52.5s | Attribution checkpoint | Multiple agencies share responsibility. | National institutional programme figures are not personal… |
-| 22 | 52.5–55.0s | Contest context | A four-way contest. | The 2026 Bukit Katil election is a four-way contest. |
-| 23 | 55.0–57.5s | Election date | Polling: November fourteenth. | Polling for the Melaka election is scheduled for 14… |
-| 24 | 57.5–60.0s | Disclosure | AI-generated illustration and narration. | Illustrated character and narration were AI-generated, not… |
-
-## Sources and Attribution (research ledger)
-
-| Scene | Verified fact or attribution | Claim type | Source |
-|---:|---|---|---|
-| 1 | Adly Zahari is a candidate in the 2026 Melaka election. | `identity` | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
-| 2 | Adly is contesting N17 Bukit Katil. | `constituency` | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
-| 3 | Adly contests on the PH ticket. | `nomination` | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
-| 4 | Parliament lists Adly as an MP for Alor Gajah. | `public_role` | [Source](https://www.parlimen.gov.my/portal/profile-ahli.html?id=4174&uweb=dr) |
-| 5 | Parliament lists Adly as Deputy Minister of Defence. | `public_role` | [Source](https://www.parlimen.gov.my/portal/profile-ahli.html?id=4174&uweb=dr) |
-| 6 | Melaka state government lists Adly as Chief Minister from 11 May 2018 to 3 March 2020. | `prior_office` | [Source](https://melaka.gov.my/kerajaan/pentadbiran-kerajaan-negeri/ketua-menteri-melaka.html) |
-| 7 | Adly won Bukit Katil in the May 2018 election. | `election_result` | [Source](https://www.malaymail.com/news/malaysia/2018/05/11/amanahs-adly-zahari-sworn-in-as-11th-melaka-cm/1629781) |
-| 8 | He retained Bukit Katil in 2021 with a majority of 1,057 votes. | `election_result` | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
-| 9 | Adly attended the ministry's 10 August 2026 Peduli Veteran MADANI programme in Merlimau. | `ministerial_activity` | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-merlimau-district-melaka) |
-| 10 | The programme visited 15 residences of veterans and their families. | `programme_result` | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-merlimau-district-melaka) |
-| 11 | On 17 August 2026 another Peduli Veteran MADANI programme was held in Sungai Udang. | `ministerial_activity` | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-sungai-udang-melaka) |
-| 12 | Adly's programme visited 16 veteran and family residences. | `programme_result` | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-sungai-udang-melaka) |
-| 13 | On 1 October 2026 the Bukit Katil Series 2 outreach visited 14 homes. | `ministerial_activity` | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
-| 14 | The 14 homes included seven ailing veterans, six widows and one household with a disabled child. | `programme_result` | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
-| 15 | The ministry says welfare assistance included equipment and daily essentials. | `programme_result` | [Source](https://www.bernama.com/en/general/news.php?id=2614143) |
-| 16 | Peduli Veteran MADANI is implemented by MINDEF through JHEV ATM. | `attribution` | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
-| 17 | RM123.92 million in BSH aid was disbursed by MINDEF as of August 2026. | `institutional_outcome` | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
-| 18 | More than 33,000 veterans were covered by the ministry's cost-of-living aid. | `institutional_outcome` | [Source](https://www.bernama.com/en/general/news.php?id=2614143) |
-| 19 | Bernama reported more than 6,000 MyWira beneficiaries since 2024. | `institutional_outcome` | [Source](https://majujohor.bernama.com/news-en.php?id=2568535) |
-| 20 | Bernama reported over 140 veterans obtained industry placements through MyWira. | `institutional_outcome` | [Source](https://majujohor.bernama.com/news-en.php?id=2568535) |
-| 21 | National institutional programme figures are not personal delivery statistics. | `attribution` | [Source](https://majujohor.bernama.com/news-en.php?id=2568535) |
-| 22 | The 2026 Bukit Katil election is a four-way contest. | `election_context` | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
-| 23 | Polling for the Melaka election is scheduled for 14 November 2026. | `election_context` | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
-| 24 | Illustrated character and narration were AI-generated, not real footage or a candidate statement. | `disclosure` | Editorial disclosure |
-
-## Six 1x4 Storyboard Image Prompts
-
-### Storyboard 1 — Scenes 1–4
+## Master character prompt — image generation with no reference input
 
 ```text
-Create ONE storyboard IMAGE in a single horizontal 1x4 grid. Four numbered panels, each 9:16 portrait; overall image ratio 9:4. Each panel is one independent vertical still for a different 2.5-second video clip.
+Create one original 3D family-animation editorial master character reference image for the nickname "Adly". Design an adult public figure-inspired human with a polished Disney/Pixar-inspired aesthetic, warm expressive facial design and grounded anatomy, without copying any specific copyrighted fictional character. One single subject, full body from top of head or headscarf to shoes, front three-quarter standing pose at a slight 10-degree angle, eyes gently facing camera. NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
 
-Panel 1 — Scene 1 (Adly): A neutral studio full-body introduction, no campaign logos. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 2 — Scene 2 (Bukit Katil): A matte Melaka map with one highlighted region. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 3 — Scene 3 (Party affiliation): An unbranded paper index card, coalition printed in edit. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 4 — Scene 4 (Parliamentary service): Neutral line-art Parliament building, blank nameplate. Use a clear single cinematic composition and blank lower subtitle-safe region.
+DETAILED CHARACTER LOCK: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
 
-CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-WORLD_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-STYLE: Polished cinematic 3D editorial illustration; exact matching eyes, eyebrows, glasses, facial hair, hair styling, shoulder silhouette, suit seams, tie pattern and shoes. Avoid any candidate mouth animation or invented historic interaction.
-TEXT: Do not render names, counts, real documents, party logos or speech bubbles in the generated image; editor overlays accurate sourced text later.
+FACIAL CONSISTENCY: Fix the precise oval/square outline, forehead height, brow shape and angle, distance between eyes, eyelids, ear silhouette, nose bridge and tip, mouth width, cheek volume, jawline and chin shape. Lock every accessory and every fabric fold. Use the same exact shoes, shirt or baju kurung seams and wrist/hand size in future scenes. Skin shading and hair/hijab texture are consistent.
+
+CLEAN STUDIO: matte warm ivory seamless backdrop, stone-grey floor, one broad key light camera left, right-side bounce fill, delicate top rim light, camera at eye level with a 65mm portrait lens, natural soft shadow. Professional friendly posture, hands visible with anatomically accurate fingers, subtle closed-mouth smile. No logo, political party branding, readable text, slogans, ballot boxes, additional people or watermark. One image only, vertical 9:16. This portrait is an AI concept and not a certified likeness.
 ```
 
-### Storyboard 2 — Scenes 5–8
+## One-to-one storyboard / video workflow
+
+Generate master portrait from text, audit visible facial features against the real-photo reference page (without uploading the photo to the generator), then copy a batch's storyboard prompt to an image generator. For that same batch, copy its matching video prompt to Google Flow. Each 10-second video follows the four storyboard panels in order. Export six clips and combine into one 60-second film. The same **text-based character lock is included independently in every batch**. For greater reliability, optionally use a generated master portrait as a Google Flow Ingredient; that changes production from no-image-reference to using a generated image reference, and must not be called a text-only consistency test.
+
+## Batch 1 — 10 seconds (0–10s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create ONE storyboard IMAGE in a single horizontal 1x4 grid. Four numbered panels, each 9:16 portrait; overall image ratio 9:4. Each panel is one independent vertical still for a different 2.5-second video clip.
+Create a SINGLE static cinematic storyboard IMAGE for "Adly — 60-second factual introduction", BATCH 1 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 01–04. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
 
-Panel 1 — Scene 5 (Deputy Minister): A blank ministry folder beside a neutral official-style corridor, without emblems. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 2 — Scene 6 (Former Chief Minister): Historical state-administration timeline, no reenacted meeting. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 3 — Scene 7 (2018 election): Flat election archive folder, date added manually. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 4 — Scene 8 (2021 election): Election chart with a clear 1,057 number inserted by editor. Use a clear single cinematic composition and blank lower subtitle-safe region.
+Panel 1 — Global Scene 01 (Adly): A medium-full character reveal in a softly lit neutral ivory studio, a slow respectful push-in, calm expression. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: Adly Zahari is a candidate in the 2026 Melaka election..
 
-CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-WORLD_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-STYLE: Polished cinematic 3D editorial illustration; exact matching eyes, eyebrows, glasses, facial hair, hair styling, shoulder silhouette, suit seams, tie pattern and shoes. Avoid any candidate mouth animation or invented historic interaction.
-TEXT: Do not render names, counts, real documents, party logos or speech bubbles in the generated image; editor overlays accurate sourced text later.
+Panel 2 — Global Scene 02 (Bukit Katil): A stylized Melaka geography table with one softly glowing constituency dot and a clean map outline, no readable labels. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Adly is contesting N17 Bukit Katil..
+
+Panel 3 — Global Scene 03 (Party affiliation): A tasteful unbranded ballot-card silhouette and simple colour-neutral election infographic, with no invented party logo. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Adly contests on the PH ticket..
+
+Panel 4 — Global Scene 04 (Parliamentary service): A studio-to-professional-setting transition: a polished desk with role-specific objects and one restrained gesture. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: Parliament lists Adly as an MP for Alor Gajah..
+
+CHARACTER LOCK: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Storyboard 3 — Scenes 9–12
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create ONE storyboard IMAGE in a single horizontal 1x4 grid. Four numbered panels, each 9:16 portrait; overall image ratio 9:4. Each panel is one independent vertical still for a different 2.5-second video clip.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 1 for "Adly — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
 
-Panel 1 — Scene 9 (Merlimau programme): Illustrative route with discreet home silhouettes. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 2 — Scene 10 (Merlimau reach): Fifteen simple home icons, no invented real people. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 3 — Scene 11 (Sungai Udang programme): A second neutral map with a date pin. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 4 — Scene 12 (Sungai Udang reach): Sixteen simple home icons and an editor-filled number. Use a clear single cinematic composition and blank lower subtitle-safe region.
+Scene 1 (0.0–2.5 seconds; global scene 1): A medium-full character reveal in a softly lit neutral ivory studio, a slow respectful push-in, calm expression. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Meet Adly Zahari." Source-backed fact for editor, not a generated claim: Adly Zahari is a candidate in the 2026 Melaka election.
 
-CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-WORLD_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-STYLE: Polished cinematic 3D editorial illustration; exact matching eyes, eyebrows, glasses, facial hair, hair styling, shoulder silhouette, suit seams, tie pattern and shoes. Avoid any candidate mouth animation or invented historic interaction.
-TEXT: Do not render names, counts, real documents, party logos or speech bubbles in the generated image; editor overlays accurate sourced text later.
+Scene 2 (2.5–5.0 seconds; global scene 2): A stylized Melaka geography table with one softly glowing constituency dot and a clean map outline, no readable labels. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "The Bukit Katil constituency." Source-backed fact for editor, not a generated claim: Adly is contesting N17 Bukit Katil.
+
+Scene 3 (5.0–7.5 seconds; global scene 3): A tasteful unbranded ballot-card silhouette and simple colour-neutral election infographic, with no invented party logo. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Standing for Pakatan Harapan." Source-backed fact for editor, not a generated claim: Adly contests on the PH ticket.
+
+Scene 4 (7.5–10.0 seconds; global scene 4): A studio-to-professional-setting transition: a polished desk with role-specific objects and one restrained gesture. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Also representing Alor Gajah." Source-backed fact for editor, not a generated claim: Parliament lists Adly as an MP for Alor Gajah.
+
+CHARACTER CONSISTENCY: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Storyboard 4 — Scenes 13–16
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 1 | Meet Adly Zahari. | Adly Zahari is a candidate in the 2026 Melaka election. | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
+| 2.5–5.0s | 2 | The Bukit Katil constituency. | Adly is contesting N17 Bukit Katil. | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
+| 5.0–7.5s | 3 | Standing for Pakatan Harapan. | Adly contests on the PH ticket. | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
+| 7.5–10.0s | 4 | Also representing Alor Gajah. | Parliament lists Adly as an MP for Alor Gajah. | [Source](https://www.parlimen.gov.my/portal/profile-ahli.html?id=4174&uweb=dr) |
+
+
+## Batch 2 — 10 seconds (10–20s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create ONE storyboard IMAGE in a single horizontal 1x4 grid. Four numbered panels, each 9:16 portrait; overall image ratio 9:4. Each panel is one independent vertical still for a different 2.5-second video clip.
+Create a SINGLE static cinematic storyboard IMAGE for "Adly — 60-second factual introduction", BATCH 2 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 05–08. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
 
-Panel 1 — Scene 13 (Bukit Katil programme): An illustrated local estate map, fourteen home icons. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 2 — Scene 14 (Types of households): Three neutral category icons, category numbers inserted in edit. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 3 — Scene 15 (Targeted help): Still life of generic wheelchair, walking frame and care parcels. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 4 — Scene 16 (Programme attribution): An abstract partnership chart showing multiple agency nodes. Use a clear single cinematic composition and blank lower subtitle-safe region.
+Panel 1 — Global Scene 05 (Deputy Minister): A clean timeline of earlier public record dates illustrated by a calendar and archival folders, with all numbers added in editing. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Parliament lists Adly as Deputy Minister of Defence..
 
-CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-WORLD_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-STYLE: Polished cinematic 3D editorial illustration; exact matching eyes, eyebrows, glasses, facial hair, hair styling, shoulder silhouette, suit seams, tie pattern and shoes. Avoid any candidate mouth animation or invented historic interaction.
-TEXT: Do not render names, counts, real documents, party logos or speech bubbles in the generated image; editor overlays accurate sourced text later.
+Panel 2 — Global Scene 06 (Former Chief Minister): An abstract Melaka legislative chamber silhouette and a single discreet source card to represent earlier elected service without reenacting an event. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: Melaka state government lists Adly as Chief Minister from 11 May 2018 to 3 March 2020..
+
+Panel 3 — Global Scene 07 (2018 election): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Adly won Bukit Katil in the May 2018 election..
+
+Panel 4 — Global Scene 08 (2021 election): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: He retained Bukit Katil in 2021 with a majority of 1,057 votes..
+
+CHARACTER LOCK: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Storyboard 5 — Scenes 17–20
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Create ONE storyboard IMAGE in a single horizontal 1x4 grid. Four numbered panels, each 9:16 portrait; overall image ratio 9:4. Each panel is one independent vertical still for a different 2.5-second video clip.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 2 for "Adly — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
 
-Panel 1 — Scene 17 (BSH expenditure): A neutral expenditure chart, exact figure inserted manually. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 2 — Scene 18 (National BSH reach): Wide infographic of abstract persons across Malaysia. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 3 — Scene 19 (MyWira programme): Career-ladder icon and a large blank metric area. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 4 — Scene 20 (Industry placements): Neutral icons for manufacturing, aviation, teaching and technology. Use a clear single cinematic composition and blank lower subtitle-safe region.
+Scene 1 (0.0–2.5 seconds; global scene 5): A clean timeline of earlier public record dates illustrated by a calendar and archival folders, with all numbers added in editing. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Deputy Minister of Defence." Source-backed fact for editor, not a generated claim: Parliament lists Adly as Deputy Minister of Defence.
 
-CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-WORLD_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-STYLE: Polished cinematic 3D editorial illustration; exact matching eyes, eyebrows, glasses, facial hair, hair styling, shoulder silhouette, suit seams, tie pattern and shoes. Avoid any candidate mouth animation or invented historic interaction.
-TEXT: Do not render names, counts, real documents, party logos or speech bubbles in the generated image; editor overlays accurate sourced text later.
+Scene 2 (2.5–5.0 seconds; global scene 6): An abstract Melaka legislative chamber silhouette and a single discreet source card to represent earlier elected service without reenacting an event. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Former Melaka Chief Minister." Source-backed fact for editor, not a generated claim: Melaka state government lists Adly as Chief Minister from 11 May 2018 to 3 March 2020.
+
+Scene 3 (5.0–7.5 seconds; global scene 7): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "He won Bukit Katil in 2018." Source-backed fact for editor, not a generated claim: Adly won Bukit Katil in the May 2018 election.
+
+Scene 4 (7.5–10.0 seconds; global scene 8): An abstract election-and-leadership archive, tidy folders and civic institutional architecture, not a fabricated historical photograph. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Retained the seat in 2021." Source-backed fact for editor, not a generated claim: He retained Bukit Katil in 2021 with a majority of 1,057 votes.
+
+CHARACTER CONSISTENCY: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Storyboard 6 — Scenes 21–24
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 5 | Deputy Minister of Defence. | Parliament lists Adly as Deputy Minister of Defence. | [Source](https://www.parlimen.gov.my/portal/profile-ahli.html?id=4174&uweb=dr) |
+| 2.5–5.0s | 6 | Former Melaka Chief Minister. | Melaka state government lists Adly as Chief Minister from 11 May 2018 to 3 March 2020. | [Source](https://melaka.gov.my/kerajaan/pentadbiran-kerajaan-negeri/ketua-menteri-melaka.html) |
+| 5.0–7.5s | 7 | He won Bukit Katil in 2018. | Adly won Bukit Katil in the May 2018 election. | [Source](https://www.malaymail.com/news/malaysia/2018/05/11/amanahs-adly-zahari-sworn-in-as-11th-melaka-cm/1629781) |
+| 7.5–10.0s | 8 | Retained the seat in 2021. | He retained Bukit Katil in 2021 with a majority of 1,057 votes. | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
+
+
+## Batch 3 — 10 seconds (20–30s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Create ONE storyboard IMAGE in a single horizontal 1x4 grid. Four numbered panels, each 9:16 portrait; overall image ratio 9:4. Each panel is one independent vertical still for a different 2.5-second video clip.
+Create a SINGLE static cinematic storyboard IMAGE for "Adly — 60-second factual introduction", BATCH 3 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 09–12. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
 
-Panel 1 — Scene 21 (Attribution checkpoint): Camera pulls out to a linked network of civic service icons. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 2 — Scene 22 (Contest context): Four anonymous equal-sized candidate tiles, no vote totals. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 3 — Scene 23 (Election date): Clean calendar turning to 14 November; date editor-added. Use a clear single cinematic composition and blank lower subtitle-safe region.
-Panel 4 — Scene 24 (Disclosure): Studio closing portrait fades to a disclosure-safe neutral field. Use a clear single cinematic composition and blank lower subtitle-safe region.
+Panel 1 — Global Scene 09 (Merlimau programme): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Adly attended the ministry's 10 August 2026 Peduli Veteran MADANI programme in Merlimau..
 
-CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-WORLD_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-STYLE: Polished cinematic 3D editorial illustration; exact matching eyes, eyebrows, glasses, facial hair, hair styling, shoulder silhouette, suit seams, tie pattern and shoes. Avoid any candidate mouth animation or invented historic interaction.
-TEXT: Do not render names, counts, real documents, party logos or speech bubbles in the generated image; editor overlays accurate sourced text later.
+Panel 2 — Global Scene 10 (Merlimau reach): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: The programme visited 15 residences of veterans and their families..
+
+Panel 3 — Global Scene 11 (Sungai Udang programme): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: On 17 August 2026 another Peduli Veteran MADANI programme was held in Sungai Udang..
+
+Panel 4 — Global Scene 12 (Sungai Udang reach): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Adly's programme visited 16 veteran and family residences..
+
+CHARACTER LOCK: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-## 24 Individual 2.5-Second Video Prompts
-
-### Video Scene 01 — Adly
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 1, timeline 0.0–2.5 seconds.
-ACTION: A neutral studio full-body introduction, no campaign logos.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Meet Adly Zahari." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Adly Zahari is a candidate in the 2026 Melaka election.
-SOURCE: https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/
-EDITOR-ADDED OVERLAY: Adly Zahari is a candidate in the 2026 Melaka election.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 3 for "Adly — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 9): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Veteran outreach in Merlimau." Source-backed fact for editor, not a generated claim: Adly attended the ministry's 10 August 2026 Peduli Veteran MADANI programme in Merlimau.
+
+Scene 2 (2.5–5.0 seconds; global scene 10): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Fifteen homes were visited." Source-backed fact for editor, not a generated claim: The programme visited 15 residences of veterans and their families.
+
+Scene 3 (5.0–7.5 seconds; global scene 11): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Outreach in Sungai Udang." Source-backed fact for editor, not a generated claim: On 17 August 2026 another Peduli Veteran MADANI programme was held in Sungai Udang.
+
+Scene 4 (7.5–10.0 seconds; global scene 12): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Sixteen more households." Source-backed fact for editor, not a generated claim: Adly's programme visited 16 veteran and family residences.
+
+CHARACTER CONSISTENCY: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video Scene 02 — Bukit Katil
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 9 | Veteran outreach in Merlimau. | Adly attended the ministry's 10 August 2026 Peduli Veteran MADANI programme in Merlimau. | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-merlimau-district-melaka) |
+| 2.5–5.0s | 10 | Fifteen homes were visited. | The programme visited 15 residences of veterans and their families. | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-merlimau-district-melaka) |
+| 5.0–7.5s | 11 | Outreach in Sungai Udang. | On 17 August 2026 another Peduli Veteran MADANI programme was held in Sungai Udang. | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-sungai-udang-melaka) |
+| 7.5–10.0s | 12 | Sixteen more households. | Adly's programme visited 16 veteran and family residences. | [Source](https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-sungai-udang-melaka) |
+
+
+## Batch 4 — 10 seconds (30–40s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 2, timeline 2.5–5.0 seconds.
-ACTION: A matte Melaka map with one highlighted region.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "The Bukit Katil constituency." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Adly is contesting N17 Bukit Katil.
-SOURCE: https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/
-EDITOR-ADDED OVERLAY: Adly is contesting N17 Bukit Katil.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
+Create a SINGLE static cinematic storyboard IMAGE for "Adly — 60-second factual introduction", BATCH 4 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 13–16. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
+
+Panel 1 — Global Scene 13 (Bukit Katil programme): A miniature 3D community map with tidy housing blocks, visible roads and civil-infrastructure features, as an illustration rather than proof of completed works. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: On 1 October 2026 the Bukit Katil Series 2 outreach visited 14 homes..
+
+Panel 2 — Global Scene 14 (Types of households): A miniature 3D community map with tidy housing blocks, visible roads and civil-infrastructure features, as an illustration rather than proof of completed works. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: The 14 homes included seven ailing veterans, six widows and one household with a disabled child..
+
+Panel 3 — Global Scene 15 (Targeted help): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: The ministry says welfare assistance included equipment and daily essentials..
+
+Panel 4 — Global Scene 16 (Programme attribution): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Peduli Veteran MADANI is implemented by MINDEF through JHEV ATM..
+
+CHARACTER LOCK: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Video Scene 03 — Party affiliation
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 3, timeline 5.0–7.5 seconds.
-ACTION: An unbranded paper index card, coalition printed in edit.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Standing for Pakatan Harapan." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Adly contests on the PH ticket.
-SOURCE: https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/
-EDITOR-ADDED OVERLAY: Adly contests on the PH ticket.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 4 for "Adly — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 13): A miniature 3D community map with tidy housing blocks, visible roads and civil-infrastructure features, as an illustration rather than proof of completed works. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Fourteen Bukit Katil homes." Source-backed fact for editor, not a generated claim: On 1 October 2026 the Bukit Katil Series 2 outreach visited 14 homes.
+
+Scene 2 (2.5–5.0 seconds; global scene 14): A miniature 3D community map with tidy housing blocks, visible roads and civil-infrastructure features, as an illustration rather than proof of completed works. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Veterans, widows and families." Source-backed fact for editor, not a generated claim: The 14 homes included seven ailing veterans, six widows and one household with a disabled child.
+
+Scene 3 (5.0–7.5 seconds; global scene 15): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Equipment and daily support." Source-backed fact for editor, not a generated claim: The ministry says welfare assistance included equipment and daily essentials.
+
+Scene 4 (7.5–10.0 seconds; global scene 16): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "A ministry-wide programme." Source-backed fact for editor, not a generated claim: Peduli Veteran MADANI is implemented by MINDEF through JHEV ATM.
+
+CHARACTER CONSISTENCY: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video Scene 04 — Parliamentary service
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 13 | Fourteen Bukit Katil homes. | On 1 October 2026 the Bukit Katil Series 2 outreach visited 14 homes. | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
+| 2.5–5.0s | 14 | Veterans, widows and families. | The 14 homes included seven ailing veterans, six widows and one household with a disabled child. | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
+| 5.0–7.5s | 15 | Equipment and daily support. | The ministry says welfare assistance included equipment and daily essentials. | [Source](https://www.bernama.com/en/general/news.php?id=2614143) |
+| 7.5–10.0s | 16 | A ministry-wide programme. | Peduli Veteran MADANI is implemented by MINDEF through JHEV ATM. | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
+
+
+## Batch 5 — 10 seconds (40–50s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 4, timeline 7.5–10.0 seconds.
-ACTION: Neutral line-art Parliament building, blank nameplate.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Also representing Alor Gajah." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Parliament lists Adly as an MP for Alor Gajah.
-SOURCE: https://www.parlimen.gov.my/portal/profile-ahli.html?id=4174&uweb=dr
-EDITOR-ADDED OVERLAY: Parliament lists Adly as an MP for Alor Gajah.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
+Create a SINGLE static cinematic storyboard IMAGE for "Adly — 60-second factual introduction", BATCH 5 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 17–20. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
+
+Panel 1 — Global Scene 17 (BSH expenditure): A stylized government-finance dashboard with blank graph shapes and a neutral ledger, figures to be inserted only by the editor. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: RM123.92 million in BSH aid was disbursed by MINDEF as of August 2026..
+
+Panel 2 — Global Scene 18 (National BSH reach): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: More than 33,000 veterans were covered by the ministry's cost-of-living aid..
+
+Panel 3 — Global Scene 19 (MyWira programme): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "MyWira programme", with no fabricated text or figures. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Bernama reported more than 6,000 MyWira beneficiaries since 2024..
+
+Panel 4 — Global Scene 20 (Industry placements): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Bernama reported over 140 veterans obtained industry placements through MyWira..
+
+CHARACTER LOCK: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Video Scene 05 — Deputy Minister
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 5, timeline 10.0–12.5 seconds.
-ACTION: A blank ministry folder beside a neutral official-style corridor, without emblems.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Deputy Minister of Defence." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Parliament lists Adly as Deputy Minister of Defence.
-SOURCE: https://www.parlimen.gov.my/portal/profile-ahli.html?id=4174&uweb=dr
-EDITOR-ADDED OVERLAY: Parliament lists Adly as Deputy Minister of Defence.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 5 for "Adly — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 17): A stylized government-finance dashboard with blank graph shapes and a neutral ledger, figures to be inserted only by the editor. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Ministry aid: one hundred twenty-three million." Source-backed fact for editor, not a generated claim: RM123.92 million in BSH aid was disbursed by MINDEF as of August 2026.
+
+Scene 2 (2.5–5.0 seconds; global scene 18): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Over thirty-three thousand veterans." Source-backed fact for editor, not a generated claim: More than 33,000 veterans were covered by the ministry's cost-of-living aid.
+
+Scene 3 (5.0–7.5 seconds; global scene 19): An elegant 3D editorial evidence vignette: a generic document folder, fixed tabletop and one symbolic prop related to "MyWira programme", with no fabricated text or figures. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "MyWira reached over six thousand." Source-backed fact for editor, not a generated claim: Bernama reported more than 6,000 MyWira beneficiaries since 2024.
+
+Scene 4 (7.5–10.0 seconds; global scene 20): A respectful illustrative community-care vignette, subtle home icons and a neutral welfare checklist, no portrayal of a purported authentic visit. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Over one hundred forty placements." Source-backed fact for editor, not a generated claim: Bernama reported over 140 veterans obtained industry placements through MyWira.
+
+CHARACTER CONSISTENCY: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video Scene 06 — Former Chief Minister
+#### Research & narration for this 10-second pair
+
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 17 | Ministry aid: one hundred twenty-three million. | RM123.92 million in BSH aid was disbursed by MINDEF as of August 2026. | [Source](https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2) |
+| 2.5–5.0s | 18 | Over thirty-three thousand veterans. | More than 33,000 veterans were covered by the ministry's cost-of-living aid. | [Source](https://www.bernama.com/en/general/news.php?id=2614143) |
+| 5.0–7.5s | 19 | MyWira reached over six thousand. | Bernama reported more than 6,000 MyWira beneficiaries since 2024. | [Source](https://majujohor.bernama.com/news-en.php?id=2568535) |
+| 7.5–10.0s | 20 | Over one hundred forty placements. | Bernama reported over 140 veterans obtained industry placements through MyWira. | [Source](https://majujohor.bernama.com/news-en.php?id=2568535) |
+
+
+## Batch 6 — 10 seconds (50–60s)
+
+### Storyboard prompt — 1×4 grid, four 9:16 panels
 
 ```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 6, timeline 12.5–15.0 seconds.
-ACTION: Historical state-administration timeline, no reenacted meeting.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Former Melaka Chief Minister." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Melaka state government lists Adly as Chief Minister from 11 May 2018 to 3 March 2020.
-SOURCE: https://melaka.gov.my/kerajaan/pentadbiran-kerajaan-negeri/ketua-menteri-melaka.html
-EDITOR-ADDED OVERLAY: Melaka state government lists Adly as Chief Minister from…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
+Create a SINGLE static cinematic storyboard IMAGE for "Adly — 60-second factual introduction", BATCH 6 of 6. Arrange EXACTLY FOUR independent 9:16 portrait panels from left to right in ONE 1x4 horizontal grid. The combined storyboard sheet is 9:4. Separate panels with narrow dividers; number each panel 21–24. The four panels preview one 10-second, 9:16 VIDEO (2.5 seconds per panel).
+
+Panel 1 — Global Scene 21 (Attribution checkpoint): An editorial four-card recap of the source-backed experience, text spaces left blank. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: National institutional programme figures are not personal delivery statistics..
+
+Panel 2 — Global Scene 22 (Contest context): A library-style source desk, document references organized in neutral folders, no fake seals. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: The 2026 Bukit Katil election is a four-way contest..
+
+Panel 3 — Global Scene 23 (Election date): An elegant calendar and ballot-date icon on a clean neutral background. On-screen figure: only if composition benefits; otherwise foreground the symbolic objects. Caption placeholder only; no generated text. Factual support: Polling for the Melaka election is scheduled for 14 November 2026..
+
+Panel 4 — Global Scene 24 (Disclosure): Return to the same warm ivory portrait studio, the illustrated person still and a clear empty lower third for AI disclosure. On-screen figure: include the locked illustrated character. Caption placeholder only; no generated text. Factual support: Illustrated character and narration were AI-generated, not real footage or a candidate statement..
+
+CHARACTER LOCK: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+STYLE LOCK: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+PHOTO INPUT: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+EDITORIAL GUARDRAILS: These are designed scenes, not recorded history. Represent programmes, funds, appointments and claims visually without fabricating actual events. No lip-sync, false quotations, visual endorsements, fabricated crowds, political calls to action, party slogans or copyrighted studio characters. If a claimed success is attributed to a ministry, agency or candidate, keep that attribution in the separate evidence ledger. Add any text or verified numbers manually in editing.
 ```
 
-### Video Scene 07 — 2018 election
+### Video prompt — one seamless 10-second 9:16 video
 
 ```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 7, timeline 15.0–17.5 seconds.
-ACTION: Flat election archive folder, date added manually.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "He won Bukit Katil in 2018." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Adly won Bukit Katil in the May 2018 election.
-SOURCE: https://www.malaymail.com/news/malaysia/2018/05/11/amanahs-adly-zahari-sworn-in-as-11th-melaka-cm/1629781
-EDITOR-ADDED OVERLAY: Adly won Bukit Katil in the May 2018 election.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
+A single, seamless cinematic 10.0-second VIDEO in vertical 9:16 aspect ratio, based exactly on the matching 4-panel storyboard BATCH 6 for "Adly — 60-second factual introduction". Animate panels 1, 2, 3, 4 in their fixed order, exactly 2.5 seconds per panel. One contiguous animated sequence. DO NOT present the 1x4 storyboard grid as the video canvas. Preserve the storyboard composition, character identity and location anchors; transitions must fit inside the 10.0-second runtime. Each scene should have one filmable action.
+
+Scene 1 (0.0–2.5 seconds; global scene 21): An editorial four-card recap of the source-backed experience, text spaces left blank. Camera: slow forward push, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Multiple agencies share responsibility." Source-backed fact for editor, not a generated claim: National institutional programme figures are not personal delivery statistics.
+
+Scene 2 (2.5–5.0 seconds; global scene 22): A library-style source desk, document references organized in neutral folders, no fake seals. Camera: subtle right-to-left track, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "A four-way contest." Source-backed fact for editor, not a generated claim: The 2026 Bukit Katil election is a four-way contest.
+
+Scene 3 (5.0–7.5 seconds; global scene 23): An elegant calendar and ballot-date icon on a clean neutral background. Camera: slow focus pull, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "Polling: November fourteenth." Source-backed fact for editor, not a generated claim: Polling for the Melaka election is scheduled for 14 November 2026.
+
+Scene 4 (7.5–10.0 seconds; global scene 24): Return to the same warm ivory portrait studio, the illustrated person still and a clear empty lower third for AI disclosure. Camera: gentle backward crane, with natural small motion. On-screen candidate character is silent. Narration (ORIGINAL neutral English voice, off-screen): "AI-generated illustration and narration." Source-backed fact for editor, not a generated claim: Illustrated character and narration were AI-generated, not real footage or a candidate statement.
+
+CHARACTER CONSISTENCY: Malaysian man in his mid-fifties, broad oval face with rounded lower jaw, medium warm-tan complexion, short black hair flecked grey and swept straight back, slightly raised hair at the crown, calm deep-set eyes behind medium rectangular dark-metal glasses, a distinct small grey-white chin goatee and subtle thin moustache with no full beard, natural understated smile, medium build and squared shoulders. Wardrobe lock: Formal black-charcoal suit, white dress shirt, navy tie with narrow diagonal pale stripes, black leather formal shoes.
+
+CINEMATIC STYLE: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
+
+NO PHOTO REFERENCE IN GENERATION: NO PHOTO IS PROVIDED AS A GENERATION INPUT. Generate the character independently from the written appearance lock. The link to the real photograph is a research/checking reference only, not an image ingredient. Facial similarity cannot be guaranteed from text, and uncertain traits must be treated as artistic reconstructions.
+
+NARRATOR: Use only the four English lines above, in sequence. The person onscreen never speaks, lip-syncs, endorses or imitates a real voice. A quiet original instrumental underscore may play below the narration. Do not use actual news footage, fake rallies, politics-themed promotional music, identifiable real people other than the stylized editorial candidate, or generated logos. Keep subtitle-safe space at bottom; add exact source-backed captions and the AI disclosure in the final editor. Output precisely one 10-second portrait video, NOT four separate video files.
 ```
 
-### Video Scene 08 — 2021 election
+#### Research & narration for this 10-second pair
 
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 8, timeline 17.5–20.0 seconds.
-ACTION: Election chart with a clear 1,057 number inserted by editor.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Retained the seat in 2021." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): He retained Bukit Katil in 2021 with a majority of 1,057 votes.
-SOURCE: https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/
-EDITOR-ADDED OVERLAY: He retained Bukit Katil in 2021 with a majority of 1,057…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
+| Time | Global scene | English narration | Research basis | Evidence |
+|---|---:|---|---|---|
+| 0.0–2.5s | 21 | Multiple agencies share responsibility. | National institutional programme figures are not personal delivery statistics. | [Source](https://majujohor.bernama.com/news-en.php?id=2568535) |
+| 2.5–5.0s | 22 | A four-way contest. | The 2026 Bukit Katil election is a four-way contest. | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
+| 5.0–7.5s | 23 | Polling: November fourteenth. | Polling for the Melaka election is scheduled for 14 November 2026. | [Source](https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/) |
+| 7.5–10.0s | 24 | AI-generated illustration and narration. | Illustrated character and narration were AI-generated, not real footage or a candidate statement. | Editorial disclosure/context |
 
-### Video Scene 09 — Merlimau programme
 
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 9, timeline 20.0–22.5 seconds.
-ACTION: Illustrative route with discreet home silhouettes.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Veteran outreach in Merlimau." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Adly attended the ministry's 10 August 2026 Peduli Veteran MADANI programme in Merlimau.
-SOURCE: https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-merlimau-district-melaka
-EDITOR-ADDED OVERLAY: Adly attended the ministry's 10 August 2026 Peduli Veteran…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
+## Final editorial gate
 
-### Video Scene 10 — Merlimau reach
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 10, timeline 22.5–25.0 seconds.
-ACTION: Fifteen simple home icons, no invented real people.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Fifteen homes were visited." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): The programme visited 15 residences of veterans and their families.
-SOURCE: https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-merlimau-district-melaka
-EDITOR-ADDED OVERLAY: The programme visited 15 residences of veterans and their…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 11 — Sungai Udang programme
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 11, timeline 25.0–27.5 seconds.
-ACTION: A second neutral map with a date pin.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Outreach in Sungai Udang." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): On 17 August 2026 another Peduli Veteran MADANI programme was held in Sungai Udang.
-SOURCE: https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-sungai-udang-melaka
-EDITOR-ADDED OVERLAY: On 17 August 2026 another Peduli Veteran MADANI programme…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 12 — Sungai Udang reach
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 12, timeline 27.5–30.0 seconds.
-ACTION: Sixteen simple home icons and an editor-filled number.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Sixteen more households." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Adly's programme visited 16 veteran and family residences.
-SOURCE: https://www.mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-implements-peduli-veteran-madani-pvm-programme-in-sungai-udang-melaka
-EDITOR-ADDED OVERLAY: Adly's programme visited 16 veteran and family residences.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 13 — Bukit Katil programme
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 13, timeline 30.0–32.5 seconds.
-ACTION: An illustrated local estate map, fourteen home icons.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Fourteen Bukit Katil homes." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): On 1 October 2026 the Bukit Katil Series 2 outreach visited 14 homes.
-SOURCE: https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2
-EDITOR-ADDED OVERLAY: On 1 October 2026 the Bukit Katil Series 2 outreach…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 14 — Types of households
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 14, timeline 32.5–35.0 seconds.
-ACTION: Three neutral category icons, category numbers inserted in edit.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Veterans, widows and families." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): The 14 homes included seven ailing veterans, six widows and one household with a disabled child.
-SOURCE: https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2
-EDITOR-ADDED OVERLAY: The 14 homes included seven ailing veterans, six widows…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 15 — Targeted help
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 15, timeline 35.0–37.5 seconds.
-ACTION: Still life of generic wheelchair, walking frame and care parcels.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Equipment and daily support." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): The ministry says welfare assistance included equipment and daily essentials.
-SOURCE: https://www.bernama.com/en/general/news.php?id=2614143
-EDITOR-ADDED OVERLAY: The ministry says welfare assistance included equipment…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 16 — Programme attribution
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 16, timeline 37.5–40.0 seconds.
-ACTION: An abstract partnership chart showing multiple agency nodes.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "A ministry-wide programme." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Peduli Veteran MADANI is implemented by MINDEF through JHEV ATM.
-SOURCE: https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2
-EDITOR-ADDED OVERLAY: Peduli Veteran MADANI is implemented by MINDEF through…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 17 — BSH expenditure
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 17, timeline 40.0–42.5 seconds.
-ACTION: A neutral expenditure chart, exact figure inserted manually.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Ministry aid: one hundred twenty-three million." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): RM123.92 million in BSH aid was disbursed by MINDEF as of August 2026.
-SOURCE: https://mod.gov.my/index.php/en/media3/news/deputy-minister-of-defence-attends-to-the-welfare-of-maf-veterans-through-the-peduli-veteran-madani-pvm-programme-bukit-katil-series-2
-EDITOR-ADDED OVERLAY: RM123.92 million in BSH aid was disbursed by MINDEF as of…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 18 — National BSH reach
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 18, timeline 42.5–45.0 seconds.
-ACTION: Wide infographic of abstract persons across Malaysia.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Over thirty-three thousand veterans." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): More than 33,000 veterans were covered by the ministry's cost-of-living aid.
-SOURCE: https://www.bernama.com/en/general/news.php?id=2614143
-EDITOR-ADDED OVERLAY: More than 33,000 veterans were covered by the ministry's…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 19 — MyWira programme
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 19, timeline 45.0–47.5 seconds.
-ACTION: Career-ladder icon and a large blank metric area.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "MyWira reached over six thousand." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Bernama reported more than 6,000 MyWira beneficiaries since 2024.
-SOURCE: https://majujohor.bernama.com/news-en.php?id=2568535
-EDITOR-ADDED OVERLAY: Bernama reported more than 6,000 MyWira beneficiaries…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 20 — Industry placements
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 20, timeline 47.5–50.0 seconds.
-ACTION: Neutral icons for manufacturing, aviation, teaching and technology.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Over one hundred forty placements." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Bernama reported over 140 veterans obtained industry placements through MyWira.
-SOURCE: https://majujohor.bernama.com/news-en.php?id=2568535
-EDITOR-ADDED OVERLAY: Bernama reported over 140 veterans obtained industry…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 21 — Attribution checkpoint
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 21, timeline 50.0–52.5 seconds.
-ACTION: Camera pulls out to a linked network of civic service icons.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Multiple agencies share responsibility." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): National institutional programme figures are not personal delivery statistics.
-SOURCE: https://majujohor.bernama.com/news-en.php?id=2568535
-EDITOR-ADDED OVERLAY: National institutional programme figures are not personal…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 22 — Contest context
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 22, timeline 52.5–55.0 seconds.
-ACTION: Four anonymous equal-sized candidate tiles, no vote totals.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "A four-way contest." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): The 2026 Bukit Katil election is a four-way contest.
-SOURCE: https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/
-EDITOR-ADDED OVERLAY: The 2026 Bukit Katil election is a four-way contest.. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 23 — Election date
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 23, timeline 55.0–57.5 seconds.
-ACTION: Clean calendar turning to 14 November; date editor-added.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "Polling: November fourteenth." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Polling for the Melaka election is scheduled for 14 November 2026.
-SOURCE: https://election.bernama.com/prn/melaka/2026/news/2628097/melaka-polls-adly-in-four-cornered-contest-for-bukit-katil-seat/
-EDITOR-ADDED OVERLAY: Polling for the Melaka election is scheduled for 14…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-### Video Scene 24 — Disclosure
-
-```text
-Generate ONE cinematic editorial 9:16 portrait video clip, exactly 2.50 seconds after trimming. Scene 24, timeline 57.5–60.0 seconds.
-ACTION: Studio closing portrait fades to a disclosure-safe neutral field.
-CAMERA: One gentle static, push or pan motion. No second shot inside this clip.
-CHARACTER_LOCK (text-only): ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.
-ENVIRONMENT_LOCK: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery. Keep the scene's location geometry and left-key lighting stable in every panel and shot.
-ORIGINAL NEUTRAL ENGLISH NARRATOR: "AI-generated illustration and narration." The candidate remains silent, does not lip-sync and has no cloned voice.
-RESEARCH NOTE (not on-screen text): Illustrated character and narration were AI-generated, not real footage or a candidate statement.
-SOURCE: Editorial transparency label; no biographical claim.
-EDITOR-ADDED OVERLAY: Illustrated character and narration were AI-generated, not…. Use a short phrase legible for 2.5 seconds and show long URLs only on a separate source slate or accompanying video description.
-NEGATIVE: No invented achievement, political endorsement, campaign slogan, counterfeit official document, fabricated rally, false election result, face drift or incoherent hands. Do not attribute ministry-wide work to one person.
-```
-
-## Six Optional 10-Second Continuous Video Prompts
-
-### Optional continuous video 1 — Scenes 1–4
-
-```text
-Create ONE 10.0-second vertical 9:16 illustration video using four ordered segments of exactly 2.5 seconds each. Do not assume an image is provided. CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.. VISUAL_STYLE: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-Segment 1: A neutral studio full-body introduction, no campaign logos. Narrator: "Meet Adly Zahari."
-Segment 2: A matte Melaka map with one highlighted region. Narrator: "The Bukit Katil constituency."
-Segment 3: An unbranded paper index card, coalition printed in edit. Narrator: "Standing for Pakatan Harapan."
-Segment 4: Neutral line-art Parliament building, blank nameplate. Narrator: "Also representing Alor Gajah."
-One neutral original third-person English narrator; character silent throughout. Film-like gentle movement, no fabricated events. Keep 10.0s total. Captions inserted manually.
-```
-
-### Optional continuous video 2 — Scenes 5–8
-
-```text
-Create ONE 10.0-second vertical 9:16 illustration video using four ordered segments of exactly 2.5 seconds each. Do not assume an image is provided. CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.. VISUAL_STYLE: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-Segment 1: A blank ministry folder beside a neutral official-style corridor, without emblems. Narrator: "Deputy Minister of Defence."
-Segment 2: Historical state-administration timeline, no reenacted meeting. Narrator: "Former Melaka Chief Minister."
-Segment 3: Flat election archive folder, date added manually. Narrator: "He won Bukit Katil in 2018."
-Segment 4: Election chart with a clear 1,057 number inserted by editor. Narrator: "Retained the seat in 2021."
-One neutral original third-person English narrator; character silent throughout. Film-like gentle movement, no fabricated events. Keep 10.0s total. Captions inserted manually.
-```
-
-### Optional continuous video 3 — Scenes 9–12
-
-```text
-Create ONE 10.0-second vertical 9:16 illustration video using four ordered segments of exactly 2.5 seconds each. Do not assume an image is provided. CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.. VISUAL_STYLE: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-Segment 1: Illustrative route with discreet home silhouettes. Narrator: "Veteran outreach in Merlimau."
-Segment 2: Fifteen simple home icons, no invented real people. Narrator: "Fifteen homes were visited."
-Segment 3: A second neutral map with a date pin. Narrator: "Outreach in Sungai Udang."
-Segment 4: Sixteen simple home icons and an editor-filled number. Narrator: "Sixteen more households."
-One neutral original third-person English narrator; character silent throughout. Film-like gentle movement, no fabricated events. Keep 10.0s total. Captions inserted manually.
-```
-
-### Optional continuous video 4 — Scenes 13–16
-
-```text
-Create ONE 10.0-second vertical 9:16 illustration video using four ordered segments of exactly 2.5 seconds each. Do not assume an image is provided. CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.. VISUAL_STYLE: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-Segment 1: An illustrated local estate map, fourteen home icons. Narrator: "Fourteen Bukit Katil homes."
-Segment 2: Three neutral category icons, category numbers inserted in edit. Narrator: "Veterans, widows and families."
-Segment 3: Still life of generic wheelchair, walking frame and care parcels. Narrator: "Equipment and daily support."
-Segment 4: An abstract partnership chart showing multiple agency nodes. Narrator: "A ministry-wide programme."
-One neutral original third-person English narrator; character silent throughout. Film-like gentle movement, no fabricated events. Keep 10.0s total. Captions inserted manually.
-```
-
-### Optional continuous video 5 — Scenes 17–20
-
-```text
-Create ONE 10.0-second vertical 9:16 illustration video using four ordered segments of exactly 2.5 seconds each. Do not assume an image is provided. CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.. VISUAL_STYLE: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-Segment 1: A neutral expenditure chart, exact figure inserted manually. Narrator: "Ministry aid: one hundred twenty-three million."
-Segment 2: Wide infographic of abstract persons across Malaysia. Narrator: "Over thirty-three thousand veterans."
-Segment 3: Career-ladder icon and a large blank metric area. Narrator: "MyWira reached over six thousand."
-Segment 4: Neutral icons for manufacturing, aviation, teaching and technology. Narrator: "Over one hundred forty placements."
-One neutral original third-person English narrator; character silent throughout. Film-like gentle movement, no fabricated events. Keep 10.0s total. Captions inserted manually.
-```
-
-### Optional continuous video 6 — Scenes 21–24
-
-```text
-Create ONE 10.0-second vertical 9:16 illustration video using four ordered segments of exactly 2.5 seconds each. Do not assume an image is provided. CHARACTER_LOCK: ONE consistent ORIGINAL editorial 3D character, nickname Adly. Age impression: male in his late 50s. Face: broad oval face, medium forehead, friendly narrow eyes, soft smile lines. Complexion: light warm tan. Hair or head covering: short black-and-grey hair, slightly elevated in front. Distinctive features: thin black-metal rectangular glasses, short grey-white chin beard and faint moustache. Body: medium build with slight fullness and balanced shoulders. Expression and pose: friendly closed-mouth smile, relaxed three-quarter stance. EXACT wardrobe: charcoal-black suit, white shirt and subtly striped navy tie. No party insignia or campaign paraphernalia.. VISUAL_STYLE: Warm-ivory plaster studio, grey stone floor, softbox keylight front-left, subtle broad fill front-right, eye-level portrait lens, matte cream-and-slate editorial palette. This remains a 3D illustration, never fabricated photographic news imagery.
-Segment 1: Camera pulls out to a linked network of civic service icons. Narrator: "Multiple agencies share responsibility."
-Segment 2: Four anonymous equal-sized candidate tiles, no vote totals. Narrator: "A four-way contest."
-Segment 3: Clean calendar turning to 14 November; date editor-added. Narrator: "Polling: November fourteenth."
-Segment 4: Studio closing portrait fades to a disclosure-safe neutral field. Narrator: "AI-generated illustration and narration."
-One neutral original third-person English narrator; character silent throughout. Film-like gentle movement, no fabricated events. Keep 10.0s total. Captions inserted manually.
-```
-
-## Publication Quality Gate
-
-The zero-image portrait test has shown **partial feature alignment only**, not independently proven facial reproducibility. No Google Flow video footage has yet been generated or checked. A human must confirm facial identity drift, all subtitle text, role dates, institutional attribution and audio pacing before public release. Start and finish with the disclosure: **"AI-generated character and narration; not actual candidate footage or statements."**
+Check the published factual sources, on-screen caption timing, actual portrait similarity and visual continuity, no candidate-speech imitation, no political persuasion, correct party and DUN, clear source attribution (including any candidate-reported or agency-wide outcomes), and an editor-added visible notice: **“AI-generated animated portrayal and voice; not genuine candidate footage or statements.”** No 10-second video has been rendered by this repository update. Text descriptions are not an identity guarantee.

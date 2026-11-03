@@ -1,84 +1,61 @@
 ---
-name: melaka-14_aliza-24-scene-editorial-introduction
-description: Create one neutral English-language 60-second factual introduction to Aliza, using only text-defined character features, 24 vertical video scenes, and six 1x4 storyboard images. No reference image required; independent character-consistency test mandatory.
+name: prn-melaka-2026-14_aliza-six-ten-second-films
+description: Reusable English editorial 60-second introduction skill for Dr Aliza Che Amran; six 1x4 storyboards each paired with one seamless 10-second vertical video, text-only Disney/Pixar-inspired original 3D character and external public-photo review.
 ---
 
-# Aliza — self-contained SKILL.md
+# Aliza — Character, Storyboard and Video Skill
 
-**Public identity:** Dr Aliza Che Amran  
-**Party/coalition:** Bersama  
-**Constituency:** N17 Bukit Katil  
-**Research snapshot:** 2 November 2026  
-**Length:** 24 scenes × 2.5 seconds = exactly 60 seconds.  
+**Person:** Dr Aliza Che Amran · **Nickname:** Aliza · **Affiliation:** Bersama · **Seat:** N17 Bukit Katil · **As of:** 3 November 2026.
 
-## Non-negotiable rules
+## Fixed production contract
 
-No reference photograph is required or provided. Generate the candidate's character portrait from written details alone. The text-based result is an illustrative original design, not guaranteed to resemble the actual politician. Each independent generation may vary. Display a visible disclosure: "AI-generated character and voice; not genuine candidate footage or statements."
+- Exactly six **storyboard-image prompts**, each a *single 1×4 grid of four 9:16 portrait panels* (combined sheet 9:4).
+- Exactly six **video prompts**, each animating its paired storyboard's four panels **into one 10-second 9:16 video** (four 2.5-second segments); six videos = one minute.
+- All prompts, directions, narration and captions in **English**. No fictional speeches by the real person, endorsements or vote requests.
+- Original **Disney/Pixar-inspired polished family-film 3D animation**, with independently designed human character proportions, not copied existing franchise characters.
+- No reference photograph supplied to the generator. Each script contains a fully specified character design based on available observed photo features and flagged creative approximations.
+- Before publication, inspect the [real photograph reference](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) and assess the generated portrait's similarity. The original photo is linked, not copied. Use a generated master avatar as a *later* reference only if a consistent face is required; distinguish this from the text-only control.
+- The full script is in [PROMPT.md](PROMPT.md). The photo description and link are in [PHOTO_REFERENCE.md](PHOTO_REFERENCE.md).
 
-All instructions, prompts, dialogue, captions, source facts and generated narration are **in English**. Use the nickname 'Aliza' in creative scenes; keep the full name only for the factual cover and sources. Remain strictly neutral: no persuasion, requests for votes, promises, opposition attacks or unverified personal achievements. The candidate never speaks. Use an original documentary narrator, not voice cloning or lip-sync.
+## Character identity lock
 
-## Candidate appearance specification — no photo reference
+Malaysian woman approximately forty-six, softly rounded adult oval face and calm friendly demeanor. Exact eye spacing, hairstyle or hijab, skin shade and distinctive facial details must NOT be claimed as verified until the actual UTeM portrait has been visually reviewed. Use a fixed, consistent editorial design with a smooth oval face, neutral moderate features and the following creative wardrobe choice; acknowledge that resemblance is unverified. Wardrobe lock: Slate-blue modest hijab with symmetric folds framing the face, dark indigo baju kurung with cream cuffs, coordinating skirt and muted closed-toe shoes. Headwear and outfit are creative design decisions, not certified traits.
 
-ONE consistent ORIGINAL editorial 3D character, nickname Aliza. Age impression: woman in her mid-40s. Face: broad oval face, medium forehead, neat brows and medium eyes. Complexion: light warm tan (illustrative styling, not a verified biographical trait). Hair or head covering: plain slate-blue hijab covering hair and shoulders, fixed soft folds. Distinctive features: no glasses, minimal makeup, professional small smile. Body: slim-average build and upright stance. Expression and pose: one hand lightly holding a blank academic book. EXACT wardrobe: plain indigo-blue modern baju kurung with cream cuffs, matching skirt and closed shoes. No party insignia or campaign paraphernalia. Lock eye spacing, nose outline, eyebrows, jaw geometry, hairline or hijab fold paths, eyewear shape, clothing cuts, material weave, shoes and body proportions. Clearly an AI illustration; not an authenticated facial likeness.
+Style: An original high-quality Disney/Pixar-inspired 3D family-film editorial aesthetic: rounded but recognizable human proportions, expressive eyes, subtle facial animation without speech, polished hair or hijab strands, precise fabric texture, soft cinematic global illumination, realistic but friendly textures, warm ivory, slate and muted teal colour grade, natural depth of field, 24fps fluid movement, respectful neutral mood. This is an ORIGINAL film-inspired illustration and NOT an existing film character, actual candidate footage, endorsement or political advertisement. Keep the same face geometry, eye spacing, hairstyle, glasses, head covering, facial hair, outfit and body proportions for all 24 panels.
 
-Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, no furniture, a soft key light 45 degrees camera-left, broad fill camera-right, subtle rim light, eye-height 65mm portrait lens, neutral shadows.
+## Commands
 
-## Mandatory character consistency procedure
+`START`: return the researched 24 beats and the full text-only master portrait prompt. `NEXT`: return exactly the next paired 4-panel storyboard + 10-second video prompt, advance one batch, repeat until Batch 6. `RETRY`: regenerate current batch without changing validated facts or character traits. `VERIFY`: review source facts. `HELP`: explain current stage. `NEW [candidate]`: change project and reset character identity. Never ask for an uploaded reference photo; showing a public link for review is sufficient.
 
-1. Create master character **Design A** using the complete English Prompt A in `PROMPT.md`, without supplying any photo or image.
-2. Start a separate generation **Design B** using the IDENTICAL Prompt A and no image input. Do not use A as an input to B.
-3. Compare at least ten visual anchors: face outline, eye spacing, eyebrows, glasses, hair/hijab, facial hair, skin shade, wardrobe, body proportions and accessories. Record each as match/variation/mismatch; no automatic claim of identical likeness.
-4. Mark status `PASS`, `PARTIAL` or `FAIL`. If not PASS, revise the written identity lock and repeat the no-reference A/B generation. Do not claim reliable no-reference identity matching unless it is demonstrated.
-5. For practical final video production, optionally reuse a generated master image as the reference, but do not claim that this is a zero-image-input generation test.
+## Fact ledger — source claims remain attributed
 
-## Production commands and order
-
-`START`: show evidence ledger and all 24 scene beats. `NEXT`: output single-character English Prompt A and a 100-word acting/voice guide, then six four-panel storyboard batches, one batch at a time. `RETRY`: refine current scene or character spec without changing verified facts. `VERIFY`: recheck facts. `HELP`: current stage and next step. `NEW [candidate]`: reset the character and source ledger. Never request a photo. Do not generate an actual video unless separately requested.
-
-## Specific facts and source ledger
-
-| Scene | Evidence type | Factual basis and attribution | Source |
+| Scene | Topic | Research statement | Source |
 |---:|---|---|---|
-| 1 | `identity` | Dr Aliza Che Amran, known here as Aliza. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 2 | `nomination` | Aliza contests N17 Bukit Katil in the 2026 Melaka state election. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 3 | `nomination` | Aliza is listed under Bersama for the seat. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 4 | `context` | Documented area of public work: engineering, higher education and academic management. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 5 | `context` | The video focuses on public records before nominations closed on 31 October 2026. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 6 | `prior_yb` | First-time candidate according to a published profile; no prior elected assembly seat is verified | [View source](https://elections.thestar.com.my/candidates.html) |
-| 7 | `official_education` | Her UTeM staff profile lists a PhD from Yokohama in 2013. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 8 | `official_education` | Her UTeM profile records a master's degree from Monash University in 2005. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 9 | `official_education` | Her UTeM profile records a bachelor's degree from UTP in 2003. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 10 | `party_bio` | A party profile says she worked as a UTeM tutor or lecturer during 2003–2025; dates require independent confirmation. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 11 | `party_bio` | According to a party profile, she was deputy director for strategic management, quality and risk during 2021–2023. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 12 | `party_bio` | A party profile states that she was deputy director at a teaching and learning centre during 2013–2015. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 13 | `party_claim` | A party profile claimed involvement in the National Robotics Roadmap 2021–2030; independent confirmation was not found in the source set. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 14 | `party_bio` | Her party profile describes leadership in a UTeM academic staff association during 2015–2025. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 15 | `career_record` | Her party profile lists prior work as a tutor and lecturer at UTeM. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 16 | `career_record` | Her first degree was in electrical and electronic engineering at UTP, according to the party biography. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 17 | `source_context` | Source context for record 1: Her UTeM staff profile lists a PhD from Yokohama in 2013. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 18 | `source_context` | Source context for record 2: Her UTeM profile records a master's degree from Monash University in 2005. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 19 | `source_context` | Source context for record 3: Her UTeM profile records a bachelor's degree from UTP in 2003. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 20 | `source_context` | Source context for record 4: A party profile says she worked as a UTeM tutor or lecturer during 2003–2025; dates require independent confirmation. | [View source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
-| 21 | `summary` | The preceding records describe engineering, higher education and academic management; claims are attributed to their sources. | [View source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
-| 22 | `methodology` | Use the published records in this file; distinguish roles, completed actions, allocations and claims. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
-| 23 | `election_info` | Polling is scheduled for 14 November 2026; results are not yet known as of 2 November 2026. | [View source](https://www.spr.gov.my/km-prudunmelaka16/) |
-| 24 | `disclosure` | This character and voice are generated illustrations, not a genuine candidate appearance or speech. | Editorial label |
+| 1 | Candidate identity | Meet Aliza. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 2 | Constituency | The constituency and its voters. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 3 | Election affiliation | Party affiliation on the ballot. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 4 | Professional background | A documented career background. | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 5 | Historical context | The record before nomination. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 6 | Past elected service | Earlier elected public service. | [Source](https://elections.thestar.com.my/candidates.html) |
+| 7 | Education and qualifications | `official_education` | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 8 | Education and qualifications | `official_education` | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 9 | Education and qualifications | `official_education` | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 10 | Reported party biography | Party biography describes university teaching. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 11 | Reported party biography | Reported strategic management role. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 12 | Reported party biography | Teaching-centre management responsibilities. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 13 | Reported party biography | Claimed robotics roadmap involvement. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 14 | Reported party biography | Reported academic association leadership. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 15 | Career and public record 9 | University teaching background. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 16 | Career and public record 10 | Studied electrical and electronic engineering. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 17 | Evidence checkpoint | Review the original source. | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 18 | Programme context | Distinguish claims from completed work. | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 19 | Outcome versus plan | Programmes can involve multiple agencies. | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 20 | Attribution check | Check the reported dates and figures. | [Source](https://www.bersama.org/en/calon/aliza-binti-che-amran) |
+| 21 | Record recap | Public record overview. | [Source](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) |
+| 22 | Source transparency | Source links support these statements. | [Source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 23 | Election information | Polling: November fourteenth. | [Source](https://www.spr.gov.my/km-prudunmelaka16/) |
+| 24 | AI disclosure | AI-generated character and narration. | Editorial/production |
 
-## Delivery validation
+## Consistency & editorial QA
 
-- English only; no Malay narration or scene descriptions.
-- Each candidate folder has one `SKILL.md`, one `PROMPT.md`.
-- Exactly 24 scenes, six independent 1×4 storyboard image prompts, 24 independent video prompts and six optional 10-second sequences.
-- One previous elected-service scene (Scene 06); distinguish other earlier career roles from that one scene.
-- Make no false links from aggregate programme or economic results to personal work.
-- Check the no-reference character test; never assert a visual-identity guarantee when two independent outputs drift.
-
-## Revised 3 November 2026 production acceptance gate
-
-All generation prompts and narration are in English. The current `PROMPT.md` has a fresh set of 24 neutral, short, scene-specific English voiceover lines, each at most seven whitespace-separated words, plus six four-panel 9:16 storyboard grids, 24 independent 2.5-second video prompts and six optional ten-second continuous scripts. Long factual evidence is kept in source notes, not automatically shown as a long caption over 2.5 seconds. Any on-screen text is a short human-edited caption checked against the original source.
-
-**Portrait test:** Generate one candidate portrait from Prompt A in a fresh context without images. Independently generate a second portrait using the exact same Prompt A in a different fresh context, with no image inputs; compare the distinctive face, eye spacing, nose, glasses, facial hair, head covering, body proportions, skin treatment, wardrobe and accessories. The existing pilot is not a controlled pass. Facial identity is an original illustrative interpretation, not authenticated true likeness.
-
-**Video test:** Generate Scenes 01 and 02 using the corresponding prompts in Google Flow, inspect adjacent-clip continuity and narrator timing. This has **not been run or inspected** in this audit, so no video identity stability should be claimed.
-
-**Editorial verification:** The sourced biography and achievements were **not independently reverified for this candidate in the 3 November audit**. Before publication, confirm source validity, affiliation and constituency, distinguish promised or allocated projects from completed work, distinguish self-reported claims from independently recorded actions, and credit institutional accomplishments to the institutions rather than the politician alone. Never include voting persuasion, invented endorsements, fake audio of the candidate or artificial political rallies. Add a prominent AI-generated disclosure. The exact remaining checklist is in `QA.md`.
+Test the same Prompt A in two independent, fresh text-only image-generation sessions, then compare face shape, eyes, eyebrows, hair/hijab, glasses, facial hair, complexion, proportions, outfit and accessories. A controlled reference-free match has **not** been demonstrated. Google Flow scene-to-scene identity has **not** been rendered or assessed. Correct factual mistakes, do not present announced projects as completed, distinguish personal acts from programme-wide outcomes, and publish an AI disclosure.

@@ -1,0 +1,22 @@
+# PRN Melaka 2026 — 14 Real-Photo Reference Pages
+
+Real photographs are **linked only**; this project does not republish the image bytes. Some links are official government or party sources; others are newsroom or public directory sources, not "official" portraits. Photo appearance is evidence for appearance checks only, not identity authentication by AI.
+
+| Candidate | Affiliation | DUN | Real-photo page | Source classification | Visual inspection |
+|---|---|---|---|---|---|
+| Rauf | BN | N02 Tanjung Bidara | [Open real photo](https://www.thestar.com.my/news/nation/2025/12/10/melaka-must-have-good-governance-despite-adversity-says-ab-rauf) · [Image](https://apicms.thestar.com.my/uploads/images/2025/12/10/3665583.jpg) | Press photograph (The Star) | Observed press photograph |
+| Akmal | BN | N27 Merlimau | [Open real photo](https://www.bernama.com/en/news.php?id=2310235) | Bernama news photograph | Observed news photograph |
+| Dira | BN | N25 Rim | [Open real photo](https://international.astroawani.com/malaysia-news/kak-som-dira-abu-zahar-among-five-women-winners-melaka-332014) · [Image](https://media.astroawani.com/awani/media/article/2021/Nov/20/81636449876_diraabuzahar.jpg) | Astro Awani newsroom portrait | Observed press portrait |
+| Ban Hong | BN | N14 Kelebang | [Open real photo](https://mca.org.my/3/Team/Team) · [Image](https://media.astroawani.com/awani/media/article/2021/Nov/25/61636893269_TBLIMBANHONG.jpg) | MCA party leadership page and Astro Awani photo | Observed press photograph |
+| Helmy | BN | N21 Duyong | [Open real photo](https://m.malaysiakini.com/news/767264) · [Image](https://i.newscdn.net/publisher-c1a3f893382d2b2f8a9aa22a654d9c97/2025/04/e28ec627b36b29cfaa401303be9058d1.png) | Malaysiakini press photograph | Observed press photograph |
+| Adly | PH | N17 Bukit Katil | [Open real photo](https://www.parlimen.gov.my/profile-ahli.html?id=4174&uweb=dr) · [Image](https://www.parlimen.gov.my/images/webuser/ahli/2022/P135.jpg) | Official Malaysia Parliament portrait | Observed official portrait |
+| Ginie | PH | N08 Machap Jaya | [Open real photo](https://pendapat.my/profil/ginie-lim-siew-lin/) · [Image](https://pendapat.my/wp-content/uploads/2021/11/2021-11-04-18.38.37.jpg) | Public biographical profile photograph | Observed profile portrait |
+| Kerk | PH | N16 Ayer Keroh | [Open real photo](https://mypov.com.my/zohldunmps/profileMelakaN16) · [Image](https://mypov.com.my/template/assets/img/melaka/YB%20Tuan%20Kerk%20Chee%20Yee.jpg) | Public state-assembly representative directory | Observed directory portrait |
+| Allex | PH | N19 Kesidang | [Open real photo](https://www.melakahariini.my/nilai-perpaduan-bentuk-allex-jadi-pemimpin/) | Melaka Hari Ini editorial photograph | Photo page verified; fine facial detail not independently inspected |
+| Chee Leong | PH | N20 Kota Laksamana | [Open real photo](https://mypov.com.my/public/zohldunmps/profileMelakaN20) · [Image](https://mypov.com.my/public/template/assets/img/melaka/YB%20Tuan%20Low%20Chee%20Leong.jpg) | Public state-assembly representative directory | Observed directory portrait |
+| Norhizam | Bersatu | N15 Pengkalan Batu | [Open real photo](https://majoriti.com.my/berita/2021/11/07/prn-melaka-norhizam-umum-pertahan-kerusi-pengkalan-batu-atas-tiket-bebas) · [Image](https://apicms.majoriti.com.my/uploads/images/2021/11/07/1359082.jpg) | Majoriti newsroom photograph | Observed press photograph |
+| Yadzil | PN | N24 Bemban | [Open real photo](https://mypov.com.my/zohldunmps/profileMelakaN24) · [Image](https://mypov.com.my/template/assets/img/melaka/YB%20DR.%20Mohd%20Yadzil.png) | Public state-assembly representative directory | Observed directory portrait |
+| Michael | PN | N16 Ayer Keroh | [Open real photo](https://www.bernama.com/bm/news.php?id=2024573) | Bernama newsroom photograph | Observed press photograph |
+| Aliza | Bersama | N17 Bukit Katil | [Open real photo](https://portal.utem.edu.my/iuris/frm_e-cv.asp?search=1E5%241B0%2413B%24F4%2461) | Official Universiti Teknikal Malaysia Melaka staff profile (contains image) | Official profile verified; facial attributes not independently inspected |
+
+Photo page copyright and access terms remain those of the rights holders. For original 3D character creation, the workflow uses the written description without copying a supplied image into the generator; likeness is approximate and not guaranteed. The reference can be manually inspected for discrepancies.
