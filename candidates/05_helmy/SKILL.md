@@ -5,7 +5,7 @@ description: Create one neutral English-language 60-second factual introduction 
 
 # Helmy — self-contained SKILL.md
 
-**Public identity:** Mohd Helmy Abd Halem  
+**Public identity:** Mohd Noor Helmy Abdul Halem  
 **Party/coalition:** BN  
 **Constituency:** N21 Duyong  
 **Research snapshot:** 2 November 2026  
@@ -39,7 +39,7 @@ Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, 
 
 | Scene | Evidence type | Factual basis and attribution | Source |
 |---:|---|---|---|
-| 1 | `identity` | Mohd Helmy Abd Halem, known here as Helmy. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
+| 1 | `identity` | Mohd Noor Helmy Abdul Halem, known here as Helmy. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
 | 2 | `nomination` | Helmy contests N21 Duyong in the 2026 Melaka state election. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
 | 3 | `nomination` | Helmy is listed under BN for the seat. | [View source](https://election.bernama.com/prn/melaka/2026/penamaan/?detail=candidates) |
 | 4 | `context` | Documented area of public work: community outreach and digital-technology portfolio. | [View source](https://www.melakahariini.my/program-ziarah-kasih-ramadan-dun-duyong-santuni-golongan-memerlukan/) |
@@ -72,3 +72,13 @@ Studio: Warm ivory seamless studio with fine plaster texture, slate-grey floor, 
 - One previous elected-service scene (Scene 06); distinguish other earlier career roles from that one scene.
 - Make no false links from aggregate programme or economic results to personal work.
 - Check the no-reference character test; never assert a visual-identity guarantee when two independent outputs drift.
+
+## Revised 3 November 2026 production acceptance gate
+
+All generation prompts and narration are in English. The current `PROMPT.md` has a fresh set of 24 neutral, short, scene-specific English voiceover lines, each at most seven whitespace-separated words, plus six four-panel 9:16 storyboard grids, 24 independent 2.5-second video prompts and six optional ten-second continuous scripts. Long factual evidence is kept in source notes, not automatically shown as a long caption over 2.5 seconds. Any on-screen text is a short human-edited caption checked against the original source.
+
+**Portrait test:** Generate one candidate portrait from Prompt A in a fresh context without images. Independently generate a second portrait using the exact same Prompt A in a different fresh context, with no image inputs; compare the distinctive face, eye spacing, nose, glasses, facial hair, head covering, body proportions, skin treatment, wardrobe and accessories. The existing pilot is not a controlled pass. Facial identity is an original illustrative interpretation, not authenticated true likeness.
+
+**Video test:** Generate Scenes 01 and 02 using the corresponding prompts in Google Flow, inspect adjacent-clip continuity and narrator timing. This has **not been run or inspected** in this audit, so no video identity stability should be claimed.
+
+**Editorial verification:** The sourced biography and achievements were **not independently reverified for this candidate in the 3 November audit**. Before publication, confirm source validity, affiliation and constituency, distinguish promised or allocated projects from completed work, distinguish self-reported claims from independently recorded actions, and credit institutional accomplishments to the institutions rather than the politician alone. Never include voting persuasion, invented endorsements, fake audio of the candidate or artificial political rallies. Add a prominent AI-generated disclosure. The exact remaining checklist is in `QA.md`.
